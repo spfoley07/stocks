@@ -1,1 +1,274 @@
-{}
+{
+  "date": "2026-07-16",
+  "positions": [
+    {
+      "ticker": "PLTR",
+      "account": "individual",
+      "shares": 8.316008,
+      "cost_basis": 1000.0,
+      "avg_cost_per_share": 120.25,
+      "current_price": 133.37,
+      "today_pct": -0.292,
+      "today_dollars": -3.24,
+      "market_value": 1109.11,
+      "unrealized_pl": 109.11,
+      "unrealized_pl_pct": 10.91,
+      "portfolio_weight_pct": 12.01,
+      "analyst_target": "no consensus available",
+      "support": null,
+      "resistance": null,
+      "rsi": null,
+      "next_earnings": null,
+      "news": []
+    },
+    {
+      "ticker": "SOFI",
+      "account": "individual",
+      "shares": 59.657355,
+      "cost_basis": 956.31,
+      "avg_cost_per_share": 16.03,
+      "current_price": 17.605,
+      "today_pct": -1.483,
+      "today_dollars": -15.81,
+      "market_value": 1050.27,
+      "unrealized_pl": 93.96,
+      "unrealized_pl_pct": 9.83,
+      "portfolio_weight_pct": 11.37,
+      "analyst_target": "no consensus available",
+      "support": null,
+      "resistance": null,
+      "rsi": null,
+      "next_earnings": null,
+      "news": []
+    },
+    {
+      "ticker": "SRFM",
+      "account": "individual",
+      "shares": 909.090909,
+      "cost_basis": 1000.0,
+      "avg_cost_per_share": 1.1,
+      "current_price": 0.7701,
+      "today_pct": -5.474,
+      "today_dollars": -40.55,
+      "market_value": 700.09,
+      "unrealized_pl": -299.91,
+      "unrealized_pl_pct": -29.99,
+      "portfolio_weight_pct": 7.58,
+      "analyst_target": "no consensus available",
+      "support": null,
+      "resistance": null,
+      "rsi": null,
+      "next_earnings": null,
+      "news": [
+        "Refinanced $46.9M convertible note into a smaller $16.9M convert + $30M non-convertible term note, cutting convertible principal ~64% and reducing dilution risk.",
+        "New Chairman (Shawn Pelsinger) takes over effective July 24, 2026.",
+        "Palantir partnership expanded for SurfOS commercialization."
+      ]
+    },
+    {
+      "ticker": "APLD",
+      "account": "individual",
+      "shares": 43.188893,
+      "cost_basis": 1826.03,
+      "avg_cost_per_share": 42.28,
+      "current_price": 26.415,
+      "today_pct": -9.008,
+      "today_dollars": -112.94,
+      "market_value": 1140.83,
+      "unrealized_pl": -685.19,
+      "unrealized_pl_pct": -37.52,
+      "portfolio_weight_pct": 12.35,
+      "analyst_target": "no consensus available",
+      "support": null,
+      "resistance": null,
+      "rsi": null,
+      "next_earnings": "2026-07-27",
+      "news": [
+        "Added 75MW of AI capacity at Polaris Forge campus, but analysts flag high customer concentration risk.",
+        "Stock down ~33% over the past month amid competition/debt concerns despite Street 'Strong Buy' consensus (avg target ~$73).",
+        "Q4 FY26 earnings call set for July 27, 2026."
+      ]
+    },
+    {
+      "ticker": "SERV",
+      "account": "individual",
+      "shares": 264.612953,
+      "cost_basis": 1929.03,
+      "avg_cost_per_share": 7.29,
+      "current_price": 5.475,
+      "today_pct": -4.783,
+      "today_dollars": -72.77,
+      "market_value": 1448.76,
+      "unrealized_pl": -480.27,
+      "unrealized_pl_pct": -24.9,
+      "portfolio_weight_pct": 15.69,
+      "analyst_target": "no consensus available",
+      "support": null,
+      "resistance": null,
+      "rsi": null,
+      "next_earnings": null,
+      "news": [
+        "Expanding into healthcare via Diligent Robotics acquisition and into laundry delivery; shares down ~25% over 3 months.",
+        "Q1 2026 revenue grew 578% YoY to ~$3M; full-year 2026 guidance reaffirmed at $26M.",
+        "Continues to run at a net loss (P/E negative) while scaling."
+      ]
+    },
+    {
+      "ticker": "HIMS",
+      "account": "individual",
+      "shares": 16.057374,
+      "cost_basis": 253.22,
+      "avg_cost_per_share": 15.77,
+      "current_price": 34.47,
+      "today_pct": -7.264,
+      "today_dollars": -43.35,
+      "market_value": 553.5,
+      "unrealized_pl": 300.27,
+      "unrealized_pl_pct": 118.58,
+      "portfolio_weight_pct": 5.99,
+      "analyst_target": "no consensus available",
+      "support": null,
+      "resistance": null,
+      "rsi": null,
+      "next_earnings": "2026-08-10",
+      "news": [
+        "No company-specific negative news found for today's pullback; move appears to be broad healthcare/momentum-name volatility.",
+        "Q2 2026 earnings scheduled for August 10, 2026.",
+        "Company expanding into branded GLP-1/peptide products."
+      ]
+    },
+    {
+      "ticker": "NOW",
+      "account": "agentic",
+      "shares": 11.499983,
+      "cost_basis": 1108.6,
+      "avg_cost_per_share": 96.4,
+      "current_price": 102.8,
+      "today_pct": -1.843,
+      "today_dollars": -22.19,
+      "market_value": 1182.2,
+      "unrealized_pl": 73.6,
+      "unrealized_pl_pct": 6.64,
+      "portfolio_weight_pct": 12.8,
+      "analyst_target": "no consensus available",
+      "support": null,
+      "resistance": null,
+      "rsi": null,
+      "next_earnings": null,
+      "news": []
+    },
+    {
+      "ticker": "MSFT",
+      "account": "agentic",
+      "shares": 1.849964,
+      "cost_basis": 685.0,
+      "avg_cost_per_share": 370.28,
+      "current_price": 400.29,
+      "today_pct": 1.178,
+      "today_dollars": 8.62,
+      "market_value": 740.52,
+      "unrealized_pl": 55.52,
+      "unrealized_pl_pct": 8.1,
+      "portfolio_weight_pct": 8.02,
+      "analyst_target": "no consensus available",
+      "support": null,
+      "resistance": null,
+      "rsi": null,
+      "next_earnings": null,
+      "news": []
+    },
+    {
+      "ticker": "ORCL",
+      "account": "agentic",
+      "shares": 7.673779,
+      "cost_basis": 1184.98,
+      "avg_cost_per_share": 154.42,
+      "current_price": 126.0,
+      "today_pct": -4.898,
+      "today_dollars": -49.8,
+      "market_value": 966.9,
+      "unrealized_pl": -218.09,
+      "unrealized_pl_pct": -18.4,
+      "portfolio_weight_pct": 10.47,
+      "analyst_target": "no consensus available",
+      "support": null,
+      "resistance": null,
+      "rsi": 29.52,
+      "next_earnings": null,
+      "news": [
+        "S&P Global downgraded Oracle's credit rating to BBB- from BBB, triggering a multi-day slide (-6.5% then -2.7%).",
+        "IBM's disappointing preliminary Q2 revenue pressured enterprise software peers including Oracle.",
+        "Stock now ~30% below its 200-day SMA with RSI near 29.5 (oversold); Street average target $264.64 (Buy)."
+      ]
+    },
+    {
+      "ticker": "Z",
+      "account": "agentic",
+      "shares": 10.188487,
+      "cost_basis": 300.05,
+      "avg_cost_per_share": 29.45,
+      "current_price": 33.6411,
+      "today_pct": -0.602,
+      "today_dollars": -2.08,
+      "market_value": 342.75,
+      "unrealized_pl": 42.7,
+      "unrealized_pl_pct": 14.23,
+      "portfolio_weight_pct": 3.71,
+      "analyst_target": "no consensus available",
+      "support": null,
+      "resistance": null,
+      "rsi": null,
+      "next_earnings": null,
+      "news": []
+    }
+  ],
+  "totals": {
+    "portfolio_value": 9234.92,
+    "today_pct": -3.693,
+    "today_dollars": -354.11,
+    "unrealized_pl": -1008.3,
+    "unrealized_pl_pct": -9.84,
+    "biggest_mover": {
+      "ticker": "APLD",
+      "today_pct": -9.01
+    }
+  },
+  "recommendations": [
+    {
+      "ticker": "SERV",
+      "rec_type": "trim",
+      "rationale": "Largest single position at 15.7% of portfolio value while down ~24.9% since cost and still cash-burning through the Diligent Robotics integration; consider trimming to cap single-name concentration risk.",
+      "trigger_value": 15.69
+    },
+    {
+      "ticker": "ORCL",
+      "rec_type": "oversold",
+      "rationale": "RSI near 29.5 after a credit-rating downgrade (S&P to BBB-) and IBM-driven enterprise-software selloff; stock ~30% below its 200-day SMA nearing 52-week lows. For a multi-year holder this reads as a potential add zone, not a signal to sell.",
+      "trigger_value": 29.52
+    },
+    {
+      "ticker": "APLD",
+      "rec_type": "risk-change",
+      "rationale": "Down 9% today and ~33% over the past month on rising customer-concentration and debt concerns ahead of July 27 earnings; Street remains Strong Buy (avg target ~$73) but position-specific risk is climbing.",
+      "trigger_value": -9.01
+    },
+    {
+      "ticker": "SRFM",
+      "rec_type": "risk-change",
+      "rationale": "Down 5.5% today, but balance-sheet risk is actually improving: the company just refinanced $46.9M of converts into a smaller, less-dilutive structure. Small (7.6%) position \u2014 no action needed, just a risk-profile improvement worth noting.",
+      "trigger_value": -5.47
+    },
+    {
+      "ticker": "HIMS",
+      "rec_type": "trim",
+      "rationale": "Up 118.6% from cost basis, the most-appreciated holding in the book. Today's 7.3% pullback has no identified company-specific cause (broad volatility). Given the size of the gain, partial profit-taking is worth considering ahead of Aug 10 earnings.",
+      "trigger_value": 118.58
+    }
+  ],
+  "notes": [
+    "First run: weekly-cache.json is empty, so analyst targets, support/resistance, and earnings dates are unavailable for most positions except where sourced live from news search (APLD, HIMS, ORCL).",
+    "No prior daily-data.json (empty) \u2014 no trim-awareness baseline or carried-forward flags to compare against; today's recommendations are all newly derived.",
+    "ORCL RSI (29.52) and APLD/HIMS earnings dates were sourced from today's news search, not weekly-cache, since the cache has not yet been populated by the Monday routine.",
+    "Web search returned a stale/conflicting HIMS price quote (showed a gain); live Robinhood quotes were used as the authoritative source for all price and P/L math."
+  ]
+}
