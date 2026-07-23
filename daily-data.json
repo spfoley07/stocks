@@ -20,9 +20,9 @@
       "rsi": 53.16,
       "next_earnings": "2026-08-03",
       "news": [
-        "Shares fell ~5-6% amid stacked negative headlines: a free open-source rival ('World Monitor') posted on GitHub as a direct challenge to Palantir's platform, plus fresh UK regulatory scrutiny of its NHS Federated Data Platform contract.",
-        "Move looks like narrative/competitive-threat and valuation jitters rather than a fundamentals reset - no revenue or guidance change reported. Next real test is the Aug 3 earnings print.",
-        "Offsetting positive: the US Small Business Administration is expanding use of Palantir software for a new anti-fraud initiative."
+        {"text": "Shares fell ~5-6% amid stacked negative headlines: a free open-source rival ('World Monitor') posted on GitHub as a direct challenge to Palantir's platform, plus fresh UK regulatory scrutiny of its NHS Federated Data Platform contract.", "sentiment": "bad"},
+        {"text": "Move looks like narrative/competitive-threat and valuation jitters rather than a fundamentals reset - no revenue or guidance change reported. Next real test is the Aug 3 earnings print.", "sentiment": "neutral"},
+        {"text": "Offsetting positive: the US Small Business Administration is expanding use of Palantir software for a new anti-fraud initiative.", "sentiment": "good"}
       ]
     },
     {
@@ -44,9 +44,9 @@
       "rsi": 50.27,
       "next_earnings": "2026-07-29",
       "news": [
-        "Stock had been running up into the July 29 print on a Goldman Sachs price-target raise to $21 (Neutral) and new product launches (SoFi Small Business Loans, AI investing tool 'Composer').",
-        "Options market implies an ~11.5% post-earnings swing; consensus is $0.11 EPS / ~$1.11B revenue (+29.7% YoY). Key long-term metric to track: member growth pace (1.1M added in Q1).",
-        "No negative catalyst found behind today's ~3% pullback - reads as profit-taking after the recent run, not new bad news."
+        {"text": "Stock had been running up into the July 29 print on a Goldman Sachs price-target raise to $21 (Neutral) and new product launches (SoFi Small Business Loans, AI investing tool 'Composer').", "sentiment": "good"},
+        {"text": "Options market implies an ~11.5% post-earnings swing; consensus is $0.11 EPS / ~$1.11B revenue (+29.7% YoY). Key long-term metric to track: member growth pace (1.1M added in Q1).", "sentiment": "neutral"},
+        {"text": "No negative catalyst found behind today's ~3% pullback - reads as profit-taking after the recent run, not new bad news.", "sentiment": "neutral"}
       ]
     },
     {
@@ -68,9 +68,9 @@
       "rsi": 37.43,
       "next_earnings": "2026-08-11",
       "news": [
-        "Continuation of the early-July catalyst cluster: expanded Palantir SurfOS partnership, Wheels Up signed as Enterprise BrokerOS launch customer (up to $12M subscription), and a Hawaii electric-aircraft demo with BETA Technologies/Hawaiian Airlines.",
-        "Debt refinancing cut convertible notes from ~$47M to ~$16.9M, meaningfully de-risking the balance sheet - consistent with the standing positive risk-profile flag.",
-        "Still speculative: ~$110M net loss and a high modeled financial-distress probability - size accordingly. Today's pop looks like sentiment/momentum on a still-unprofitable microcap ahead of Aug 11 earnings."
+        {"text": "Continuation of the early-July catalyst cluster: expanded Palantir SurfOS partnership, Wheels Up signed as Enterprise BrokerOS launch customer (up to $12M subscription), and a Hawaii electric-aircraft demo with BETA Technologies/Hawaiian Airlines.", "sentiment": "good"},
+        {"text": "Debt refinancing cut convertible notes from ~$47M to ~$16.9M, meaningfully de-risking the balance sheet - consistent with the standing positive risk-profile flag.", "sentiment": "good"},
+        {"text": "Still speculative: ~$110M net loss and a high modeled financial-distress probability - size accordingly. Today's pop looks like sentiment/momentum on a still-unprofitable microcap ahead of Aug 11 earnings.", "sentiment": "bad"}
       ]
     },
     {
@@ -92,9 +92,9 @@
       "rsi": 40.35,
       "next_earnings": "2026-07-27",
       "news": [
-        "Reports FY2026 Q4 after close July 27; consensus is a $0.36/share loss on $91.9M revenue, but APLD has beaten EPS estimates 7 straight quarters.",
-        "Contracted revenue backlog keeps growing - a 5th major hyperscaler lease signed in June pushed total contracted base-term revenue to ~$36B (up to $86B with renewals) - the long-term demand story remains intact despite the ~50% drawdown since May.",
-        "RSI has recovered off oversold lows (40 vs ~26 a few days ago) - looks like a technical rebound; earnings in 5 days is the real test of backlog-to-profit conversion."
+        {"text": "Reports FY2026 Q4 after close July 27; consensus is a $0.36/share loss on $91.9M revenue, but APLD has beaten EPS estimates 7 straight quarters.", "sentiment": "neutral"},
+        {"text": "Contracted revenue backlog keeps growing - a 5th major hyperscaler lease signed in June pushed total contracted base-term revenue to ~$36B (up to $86B with renewals) - the long-term demand story remains intact despite the ~50% drawdown since May.", "sentiment": "good"},
+        {"text": "RSI has recovered off oversold lows (40 vs ~26 a few days ago) - looks like a technical rebound; earnings in 5 days is the real test of backlog-to-profit conversion.", "sentiment": "neutral"}
       ]
     },
     {
@@ -116,9 +116,9 @@
       "rsi": 34.83,
       "next_earnings": "2026-08-06",
       "news": [
-        "No major new catalyst today; added new board member Andreas Lieber (ex-Uber/Postmates), and expanding into new verticals (NoScrubs laundry-delivery pilot in LA).",
-        "Q1 revenue grew ~7x YoY to $3M off a small base, still deeply unprofitable - consistent with the standing trim flag on this largest (~15%) position.",
-        "Aug 6 earnings is the next real data point on fleet economics and margin trajectory."
+        {"text": "No major new catalyst today; added new board member Andreas Lieber (ex-Uber/Postmates), and expanding into new verticals (NoScrubs laundry-delivery pilot in LA).", "sentiment": "neutral"},
+        {"text": "Q1 revenue grew ~7x YoY to $3M off a small base, still deeply unprofitable - consistent with the standing trim flag on this largest (~15%) position.", "sentiment": "bad"},
+        {"text": "Aug 6 earnings is the next real data point on fleet economics and margin trajectory.", "sentiment": "neutral"}
       ]
     },
     {
@@ -140,9 +140,9 @@
       "rsi": 48.82,
       "next_earnings": "2026-08-10",
       "news": [
-        "FDA's Pharmacy Compounding Advisory Committee meets July 23-24 to review 7 peptide compounds for the 503A compounding list; FDA added 8 new temporary voting members seen as less conflicted - a modestly positive signal ahead of the vote.",
-        "Stock rebounded modestly on that news after a 3-day losing streak, but remains on track for its worst month since February and down ~31% over the past year - the binary catalyst is still live and unresolved.",
-        "For a holder up 100%+ from cost basis, this week's panel outcome is the key swing factor for the compounding-pharmacy revenue line - the trim flag remains reasonable risk management into a genuinely binary event, independent of Aug 10 earnings."
+        {"text": "FDA's Pharmacy Compounding Advisory Committee meets July 23-24 to review 7 peptide compounds for the 503A compounding list; FDA added 8 new temporary voting members seen as less conflicted - a modestly positive signal ahead of the vote.", "sentiment": "good"},
+        {"text": "Stock rebounded modestly on that news after a 3-day losing streak, but remains on track for its worst month since February and down ~31% over the past year - the binary catalyst is still live and unresolved.", "sentiment": "bad"},
+        {"text": "For a holder up 100%+ from cost basis, this week's panel outcome is the key swing factor for the compounding-pharmacy revenue line - the trim flag remains reasonable risk management into a genuinely binary event, independent of Aug 10 earnings.", "sentiment": "neutral"}
       ]
     },
     {
@@ -164,9 +164,9 @@
       "rsi": 47.30,
       "next_earnings": "2026-07-22",
       "news": [
-        "Reported Q2 FY26 after close today: revenue $3,987M (+24% YoY), subscription revenue $3,877M (+24.5% YoY), non-GAAP EPS $0.90, cRPO $13.20B (+21% YoY) - a beat-and-raise quarter topping guidance on every headline metric.",
-        "Guidance: Q3 subscription revenue $3,975-3,980M (+20.5% YoY); FY26 subscription revenue raised to $15,760-15,780M (+22.5% YoY). ServiceNow AI crossed $1B in annual contract value, with agentic deployments up 9x in nine months.",
-        "Stock sold off ~5-6.5% intraday ahead of the print on fear that cRPO growth would decelerate below the guided floor and broader AI-disruption anxiety; the actual 21% cRPO beat and clean beat-and-raise pared the after-hours loss to about -2.4% - reads as a solid quarter overshadowed by a jittery market reaction, not a business deterioration."
+        {"text": "Reported Q2 FY26 after close today: revenue $3,987M (+24% YoY), subscription revenue $3,877M (+24.5% YoY), non-GAAP EPS $0.90, cRPO $13.20B (+21% YoY) - a beat-and-raise quarter topping guidance on every headline metric.", "sentiment": "good"},
+        {"text": "Guidance: Q3 subscription revenue $3,975-3,980M (+20.5% YoY); FY26 subscription revenue raised to $15,760-15,780M (+22.5% YoY). ServiceNow AI crossed $1B in annual contract value, with agentic deployments up 9x in nine months.", "sentiment": "good"},
+        {"text": "Stock sold off ~5-6.5% intraday ahead of the print on fear that cRPO growth would decelerate below the guided floor and broader AI-disruption anxiety; the actual 21% cRPO beat and clean beat-and-raise pared the after-hours loss to about -2.4% - reads as a solid quarter overshadowed by a jittery market reaction, not a business deterioration.", "sentiment": "neutral"}
       ]
     },
     {
@@ -186,8 +186,12 @@
       "support": {"s1": 393.44, "s2": 385.77, "s3": 379.50},
       "resistance": {"r1": 407.38, "r2": 413.65, "r3": 421.32},
       "rsi": 51.83,
-      "next_earnings": null,
-      "news": []
+      "next_earnings": "2026-07-29",
+      "news": [
+        {"text": "Under pressure on AI-capex-digestion fears: Q3 FY26 capex hit ~$30.9B (+84% YoY), and investors are questioning ROI/monetization timeline; Citi cut its price target from $620 to $570. Broad sentiment/multiple compression, not a company-specific breakdown.", "sentiment": "bad"},
+        {"text": "A securities class action was filed July 19 alleging Microsoft overstated Copilot adoption and Azure AI performance (covers May 2025-Jan 2026); lead-plaintiff deadline Aug 11. Standard post-selloff litigation - rarely material to the long-term thesis unless it surfaces new facts.", "sentiment": "bad"},
+        {"text": "Confirmed catalyst: Q4 FY26 earnings on July 29 (after close) - the next real data point on Azure growth and AI monetization, more decision-relevant than today's dip.", "sentiment": "neutral"}
+      ]
     },
     {
       "ticker": "ORCL",
@@ -208,9 +212,9 @@
       "rsi": 33.40,
       "next_earnings": "2026-09-08",
       "news": [
-        "S&P Global cut Oracle's credit rating to BBB- on July 9, citing FY2026 capex up 162% to $55.7B and a projected FY2027 capex of $90-95B against a ~$42B free-cash-flow deficit; Oracle plans to raise ~$40B more in debt/equity.",
-        "Countervailing positive: FY26 Q4 results beat consensus (revenue +21% YoY, cloud infrastructure +93%) and RPO backlog hit $638B - the downgrade is about balance-sheet/cash-flow risk from AI-capex buildout, not demand weakness.",
-        "RSI has recovered off oversold lows (33 vs ~27 a day ago) but the stock remains near 52-week lows; the core question for a long-horizon holder is whether the $638B backlog converts to cash flow before debt service becomes a real constraint."
+        {"text": "S&P Global cut Oracle's credit rating to BBB- on July 9, citing FY2026 capex up 162% to $55.7B and a projected FY2027 capex of $90-95B against a ~$42B free-cash-flow deficit; Oracle plans to raise ~$40B more in debt/equity.", "sentiment": "bad"},
+        {"text": "Countervailing positive: FY26 Q4 results beat consensus (revenue +21% YoY, cloud infrastructure +93%) and RPO backlog hit $638B - the downgrade is about balance-sheet/cash-flow risk from AI-capex buildout, not demand weakness.", "sentiment": "good"},
+        {"text": "RSI has recovered off oversold lows (33 vs ~27 a day ago) but the stock remains near 52-week lows; the core question for a long-horizon holder is whether the $638B backlog converts to cash flow before debt service becomes a real constraint.", "sentiment": "neutral"}
       ]
     },
     {
@@ -231,7 +235,11 @@
       "resistance": {"r1": 34.54, "r2": 35.01, "r3": 35.61},
       "rsi": 53.29,
       "next_earnings": "2026-08-05",
-      "news": []
+      "news": [
+        {"text": "Stock has fallen three straight sessions, now near 52-week lows (~$29-31 vs. $93 high) and down >50% YTD - a continuation of the recent downtrend, no single fresh catalyst today.", "sentiment": "bad"},
+        {"text": "Analysts cut targets but stayed constructive: Jefferies to $60 (from $75, still Buy), KBW to $37 (from $50, Market Perform) - both well above current price, implying the selloff is largely sentiment-driven.", "sentiment": "good"},
+        {"text": "Overhang: FTC antitrust complaint (filed Sept 2025) alleging Zillow/Redfin colluded to exit the rental-listings market, plus a related securities class action (lead-plaintiff deadline Aug 10). Watch the Aug 5 earnings print for whether core fundamentals are holding up despite the legal noise.", "sentiment": "bad"}
+      ]
     }
   ],
   "totals": {
@@ -277,6 +285,12 @@
       "trigger_value": 7
     },
     {
+      "ticker": "MSFT",
+      "rec_type": "binary-catalyst",
+      "rationale": "Q4 FY26 earnings due July 29 (7 days out) - a real date now confirmed, replacing yesterday's unknown next_earnings. Coming into the print under pressure on AI-capex-digestion fears (Q3 capex +84% YoY) and a new Copilot/Azure-AI securities class action - the print is the key data point on whether Azure growth justifies the spend.",
+      "trigger_value": 7
+    },
+    {
       "ticker": "APLD",
       "rec_type": "add-consideration",
       "rationale": "RSI has recovered off oversold lows (40.4 vs ~26.4 a few days ago) while the stock still trades ~57% below the $70.56 analyst consensus target and contracted backlog keeps growing. For a multi-year holder this remains a constructive zone, contingent on how the July 27 earnings print lands.",
@@ -299,6 +313,12 @@
       "rec_type": "risk-change",
       "rationale": "Q2 FY26 beat-and-raise (revenue +24%, cRPO +21%, FY26 subscription guide raised) came in well ahead of the AI-disruption fear that drove an intraday sell-off of 5-6%; after-hours trading pared the loss to about -2.4%. Reads as a de-risking event, not a deterioration - reasonable to treat today's dip as overreaction rather than a trim signal.",
       "trigger_value": 21
+    },
+    {
+      "ticker": "Z",
+      "rec_type": "risk-change",
+      "rationale": "New overhang identified today: an FTC antitrust complaint alleging Zillow/Redfin colluded to exit the rental-listings market, plus a related securities class action (lead-plaintiff deadline Aug 10) - stacked on top of the stock's existing 3-day slide to near 52-week lows. Analyst targets (Jefferies $60, KBW $37) remain well above the current price, so this looks sentiment/legal-noise driven rather than a fundamentals reset, but worth tracking into Aug 5 earnings.",
+      "trigger_value": 2
     }
   ],
   "notes": [
@@ -306,7 +326,9 @@
     "RSI recovered back above the oversold (30) threshold for APLD (26.4->40.4), ORCL (27.4->33.4), and SERV (27.8->34.8) versus the prior daily run - their oversold flags were cleared; APLD and ORCL were reframed as add-consideration given the large remaining gap to analyst targets.",
     "PLTR was today's biggest mover (-5.77%) on stacked negative headlines (open-source competitor claims, UK NHS contract scrutiny) rather than a fundamentals change.",
     "NOW reported Q2 FY26 earnings today (beat-and-raise on revenue, cRPO, and guidance); its next_earnings date in weekly-cache (2026-07-22) is now stale and should be refreshed to the next quarter's date in the next weekly run.",
-    "News search was run for PLTR, SOFI, SRFM, APLD, SERV, HIMS, NOW, and ORCL (moved >3%, earnings within 7 days, or carried a flag from the prior daily run); MSFT and Z were skipped as stable/unflagged.",
+    "Per updated instructions, news search now covers every position each day (not just movers/near-term-earnings/flagged names) - MSFT and Z were searched today and now carry real news items and sentiment tags for the first time.",
+    "MSFT's next_earnings was unknown (null) as of the last weekly-cache refresh; today's news search found a confirmed date (2026-07-29) and it's reflected here - the weekly cache should pick this up on its next refresh.",
+    "Each news item now carries a sentiment tag (good/bad/neutral) for the dashboard's color-coded Watchlist & News feed, assessed from the standpoint of a 6-month-to-5-year holder rather than same-day price direction.",
     "Support/resistance for all positions and RSI for MSFT/Z reflect the weekly-cache snapshot (2026-07-20); RSI for PLTR, SOFI, SRFM, APLD, SERV, HIMS, NOW, and ORCL was refreshed live via Robinhood technical indicators (as of the 2026-07-21 close, the most recent completed daily bar)."
   ]
 }
