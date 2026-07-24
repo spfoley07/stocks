@@ -1,68 +1,70 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-24",
   "positions": [
     {
       "ticker": "PLTR",
       "account": "individual",
       "shares": 8.316008,
       "cost_basis": 1000.0,
-      "avg_cost_per_share": 120.25,
-      "current_price": 131.8077,
-      "today_pct": -1.958,
-      "today_dollars": -21.89,
-      "market_value": 1096.09,
-      "unrealized_pl": 96.09,
-      "unrealized_pl_pct": 9.61,
-      "portfolio_weight_pct": 12.16,
-      "analyst_target": 183.12,
-      "support": {"s1": 125.64, "s2": 117.57, "s3": 112.49},
-      "resistance": {"r1": 138.79, "r2": 143.87, "r3": 151.94},
-      "rsi": 54.99,
+      "current_price": 123.79,
+      "today_pct": 0.3404,
+      "today_dollars": 3.49,
+      "market_value": 1029.44,
+      "unrealized_pl": 29.44,
+      "analyst_target": 190.85,
+      "support": 130.01,
+      "resistance": 137.54,
+      "rsi": 42.53,
       "next_earnings": "2026-08-03",
-      "news": []
+      "sector": "AI & Data Infrastructure",
+      "news": [
+        { "text": "Stock fell ~6% ahead of Aug 3 earnings on valuation worries and UK NHS contract scrutiny.", "sentiment": "bad", "source_date": "2026-07-23" },
+        { "text": "Nvidia AI partnership plus Army Foundry and expanded Surf Air deals sparked a 9% rally.", "sentiment": "good", "source_date": "2026-07-02" },
+        { "text": "D.A. Davidson upgraded to Buy; Wedbush reaffirmed $230 target on AI momentum.", "sentiment": "good", "source_date": "2026-07-20" }
+      ]
     },
     {
       "ticker": "SOFI",
       "account": "individual",
       "shares": 59.657355,
       "cost_basis": 956.31,
-      "avg_cost_per_share": 16.03,
-      "current_price": 17.3361,
-      "today_pct": 0.093,
-      "today_dollars": 0.96,
-      "market_value": 1034.22,
-      "unrealized_pl": 77.92,
-      "unrealized_pl_pct": 8.15,
-      "portfolio_weight_pct": 11.48,
-      "analyst_target": 21.13,
-      "support": {"s1": 18.18, "s2": 17.81, "s3": 17.48},
-      "resistance": {"r1": 18.88, "r2": 19.21, "r3": 19.58},
-      "rsi": 51.04,
+      "current_price": 16.515,
+      "today_pct": -0.8108,
+      "today_dollars": -8.05,
+      "market_value": 985.24,
+      "unrealized_pl": 28.93,
+      "analyst_target": 22.56,
+      "support": 17.05,
+      "resistance": 17.76,
+      "rsi": 42.39,
       "next_earnings": "2026-07-29",
-      "news": []
+      "sector": "Fintech & Financials",
+      "news": [
+        { "text": "Launched SoFi Small Business Loans and an AI-driven Composer investing platform this month.", "sentiment": "good", "source_date": "2026-07-09" },
+        { "text": "Goldman raised its price target to $21 but kept a Neutral rating on the stock.", "sentiment": "neutral", "source_date": "2026-07-21" },
+        { "text": "Reports Q2 earnings July 29; shares fell ~3% amid lending-practice regulatory scrutiny.", "sentiment": "bad", "source_date": "2026-07-22" }
+      ]
     },
     {
       "ticker": "SRFM",
       "account": "individual",
       "shares": 909.090909,
       "cost_basis": 1000.0,
-      "avg_cost_per_share": 1.1,
-      "current_price": 0.725,
-      "today_pct": -2.357,
-      "today_dollars": -15.91,
-      "market_value": 659.09,
-      "unrealized_pl": -340.91,
-      "unrealized_pl_pct": -34.09,
-      "portfolio_weight_pct": 7.31,
-      "analyst_target": 4.52,
-      "support": {"s1": 0.8406, "s2": 0.8183, "s3": 0.8005},
-      "resistance": {"r1": 0.8807, "r2": 0.8985, "r3": 0.9208},
-      "rsi": 36.74,
+      "current_price": 0.7739,
+      "today_pct": -1.9014,
+      "today_dollars": -13.64,
+      "market_value": 703.55,
+      "unrealized_pl": -296.45,
+      "analyst_target": 3.08,
+      "support": 0.7106,
+      "resistance": 0.804,
+      "rsi": 39.25,
       "next_earnings": "2026-08-11",
+      "sector": "Energy & Industrials",
       "news": [
-        "New Chairman Shawn Pelsinger takes over effective July 24, 2026, following the annual shareholder meeting.",
-        "Debt refinancing cut convertible notes from ~$47M to $16.9M and added a $30M term loan plus a $21.6M aircraft-backed facility, easing near-term liquidity.",
-        "Wheels Up signed as launch customer for Enterprise BrokerOS (up to $12M subscription revenue); expanded Palantir SurfOS partnership. Still deeply unprofitable (margin under -100%, current ratio 0.2)."
+        { "text": "New Chairman Shawn Pelsinger took over today following the annual shareholder meeting.", "sentiment": "good", "source_date": "2026-07-24" },
+        { "text": "Debt refinancing cut convertible notes to $16.9M and added a $30M term loan, easing liquidity.", "sentiment": "good", "source_date": "2026-07-15" },
+        { "text": "Wheels Up signed as BrokerOS launch customer; Palantir SurfOS partnership expanded.", "sentiment": "good", "source_date": "2026-07-02" }
       ]
     },
     {
@@ -70,23 +72,21 @@
       "account": "individual",
       "shares": 43.188893,
       "cost_basis": 1826.03,
-      "avg_cost_per_share": 42.28,
-      "current_price": 25.89,
-      "today_pct": -2.08,
-      "today_dollars": -23.75,
-      "market_value": 1118.16,
-      "unrealized_pl": -707.87,
-      "unrealized_pl_pct": -38.76,
-      "portfolio_weight_pct": 12.41,
-      "analyst_target": 73.36,
-      "support": {"s1": 27.39, "s2": 26.31, "s3": 24.95},
-      "resistance": {"r1": 29.83, "r2": 31.18, "r3": 32.26},
-      "rsi": 27.48,
+      "current_price": 27.94,
+      "today_pct": -6.5239,
+      "today_dollars": -84.22,
+      "market_value": 1206.70,
+      "unrealized_pl": -619.33,
+      "analyst_target": 70.56,
+      "support": 25.48,
+      "resistance": 27.73,
+      "rsi": 39.87,
       "next_earnings": "2026-07-27",
+      "sector": "AI & Data Infrastructure",
       "news": [
-        "FY2026 earnings call set for July 27, 2026 (10 days away); market focus will be data-center utilization, contract expansion, and capex/funding plans.",
-        "Stock down ~50% since May on AI-capex and semiconductor-volatility concerns; Craig-Hallum reiterated a Buy rating on July 2.",
-        "Street stays Strong Buy despite the drawdown: 14 analysts, median target $74.50 (~125% implied upside)."
+        { "text": "FY2026 earnings call is July 27 (3 days out); consensus -$0.36 EPS, $91.9M revenue.", "sentiment": "neutral", "source_date": "2026-07-16" },
+        { "text": "Nvidia exited its equity stake in the company, rattling AI-datacenter valuation confidence.", "sentiment": "bad", "source_date": "2026-07-17" },
+        { "text": "Down ~50% since May on AI-capex jitters; Street stays Strong Buy, $74.50 median target.", "sentiment": "good", "source_date": "2026-07-02" }
       ]
     },
     {
@@ -94,23 +94,21 @@
       "account": "individual",
       "shares": 264.612953,
       "cost_basis": 1929.03,
-      "avg_cost_per_share": 7.29,
-      "current_price": 5.13,
-      "today_pct": -2.657,
-      "today_dollars": -37.05,
-      "market_value": 1357.46,
-      "unrealized_pl": -571.57,
-      "unrealized_pl_pct": -29.63,
-      "portfolio_weight_pct": 15.06,
+      "current_price": 4.885,
+      "today_pct": -3.0754,
+      "today_dollars": -41.02,
+      "market_value": 1292.63,
+      "unrealized_pl": -636.40,
       "analyst_target": 18.45,
-      "support": {"s1": 5.73, "s2": 5.64, "s3": 5.52},
-      "resistance": {"r1": 5.94, "r2": 6.06, "r3": 6.15},
-      "rsi": 34.54,
+      "support": 5.11,
+      "resistance": 5.55,
+      "rsi": 30.62,
       "next_earnings": "2026-08-06",
+      "sector": "Consumer",
       "news": [
-        "Board added Andreas Lieber (ex-Uber/Postmates) as director, effective June 22, 2026.",
-        "Expanding beyond food delivery: NoScrubs laundry pilot launched in select LA neighborhoods; 'Moving Canvas' robot-as-public-art program debuted at Cannes Lions.",
-        "Analyst consensus remains Buy (8 analysts, $17.58 target) despite the stock down ~47% YTD and continued net losses."
+        { "text": "RSI exited oversold territory July 21; MACD turned positive, historically a bullish signal.", "sentiment": "good", "source_date": "2026-07-22" },
+        { "text": "Launched NoScrubs laundry pilot and a public-art robot program, diversifying beyond food delivery.", "sentiment": "neutral", "source_date": "2026-07-15" },
+        { "text": "Q2 2026 results due August 6; stock still down roughly 50% year to date.", "sentiment": "neutral", "source_date": "2026-07-22" }
       ]
     },
     {
@@ -118,23 +116,21 @@
       "account": "individual",
       "shares": 16.057374,
       "cost_basis": 253.22,
-      "avg_cost_per_share": 15.77,
-      "current_price": 32.7108,
-      "today_pct": -2.878,
-      "today_dollars": -15.57,
-      "market_value": 525.25,
-      "unrealized_pl": 272.03,
-      "unrealized_pl_pct": 107.43,
-      "portfolio_weight_pct": 5.83,
-      "analyst_target": 28.35,
-      "support": {"s1": 34.36, "s2": 33.56, "s3": 33.05},
-      "resistance": {"r1": 35.67, "r2": 36.18, "r3": 36.98},
-      "rsi": 63.23,
+      "current_price": 29.595,
+      "today_pct": -9.606,
+      "today_dollars": -50.50,
+      "market_value": 475.22,
+      "unrealized_pl": 222.00,
+      "analyst_target": 30.14,
+      "support": 32.27,
+      "resistance": 36.39,
+      "rsi": 48.94,
       "next_earnings": "2026-08-10",
+      "sector": "Healthcare & Biotech",
       "news": [
-        "FDA's PCAC panel reviews compounded GLP-1/peptide products July 23-24 - a binary regulatory catalyst for Hims' compounding-pharmacy revenue line.",
-        "BofA and Canaccord raised price targets to $36 and $40 respectively in early July on GLP-1 traction and a new $400M JPMorgan credit facility.",
-        "Q2 2026 earnings due August 10, 2026."
+        { "text": "FDA panel backed BPC-157 peptide compounding July 23; stock popped over 10% same day.", "sentiment": "good", "source_date": "2026-07-23" },
+        { "text": "Shares reversed hard today (-9.6%) as analysts tempered peptide enthusiasm and a CFO pre-vote stock sale drew scrutiny.", "sentiment": "bad", "source_date": "2026-07-24" },
+        { "text": "Chief Accounting Officer Irene Becklund to resign in October, staying on through transition.", "sentiment": "neutral", "source_date": "2026-07-23" }
       ]
     },
     {
@@ -142,23 +138,21 @@
       "account": "agentic",
       "shares": 11.499983,
       "cost_basis": 1108.6,
-      "avg_cost_per_share": 96.4,
-      "current_price": 102.9168,
-      "today_pct": -1.051,
-      "today_dollars": -12.57,
-      "market_value": 1183.54,
-      "unrealized_pl": 74.94,
-      "unrealized_pl_pct": 6.76,
-      "portfolio_weight_pct": 13.13,
-      "analyst_target": 141.27,
-      "support": {"s1": 102.32, "s2": 99.79, "s3": 96.97},
-      "resistance": {"r1": 107.67, "r2": 110.49, "r3": 113.02},
-      "rsi": 50.36,
-      "next_earnings": "2026-07-22",
+      "current_price": 95.87,
+      "today_pct": 4.2745,
+      "today_dollars": 45.19,
+      "market_value": 1102.50,
+      "unrealized_pl": -6.10,
+      "analyst_target": 141.64,
+      "support": 100.26,
+      "resistance": 106.81,
+      "rsi": 36.16,
+      "next_earnings": "2026-10-28",
+      "sector": "Software & Internet",
       "news": [
-        "Reports Q2 FY26 earnings July 22, 2026 (5 days away); consensus calls for $3.92B revenue (+22% YoY) and $0.86 EPS.",
-        "New joint AI-powered cybersecurity offering launched with Accenture; Street 12-month average target implies ~26% upside.",
-        "AI-native platform adoption (Now Assist, Autonomous Workforce) cited as the key growth driver heading into the print."
+        { "text": "Q2 beat: EPS $0.90 vs. $0.76 est., revenue +24% YoY; guidance raised.", "sentiment": "good", "source_date": "2026-07-22" },
+        { "text": "Shares up ~4.3% today on the beat-and-raise; Now Assist AI cited as key driver.", "sentiment": "good", "source_date": "2026-07-24" },
+        { "text": "Next earnings pushed to Oct 28 — no near-term catalyst risk remains this quarter.", "sentiment": "neutral", "source_date": "2026-07-24" }
       ]
     },
     {
@@ -166,43 +160,43 @@
       "account": "agentic",
       "shares": 1.849964,
       "cost_basis": 685.0,
-      "avg_cost_per_share": 370.28,
-      "current_price": 393.9999,
-      "today_pct": -1.77,
-      "today_dollars": -13.14,
-      "market_value": 728.88,
-      "unrealized_pl": 43.88,
-      "unrealized_pl_pct": 6.41,
-      "portfolio_weight_pct": 8.09,
+      "current_price": 384.24,
+      "today_pct": 0.6971,
+      "today_dollars": 4.92,
+      "market_value": 710.83,
+      "unrealized_pl": 25.83,
       "analyst_target": 558.77,
-      "support": {"s1": 379.66, "s2": 374.38, "s3": 370.12},
-      "resistance": {"r1": 389.2, "r2": 393.46, "r3": 398.74},
-      "rsi": 53.46,
-      "next_earnings": null,
-      "news": []
+      "support": 393.44,
+      "resistance": 407.38,
+      "rsi": 44.64,
+      "next_earnings": "2026-07-29",
+      "sector": "AI & Data Infrastructure",
+      "news": [
+        { "text": "Shares down ~18% YTD (29% off highs) on AI-capex spending skepticism heading into July 29 earnings.", "sentiment": "bad", "source_date": "2026-07-20" },
+        { "text": "Announced $2.5B investment in a new Microsoft Frontier AI unit; shares rose 1.6% on the news.", "sentiment": "good", "source_date": "2026-07-02" },
+        { "text": "Analyst consensus remains Strong Buy; average target $589-592 versus a ~$384 share price.", "sentiment": "good", "source_date": "2026-07-16" }
+      ]
     },
     {
       "ticker": "ORCL",
       "account": "agentic",
       "shares": 7.673779,
       "cost_basis": 1184.98,
-      "avg_cost_per_share": 154.42,
-      "current_price": 126.3,
-      "today_pct": 1.683,
-      "today_dollars": 16.04,
-      "market_value": 969.3,
-      "unrealized_pl": -215.68,
-      "unrealized_pl_pct": -18.2,
-      "portfolio_weight_pct": 10.75,
-      "analyst_target": 251.85,
-      "support": {"s1": 126.11, "s2": 124.27, "s3": 120.95},
-      "resistance": {"r1": 131.27, "r2": 134.59, "r3": 136.43},
-      "rsi": 27.44,
+      "current_price": 118.39,
+      "today_pct": -1.3745,
+      "today_dollars": -12.66,
+      "market_value": 908.50,
+      "unrealized_pl": -276.48,
+      "analyst_target": 268.27,
+      "support": 121.32,
+      "resistance": 129.44,
+      "rsi": 29.6,
       "next_earnings": "2026-09-08",
+      "sector": "AI & Data Infrastructure",
       "news": [
-        "S&P downgraded credit rating to BBB- on rising AI-data-center debt; stock ~64% off its September 2025 peak despite record FY26 results (cloud revenue +47%, cloud infrastructure +93%).",
-        "$0.50/share quarterly dividend pays July 24, 2026 (record date already passed).",
-        "Market is questioning whether the $638B AI backlog converts to cash fast enough to service the debt load; RSI now 27.4 (oversold)."
+        { "text": "Down ~29% YTD on AI-capex/debt concerns; FY27 capex guided toward $95B with $40B more financing planned.", "sentiment": "bad", "source_date": "2026-07-11" },
+        { "text": "FY26 results beat on record cloud growth, but shares sank on debt and cash-burn worries.", "sentiment": "bad", "source_date": "2026-06-11" },
+        { "text": "Multi-year hyperscaler AI backlog still gives strong FY27+ revenue visibility, per analysts.", "sentiment": "good", "source_date": "2026-07-11" }
       ]
     },
     {
@@ -210,81 +204,101 @@
       "account": "agentic",
       "shares": 10.188487,
       "cost_basis": 300.05,
-      "avg_cost_per_share": 29.45,
-      "current_price": 33.46,
-      "today_pct": -1.819,
-      "today_dollars": -6.32,
-      "market_value": 340.91,
-      "unrealized_pl": 40.86,
-      "unrealized_pl_pct": 13.62,
-      "portfolio_weight_pct": 3.78,
+      "current_price": 30.10,
+      "today_pct": 1.7579,
+      "today_dollars": 5.30,
+      "market_value": 306.67,
+      "unrealized_pl": 6.62,
       "analyst_target": 58.33,
-      "support": {"s1": 31.39, "s2": 30.92, "s3": 30.34},
-      "resistance": {"r1": 32.44, "r2": 33.02, "r3": 33.49},
-      "rsi": 53.2,
+      "support": 33.47,
+      "resistance": 34.54,
+      "rsi": 34.47,
       "next_earnings": "2026-08-05",
-      "news": []
+      "sector": "Software & Internet",
+      "news": [
+        { "text": "Securities fraud class action filed after shares fell ~17% on Redfin anticompetitive-agreement allegations.", "sentiment": "bad", "source_date": "2026-07-21" },
+        { "text": "Jefferies cut its target to $60 (from $75); KBW cut to $37 (from $50).", "sentiment": "bad", "source_date": "2026-07-14" },
+        { "text": "Zillow Rentals launched as a connected app inside Google Gemini, expanding distribution reach.", "sentiment": "good", "source_date": "2026-07-20" }
+      ]
     }
   ],
   "totals": {
-    "portfolio_value": 9012.9,
-    "today_pct": -1.413,
-    "today_dollars": -129.19,
-    "unrealized_pl": -1230.31,
-    "unrealized_pl_pct": -12.01,
+    "portfolio_value": 8721.28,
+    "today_pct": -1.7039,
+    "today_dollars": -151.18,
+    "unrealized_pl": -1521.94,
     "biggest_mover": {
       "ticker": "HIMS",
-      "today_pct": -2.878
+      "today_pct": -9.606
     }
   },
   "recommendations": [
     {
+      "ticker": "APLD",
+      "rec_type": "binary-catalyst",
+      "rationale": "Earnings in 3 days; oversold, testing support",
+      "trigger_value": 3
+    },
+    {
+      "ticker": "HIMS",
+      "rec_type": "trim",
+      "rationale": "Up 87.7%; today's reversal signals profit-taking window",
+      "trigger_value": 87.67
+    },
+    {
       "ticker": "SERV",
       "rec_type": "trim",
-      "rationale": "Still the largest single position at 15.1% of portfolio value (recomputed off current share count - no trim has occurred since the weekly snapshot) while down ~29.6% since cost and continuing to burn cash expanding into healthcare and laundry delivery; consider trimming to cap single-name concentration risk.",
-      "trigger_value": 15.06
+      "rationale": "Still largest holding at 14.8% of portfolio",
+      "trigger_value": 14.82
     },
     {
       "ticker": "ORCL",
       "rec_type": "oversold",
-      "rationale": "RSI has fallen further to 27.4 (from 30.4 a day ago) after S&P's downgrade to BBB- and continued debt/AI-capex concerns; stock ~64% off its September 2025 peak. For a multi-year holder this reads as a deepening add zone, not a sell signal - Street average target $251.85 (Buy).",
-      "trigger_value": 27.44
-    },
-    {
-      "ticker": "APLD",
-      "rec_type": "oversold",
-      "rationale": "RSI now 27.5, crossing into oversold territory as the stock tests key support near $20 ahead of the July 27 FY26 earnings call. Wall Street remains Strong Buy (14 analysts, median target $74.50, ~125% implied upside) despite the ~50% drawdown since May.",
-      "trigger_value": 27.48
-    },
-    {
-      "ticker": "HIMS",
-      "rec_type": "trim",
-      "rationale": "Still up 107% from cost basis (recomputed off current shares - no trim taken since the weekly snapshot), the most-appreciated holding in the book. Worth considering partial profit-taking ahead of both the July 23-24 FDA peptide-compounding review and August 10 earnings.",
-      "trigger_value": 107.43
-    },
-    {
-      "ticker": "HIMS",
-      "rec_type": "binary-catalyst",
-      "rationale": "FDA's PCAC panel reviews compounded GLP-1/peptide products July 23-24 - a binary regulatory outcome that could affect Hims' compounding-pharmacy revenue line just 6 days from today.",
-      "trigger_value": 6
+      "rationale": "RSI 29.6, oversold; multi-year add zone intact",
+      "trigger_value": 29.6
     },
     {
       "ticker": "NOW",
+      "rec_type": "add-consideration",
+      "rationale": "Beat and raised guidance; 48% upside to target",
+      "trigger_value": 47.7
+    },
+    {
+      "ticker": "SOFI",
       "rec_type": "binary-catalyst",
-      "rationale": "Q2 FY26 earnings due July 22 (5 days out); consensus calls for 22% revenue growth. Technical momentum and analyst sentiment are bullish (~26% upside to average target) heading in, which also means a miss carries elevated downside risk.",
+      "rationale": "Earnings in 5 days; lending regulatory scrutiny lingers",
       "trigger_value": 5
+    },
+    {
+      "ticker": "MSFT",
+      "rec_type": "binary-catalyst",
+      "rationale": "Earnings in 5 days; AI capex spending scrutiny",
+      "trigger_value": 5
+    },
+    {
+      "ticker": "PLTR",
+      "rec_type": "binary-catalyst",
+      "rationale": "Earnings in 10 days; NHS scrutiny, high valuation",
+      "trigger_value": 10
     },
     {
       "ticker": "SRFM",
       "rec_type": "risk-change",
-      "rationale": "Risk profile continues to improve: new Chairman Shawn Pelsinger takes over July 24, the balance sheet was strengthened via debt refinancing, and Wheels Up signed on as a BrokerOS software customer. Still a small (7.3%) and deeply unprofitable position - no action needed, just a continued positive risk-profile trend.",
-      "trigger_value": 7
+      "rationale": "Chairman transition complete; balance sheet strengthening continues",
+      "trigger_value": 8
+    },
+    {
+      "ticker": "Z",
+      "rec_type": "risk-change",
+      "rationale": "Class-action suit filed; two analyst target cuts",
+      "trigger_value": 23
     }
   ],
   "notes": [
-    "No positions changed share count since the weekly-cache snapshot (2026-07-16) - no trims occurred; all size/concentration triggers were recomputed against current values, not the stale snapshot.",
-    "ORCL and APLD RSI values were refreshed live via Robinhood technical indicators (27.44 and 27.48) rather than using the weekly-cache figures (30.37 and 30.95), since both were trending toward oversold and the live read is more decision-relevant.",
-    "Support/resistance/RSI for PLTR, SOFI, HIMS, NOW, MSFT, Z reflect the weekly-cache snapshot (2026-07-16) and were not refreshed live today.",
-    "News search was run only for SRFM, APLD, SERV, HIMS, ORCL (carried flags from the prior daily run) and NOW (earnings within 7 days) per the selective-search rule; other positions were skipped as stable/unflagged."
+    "RSI values reflect the most recently completed session (2026-07-23 close); today's sharp intraday moves (APLD -6.5%, HIMS -9.6%, SERV -3.1%) will likely shift RSI further once today's bar settles.",
+    "NOW's next_earnings updated to 2026-10-28 - Q2 FY26 already reported July 22 (beat: EPS $0.90 vs $0.76 est., revenue +24% YoY), so the prior binary-catalyst flag on NOW no longer applies.",
+    "Support/resistance levels are the weekly-cache snapshot (refreshed 2026-07-20) and were not recalculated live; several (e.g. PLTR, APLD) have already been breached by today's price action.",
+    "No share-count changes vs. the 2026-07-20 weekly-cache snapshot for any position - no trims occurred; concentration and gain-based triggers were recomputed against current values, not the stale snapshot.",
+    "Sector classifications were introduced this run - the 2026-07-17 prior daily-data.json had no sector field, so there was no prior-day value to reuse for stability."
   ]
 }
