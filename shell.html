@@ -296,6 +296,11 @@
   .news-list li.sentiment-good::before { color: var(--good); }
   .news-list li.sentiment-bad::before { color: var(--bad); }
   .news-list li.sentiment-neutral::before { color: var(--text-faint); }
+  .news-headline { display: block; font-weight: 600; color: var(--text); }
+  .news-list li.sentiment-good .news-headline { color: var(--good); }
+  .news-list li.sentiment-bad .news-headline { color: var(--bad); }
+  .news-list li.sentiment-neutral .news-headline { color: var(--text); }
+  .news-why { display: block; font-size: 11.5px; font-weight: 400; color: var(--text-faint); margin-top: 2px; }
   .no-news { font-size: 13px; color: var(--text-faint); font-style: italic; }
 
   /* ---------- Watchlist / news feed ---------- */
@@ -1028,13 +1033,13 @@
   function renderNewsItem(n) {
     if (n && typeof n === "object") {
       var sentiment = n.sentiment === "good" || n.sentiment === "bad" ? n.sentiment : "neutral";
-      var body = esc(n.why_it_matters || "");
+      var why = esc(n.why_it_matters || "");
       return '<li class="sentiment-' + sentiment + '">' +
-        '<strong>' + esc(n.headline || "") + '</strong>' +
-        (body ? " — " + body : "") +
+        '<span class="news-headline">' + esc(n.headline || "") + '</span>' +
+        (why ? '<span class="news-why">' + why + '</span>' : "") +
         "</li>";
     }
-    return "<li>" + esc(n) + "</li>";
+    return '<li class="sentiment-neutral"><span class="news-headline">' + esc(n) + '</span></li>';
   }
 
   // ---------- Top bar ----------
