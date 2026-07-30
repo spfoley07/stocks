@@ -7,22 +7,22 @@
       "shares": 8.316008,
       "cost_basis": 1000.0,
       "avg_cost_per_share": 120.25,
-      "current_price": 122.215,
-      "today_pct": -0.638,
-      "today_dollars": -6.53,
-      "market_value": 1016.34,
-      "unrealized_pl": 16.34,
-      "unrealized_pl_pct": 1.634,
-      "portfolio_weight_pct": 10.5,
+      "current_price": 123.15,
+      "today_pct": 0.122,
+      "today_dollars": 1.25,
+      "market_value": 1024.10,
+      "unrealized_pl": 24.10,
+      "unrealized_pl_pct": 2.410,
+      "portfolio_weight_pct": 10.58,
       "analyst_target": 190.85,
       "support": {"s1": 130.01, "s2": 125.58, "s3": 122.48},
       "resistance": {"r1": 137.54, "r2": 140.64, "r3": 145.07},
-      "rsi": 44.44,
+      "rsi": 43.99,
       "next_earnings": "2026-08-03",
       "news": [
         {
           "headline": "Analyst consensus remains Buy heading into Aug 3 earnings, with a median 12-month target near $200 (~61% above the current price) across 35 analysts",
-          "why_it_matters": "Sell-side confidence is intact ahead of the print despite the stock trading 40% off its all-time high amid a broader enterprise-software selloff, supporting the long-term thesis for a multi-year holder.",
+          "why_it_matters": "Sell-side confidence is intact ahead of the print despite the stock trading well off its all-time high amid a broader enterprise-software selloff, supporting the long-term thesis for a multi-year holder.",
           "sentiment": "good"
         },
         {
@@ -38,17 +38,17 @@
       "shares": 59.657355,
       "cost_basis": 956.31,
       "avg_cost_per_share": 16.03,
-      "current_price": 16.445,
-      "today_pct": 7.836,
-      "today_dollars": 71.29,
-      "market_value": 981.07,
-      "unrealized_pl": 24.76,
-      "unrealized_pl_pct": 2.589,
-      "portfolio_weight_pct": 10.14,
+      "current_price": 16.383,
+      "today_pct": 7.427,
+      "today_dollars": 67.57,
+      "market_value": 977.42,
+      "unrealized_pl": 21.11,
+      "unrealized_pl_pct": 2.208,
+      "portfolio_weight_pct": 10.10,
       "analyst_target": 22.56,
       "support": {"s1": 17.05, "s2": 16.78, "s3": 16.35},
       "resistance": {"r1": 17.76, "r2": 18.19, "r3": 18.46},
-      "rsi": 35.39,
+      "rsi": 34.57,
       "next_earnings": "2026-10-28 (tentative, next quarterly report)",
       "news": [
         {
@@ -57,8 +57,8 @@
           "sentiment": "good"
         },
         {
-          "headline": "Shares are recovering today after an initial post-earnings selloff driven by unchanged near-term profit guidance and rising growth spend; Truist nudged its target to $18 but kept a Hold",
-          "why_it_matters": "The market is still debating whether higher growth investment delays profitability - worth watching over the next few quarters, though today's rebound suggests dip-buyers see it as reinvestment rather than a fundamental problem.",
+          "headline": "Shares are recovering after an initial post-earnings selloff driven by unchanged near-term profit guidance and rising growth spend; Truist nudged its target to $18 but kept a Hold",
+          "why_it_matters": "The market is still debating whether higher growth investment delays profitability - worth watching over the next few quarters, though the rebound suggests dip-buyers see it as reinvestment rather than a fundamental problem.",
           "sentiment": "neutral"
         }
       ]
@@ -69,17 +69,17 @@
       "shares": 909.090909,
       "cost_basis": 1000.0,
       "avg_cost_per_share": 1.1,
-      "current_price": 0.755,
-      "today_pct": 7.457,
-      "today_dollars": 47.64,
-      "market_value": 686.36,
-      "unrealized_pl": -313.64,
-      "unrealized_pl_pct": -31.364,
-      "portfolio_weight_pct": 7.09,
+      "current_price": 0.7443,
+      "today_pct": 5.934,
+      "today_dollars": 37.91,
+      "market_value": 676.64,
+      "unrealized_pl": -323.36,
+      "unrealized_pl_pct": -32.336,
+      "portfolio_weight_pct": 6.99,
       "analyst_target": 3.08,
       "support": {"s1": 0.7106, "s2": 0.6786, "s3": 0.6172},
       "resistance": {"r1": 0.804, "r2": 0.8654, "r3": 0.8974},
-      "rsi": 32.75,
+      "rsi": 32.87,
       "next_earnings": "2026-08-10",
       "news": [
         {
@@ -95,21 +95,21 @@
       "shares": 43.188893,
       "cost_basis": 1826.03,
       "avg_cost_per_share": 42.28,
-      "current_price": 27.97,
-      "today_pct": 20.457,
-      "today_dollars": 205.15,
-      "market_value": 1207.99,
-      "unrealized_pl": -618.04,
-      "unrealized_pl_pct": -33.842,
-      "portfolio_weight_pct": 12.48,
+      "current_price": 28.45,
+      "today_pct": 22.523,
+      "today_dollars": 225.88,
+      "market_value": 1228.72,
+      "unrealized_pl": -597.31,
+      "unrealized_pl_pct": -32.703,
+      "portfolio_weight_pct": 12.70,
       "analyst_target": 70.56,
       "support": {"s1": 25.48, "s2": 24.53, "s3": 23.24},
       "resistance": {"r1": 27.73, "r2": 29.02, "r3": 29.97},
-      "rsi": 27.07,
+      "rsi": 28.64,
       "next_earnings": "2026-10-08 (tentative)",
       "news": [
         {
-          "headline": "APLD rebounded ~20% today, riding Microsoft's blowout cloud earnings and a broader AI-infrastructure sector rally rather than APLD-specific news",
+          "headline": "APLD extended its rally into the after-hours session, riding Microsoft's blowout cloud earnings and a broader AI-infrastructure sector rally rather than APLD-specific news",
           "why_it_matters": "A sector-wide re-rating that nonetheless supports the multi-year hyperscaler-demand thesis underpinning APLD's leased-capacity model.",
           "sentiment": "good"
         },
@@ -126,21 +126,21 @@
       "shares": 264.612953,
       "cost_basis": 1929.03,
       "avg_cost_per_share": 7.29,
-      "current_price": 4.8,
-      "today_pct": 9.84,
-      "today_dollars": 113.78,
-      "market_value": 1270.14,
-      "unrealized_pl": -658.89,
-      "unrealized_pl_pct": -34.157,
-      "portfolio_weight_pct": 13.12,
+      "current_price": 4.82,
+      "today_pct": 10.297,
+      "today_dollars": 119.08,
+      "market_value": 1275.44,
+      "unrealized_pl": -653.59,
+      "unrealized_pl_pct": -33.882,
+      "portfolio_weight_pct": 13.18,
       "analyst_target": 18.45,
       "support": {"s1": 5.11, "s2": 4.94, "s3": 4.67},
       "resistance": {"r1": 5.55, "r2": 5.82, "r3": 5.98},
-      "rsi": 23.87,
+      "rsi": 23.82,
       "next_earnings": "2026-08-06",
       "news": [
         {
-          "headline": "No SERV-specific catalyst found today; the ~9.8% bounce tracks a broad Nasdaq/AI-infrastructure rebound (Microsoft's cloud beat lifting the whole sector) ahead of the confirmed Aug 6 earnings date",
+          "headline": "No SERV-specific catalyst found today; the bounce tracks a broad Nasdaq/AI-infrastructure rebound (Microsoft's cloud beat lifting the whole sector) ahead of the confirmed Aug 6 earnings date",
           "why_it_matters": "Today's move is macro/sector beta, not a change to the business thesis - focus stays on the Aug 6 print for a deeply oversold, cash-burning position.",
           "sentiment": "neutral"
         }
@@ -152,21 +152,21 @@
       "shares": 13.354745,
       "cost_basis": 1310.63,
       "avg_cost_per_share": 98.14,
-      "current_price": 110.065,
-      "today_pct": -4.921,
-      "today_dollars": -76.07,
-      "market_value": 1469.89,
-      "unrealized_pl": 159.26,
-      "unrealized_pl_pct": 12.152,
-      "portfolio_weight_pct": 15.19,
+      "current_price": 108.48,
+      "today_pct": -6.290,
+      "today_dollars": -97.22,
+      "market_value": 1448.66,
+      "unrealized_pl": 138.03,
+      "unrealized_pl_pct": 10.531,
+      "portfolio_weight_pct": 14.97,
       "analyst_target": 141.64,
       "support": {"s1": 100.26, "s2": 96.51, "s3": 93.71},
       "resistance": {"r1": 106.81, "r2": 109.61, "r3": 113.36},
-      "rsi": 61.98,
+      "rsi": 62.25,
       "next_earnings": "2026-10-28 (tentative)",
       "news": [
         {
-          "headline": "NOW fell again today (-4.9%) even after this week's strong Q2 beat (revenue +24% YoY, guidance raised), as SaaS/application-layer names broadly underperformed amid rotation into AI-infrastructure winners like Microsoft",
+          "headline": "NOW extended its decline into the after-hours session even after this week's strong Q2 beat (revenue +24% YoY, guidance raised), as SaaS/application-layer names broadly underperformed amid rotation into AI-infrastructure winners like Microsoft",
           "why_it_matters": "Looks like sector rotation/profit-taking rather than new company-specific bad news, giving back part of the post-earnings rally without a change in fundamentals.",
           "sentiment": "neutral"
         },
@@ -183,26 +183,26 @@
       "shares": 2.60314,
       "cost_basis": 985.0,
       "avg_cost_per_share": 378.39,
-      "current_price": 451.49,
-      "today_pct": 15.61,
-      "today_dollars": 158.66,
-      "market_value": 1175.29,
-      "unrealized_pl": 190.29,
-      "unrealized_pl_pct": 19.319,
-      "portfolio_weight_pct": 12.14,
+      "current_price": 447.0,
+      "today_pct": 14.457,
+      "today_dollars": 146.98,
+      "market_value": 1163.60,
+      "unrealized_pl": 178.60,
+      "unrealized_pl_pct": 18.132,
+      "portfolio_weight_pct": 12.02,
       "analyst_target": 558.77,
       "support": {"s1": 393.44, "s2": 385.77, "s3": 379.5},
       "resistance": {"r1": 407.38, "r2": 413.65, "r3": 421.32},
-      "rsi": 49.88,
+      "rsi": 49.99,
       "next_earnings": "2026-10-28 (tentative, next quarterly report)",
       "news": [
         {
-          "headline": "MSFT jumped as much as 17% intraday - the largest single-day market-cap gain in stock market history - after Q4 results showed Azure growth accelerating to 43% and Azure revenue crossing $100B for the first time; Copilot seats topped 30 million",
-          "why_it_matters": "Confirms the AI/cloud re-rating is durable rather than a one-day pop, reinforcing the long-term thesis, though a move this sharp raises near-term profit-taking risk.",
+          "headline": "MSFT gave back some of today's record intraday pop in after-hours trading, but still closed the regular session up double digits after Q4 results showed Azure growth accelerating to 43% and Azure revenue crossing $100B for the first time; Copilot seats topped 30 million",
+          "why_it_matters": "Confirms the AI/cloud re-rating is durable rather than a one-day pop, reinforcing the long-term thesis, though a move this sharp raises near-term profit-taking risk (visible in the after-hours pullback).",
           "sentiment": "good"
         },
         {
-          "headline": "Analysts maintain Buy ratings with an average price target near $560 (~24% above today's close); FY2027 capex guidance was raised to $255-260B to fund the AI buildout",
+          "headline": "Analysts maintain Buy ratings with an average price target near $560 (~25% above the after-hours price); FY2027 capex guidance was raised to $255-260B to fund the AI buildout",
           "why_it_matters": "Sell-side confidence that AI capex is translating into Azure revenue is the key debate for a multi-year holder; the higher capex is a 1-3 year margin variable to monitor even though the market is currently rewarding it.",
           "sentiment": "good"
         }
@@ -214,21 +214,21 @@
       "shares": 11.983009,
       "cost_basis": 1685.05,
       "avg_cost_per_share": 140.62,
-      "current_price": 127.575,
-      "today_pct": 8.353,
-      "today_dollars": 117.87,
-      "market_value": 1528.73,
-      "unrealized_pl": -156.32,
-      "unrealized_pl_pct": -9.276,
-      "portfolio_weight_pct": 15.79,
+      "current_price": 129.03,
+      "today_pct": 9.589,
+      "today_dollars": 135.29,
+      "market_value": 1546.10,
+      "unrealized_pl": -138.95,
+      "unrealized_pl_pct": -8.246,
+      "portfolio_weight_pct": 15.97,
       "analyst_target": 268.27,
       "support": {"s1": 121.32, "s2": 118.43, "s3": 113.2},
       "resistance": {"r1": 129.44, "r2": 134.67, "r3": 137.56},
-      "rsi": 33.11,
+      "rsi": 31.04,
       "next_earnings": "2026-09-08",
       "news": [
         {
-          "headline": "ORCL rallied ~8% after announcing an expanded partnership bringing Google's Gemini 3.1/3.5 models into Oracle Fusion Applications, NetSuite, and AI Agent Studio",
+          "headline": "ORCL extended its regular-session rally (~8%) into the after-hours session after announcing an expanded partnership bringing Google's Gemini 3.1/3.5 models into Oracle Fusion Applications, NetSuite, and AI Agent Studio",
           "why_it_matters": "Diversifies Oracle's AI-model ecosystem beyond OpenAI (now including Google alongside Meta, xAI, Cohere, Alibaba), directly countering the OpenAI-concentration/credit-risk narrative behind the recent S&P downgrade.",
           "sentiment": "good"
         },
@@ -245,17 +245,17 @@
       "shares": 10.188487,
       "cost_basis": 300.05,
       "avg_cost_per_share": 29.45,
-      "current_price": 33.75,
-      "today_pct": -0.735,
-      "today_dollars": -2.55,
-      "market_value": 343.86,
-      "unrealized_pl": 43.81,
-      "unrealized_pl_pct": 14.599,
-      "portfolio_weight_pct": 3.55,
+      "current_price": 33.30,
+      "today_pct": -2.059,
+      "today_dollars": -7.13,
+      "market_value": 339.28,
+      "unrealized_pl": 39.23,
+      "unrealized_pl_pct": 13.073,
+      "portfolio_weight_pct": 3.51,
       "analyst_target": 58.33,
       "support": {"s1": 33.47, "s2": 32.87, "s3": 32.4},
       "resistance": {"r1": 34.54, "r2": 35.01, "r3": 35.61},
-      "rsi": 55.75,
+      "rsi": 55.03,
       "next_earnings": "2026-08-05",
       "news": [
         {
@@ -264,7 +264,7 @@
           "sentiment": "neutral"
         },
         {
-          "headline": "Shares pared an earlier intraday decline to close down modestly, as another securities-fraud class action tied to the Redfin rental-listing-agreement allegations was filed ahead of the Aug 10 lead-plaintiff deadline",
+          "headline": "Another securities-fraud class action tied to the Redfin rental-listing-agreement allegations was filed ahead of the Aug 10 lead-plaintiff deadline",
           "why_it_matters": "Largely duplicative litigation on an already-known case, but the accumulation of filings keeps legal overhang elevated heading into Aug 5 earnings and the Aug 24 FTC antitrust trial start.",
           "sentiment": "neutral"
         }
@@ -272,57 +272,57 @@
     }
   ],
   "totals": {
-    "portfolio_value": 9679.67,
-    "today_pct": 6.953,
-    "today_dollars": 629.24,
-    "unrealized_pl": -1312.43,
-    "unrealized_pl_pct": -11.94,
+    "portfolio_value": 9679.96,
+    "today_pct": 6.958,
+    "today_dollars": 629.61,
+    "unrealized_pl": -1312.14,
+    "unrealized_pl_pct": -11.938,
     "biggest_mover": {
       "ticker": "APLD",
-      "today_pct": 20.457
+      "today_pct": 22.523
     }
   },
   "recommendations": [
     {
       "ticker": "SERV",
       "rec_type": "oversold",
-      "rationale": "RSI at 23.87 (Wednesday's finalized close) remains deeply oversold even after today's +9.8% sector-driven bounce; now the single largest individual-account holding by weight (13.1%) heading into Aug 6 earnings.",
-      "trigger_value": 23.87
+      "rationale": "RSI at 23.82 (Wednesday's finalized close) remains deeply oversold even after today's sector-driven bounce; the largest individual-account holding by weight (13.2%) heading into Aug 6 earnings.",
+      "trigger_value": 23.82
     },
     {
       "ticker": "APLD",
       "rec_type": "oversold",
-      "rationale": "RSI at 27.07 (Wednesday's close, before today's +20.5% rally) still reflects oversold conditions; today's bar is not yet finalized so this reading will likely rise once it updates.",
-      "trigger_value": 27.07
+      "rationale": "RSI at 28.64 (Wednesday's close) still reflects oversold conditions even after today's sharp rally; today's bar is not yet finalized so this reading will likely rise once it updates.",
+      "trigger_value": 28.64
     },
     {
       "ticker": "APLD",
       "rec_type": "add-consideration",
-      "rationale": "Even after today's +20.5% rally to $27.97, shares trade at a ~152% discount to the weekly-cache analyst target of $70.56; this week's results showed contracted lease value up 125% YoY to $36B, though ~$5B in debt and GAAP losses remain the key risk to weigh before adding.",
-      "trigger_value": 152.2
+      "rationale": "Even after today's after-hours rally to $28.45, shares trade at a ~148% discount to the weekly-cache analyst target of $70.56; this week's results showed contracted lease value up 125% YoY to $36B, though ~$5B in debt and GAAP losses remain the key risk to weigh before adding.",
+      "trigger_value": 148.0
     },
     {
       "ticker": "ORCL",
       "rec_type": "risk-change",
-      "rationale": "The Agentic account's enterprise-software/AI-infra cluster (ORCL+NOW+MSFT) now totals ~43.1% of the whole portfolio, up from ~41.7% two days ago, driven by today's outsized MSFT/ORCL rallies rather than new purchases; still an elevated concentration worth monitoring rather than adding further.",
-      "trigger_value": 43.11
+      "rationale": "The Agentic account's enterprise-software/AI-infra cluster (ORCL+NOW+MSFT) is now ~42.96% of the whole portfolio, roughly flat versus yesterday's ~43.1% despite today's large individual swings offsetting each other; still an elevated concentration worth monitoring rather than adding further.",
+      "trigger_value": 42.96
     },
     {
       "ticker": "SRFM",
       "rec_type": "risk-change",
       "rationale": "NYSE issued a non-compliance notice on July 24 for trading below the $1.00 minimum average closing price; a board-approved reverse-split backstop is in place and the company has a 6-month cure window, but delisting risk is now confirmed and real rather than speculative.",
-      "trigger_value": 0.755
+      "trigger_value": 0.7443
     },
     {
       "ticker": "PLTR",
       "rec_type": "binary-catalyst",
-      "rationale": "Earnings August 3, 4 days out; stock trades near $122 against a stretched 130-150x trailing P/E, raising the stakes for any guidance miss.",
+      "rationale": "Earnings August 3, 4 days out; stock trades near $123 against a stretched 130-150x trailing P/E, raising the stakes for any guidance miss.",
       "trigger_value": 4
     },
     {
       "ticker": "SERV",
       "rec_type": "binary-catalyst",
-      "rationale": "Earnings August 6, 7 days out, for a deeply oversold position (RSI 23.87) with no company-specific news explaining recent swings - elevated stakes given ongoing cash-burn concerns.",
+      "rationale": "Earnings August 6, 7 days out, for a deeply oversold position (RSI 23.82) with no company-specific news explaining recent swings - elevated stakes given ongoing cash-burn concerns.",
       "trigger_value": 7
     },
     {
@@ -334,18 +334,17 @@
     {
       "ticker": "SRFM",
       "rec_type": "binary-catalyst",
-      "rationale": "Earnings August 10, 11 days out, arriving during the NYSE minimum-price cure window - a print that could move sentiment on the delisting/reverse-split question either way.",
+      "rationale": "Earnings August 10 (verified), 11 days out, arriving during the NYSE minimum-price cure window - a print that could move sentiment on the delisting/reverse-split question either way.",
       "trigger_value": 11
     }
   ],
   "notes": [
-    "Market was open for full regular trading today (Thursday, July 30, 2026); quotes reflect the official ~4pm ET close.",
-    "HIMS was fully exited today: a user-placed market sell order filled at 2:07pm ET for all 16.057374 shares at $26.91/share (realized gain of ~$178.88 vs. the $15.77 cost basis). HIMS no longer appears as a position or in totals/recommendations - last night's 'trim' recommendation was acted on as a full exit rather than a partial trim.",
-    "No other share counts changed today in either account versus yesterday's run or the weekly-cache snapshot (2026-07-20); Agentic-account NOW/MSFT/ORCL share counts remain elevated versus the 2026-07-20 weekly-cache snapshot from prior intraday purchases, unchanged since.",
-    "Extraordinary day for AI-infrastructure names: Microsoft's FY26 Q4 beat (Azure accelerating to 43%, crossing $100B in revenue, FY27 capex guidance raised to $255-260B) drove a reported largest-ever single-day market-cap gain for any stock and a broad AI-infrastructure/cloud rally that lifted MSFT (+15.6%), APLD (+20.5%), and ORCL (+8.4%, aided by a separate Google Gemini partnership announcement), while application-layer SaaS names including NOW (-4.9%) sold off on sector rotation. SOFI (+7.8%) continued its post-earnings recovery; Z was roughly flat (-0.7%) after paring a larger intraday decline.",
-    "Weekly cache (analyst targets, support/resistance, insider notes) was refreshed 2026-07-20 and is now exactly 10 days old - at the freshness threshold; recommend refreshing soon since several analyst targets and support/resistance levels may no longer reflect current prices after this week's large moves.",
-    "RSI values reflect Wednesday 2026-07-29's finalized daily bar (today's Thursday bar was not yet finalized at data-pull time); today's outsized rallies in MSFT, APLD, ORCL and the SOFI/SERV bounces are not yet reflected in these readings.",
+    "This run is an after-hours re-run of today's briefing: an earlier run for 2026-07-30 completed at 21:47 UTC using the ~4pm ET regular-session close; this run was triggered again 9 minutes later and pulled fresher extended-hours prices, so figures above reflect after-hours trading (roughly 5:33-5:57pm ET) rather than the official close. The two same-day runs firing minutes apart suggests the schedule may be duplicated - worth checking the trigger configuration.",
+    "No new company-specific news emerged in the few minutes between the two runs; news items above are carried forward from the 21:47 UTC run, with after-hours price-action framing added where relevant (MSFT, ORCL, NOW, APLD).",
+    "No share counts changed versus the earlier run today, yesterday, or the weekly-cache snapshot (2026-07-20) in either account; HIMS remains fully exited (sold intraday yesterday-equivalent session).",
+    "Weekly cache (analyst targets, support/resistance, insider notes) was refreshed 2026-07-20 and is now 10 days old - at the freshness threshold; recommend refreshing soon since several analyst targets and support/resistance levels may no longer reflect current prices after this week's large moves.",
+    "RSI values reflect Wednesday 2026-07-29's finalized daily bar (today's Thursday bar was not yet finalized at data-pull time); today's outsized after-hours moves in MSFT, APLD, ORCL, NOW and the SOFI/SERV bounces are not yet reflected in these readings.",
     "Support/resistance and analyst targets are carried from the weekly-cache snapshot (2026-07-20) and were not recomputed live today.",
-    "News search was run for all 9 current positions today per the every-position, every-day rule."
+    "Because this is a second same-day run, a full fresh news search was not re-run for all 9 positions (see note above); the every-position/every-day news search was already completed in the 21:47 UTC run."
   ]
 }
