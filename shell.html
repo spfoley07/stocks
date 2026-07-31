@@ -1,5 +1,6 @@
 <title>Portfolio Briefing</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
 <style>
   :root {
     --bg: #faf9f7;
@@ -44,62 +45,31 @@
     }
   }
   :root[data-theme="dark"] {
-    --bg: #0e1116;
-    --surface: #161a21;
-    --surface-2: #1d222b;
-    --border: #2a303b;
-    --text: #e7eaee;
-    --text-dim: #9aa4b2;
-    --text-faint: #6b7482;
-    --accent: #7d9bd4;
-    --accent-soft: #1c2740;
-    --good: #4cd0a0;
-    --good-soft: #123128;
-    --bad: #f2697c;
-    --bad-soft: #3a1620;
-    --warn: #d9a860;
-    --warn-soft: #362a12;
+    --bg: #0e1116; --surface: #161a21; --surface-2: #1d222b; --border: #2a303b;
+    --text: #e7eaee; --text-dim: #9aa4b2; --text-faint: #6b7482;
+    --accent: #7d9bd4; --accent-soft: #1c2740;
+    --good: #4cd0a0; --good-soft: #123128; --bad: #f2697c; --bad-soft: #3a1620;
+    --warn: #d9a860; --warn-soft: #362a12;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 18px rgba(0, 0, 0, 0.25);
     color-scheme: dark;
   }
   :root[data-theme="light"] {
-    --bg: #faf9f7;
-    --surface: #ffffff;
-    --surface-2: #f5f4f1;
-    --border: #ececec;
-    --text: #1a1a1a;
-    --text-dim: #6b6b6b;
-    --text-faint: #9a9a94;
-    --accent: #4c6fa5;
-    --accent-soft: #ebf1f8;
-    --good: #2e7d5b;
-    --good-soft: #e7f4ee;
-    --bad: #c0392b;
-    --bad-soft: #fbeae7;
-    --warn: #a8752e;
-    --warn-soft: #faf1de;
+    --bg: #faf9f7; --surface: #ffffff; --surface-2: #f5f4f1; --border: #ececec;
+    --text: #1a1a1a; --text-dim: #6b6b6b; --text-faint: #9a9a94;
+    --accent: #4c6fa5; --accent-soft: #ebf1f8;
+    --good: #2e7d5b; --good-soft: #e7f4ee; --bad: #c0392b; --bad-soft: #fbeae7;
+    --warn: #a8752e; --warn-soft: #faf1de;
     --shadow: 0 1px 2px rgba(20, 20, 20, 0.04), 0 6px 16px rgba(20, 20, 20, 0.05);
     color-scheme: light;
   }
 
   * { box-sizing: border-box; }
-  html, body {
-    margin: 0;
-    padding: 0;
-    background: var(--bg);
-    color: var(--text);
-    overflow-x: hidden;
-  }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); overflow-x: hidden; }
   body {
     font-family: -apple-system, "Segoe UI", Roboto, ui-sans-serif, system-ui, sans-serif;
-    font-size: 15px;
-    line-height: 1.55;
-    -webkit-font-smoothing: antialiased;
+    font-size: 15px; line-height: 1.55; -webkit-font-smoothing: antialiased;
   }
-  .num, .mono, td.num, .price, .pct, .dollar {
-    font-variant-numeric: tabular-nums;
-    font-feature-settings: "tnum" 1;
-  }
+  .num, .mono, td.num, .price, .pct, .dollar { font-variant-numeric: tabular-nums; font-feature-settings: "tnum" 1; }
   h1, h2, h3 { text-wrap: balance; margin: 0; }
   a { color: var(--accent); }
   button { font-family: inherit; }
@@ -109,146 +79,89 @@
   }
 
   /* ---------- Sticky top bar ---------- */
-  .topbar {
-    position: sticky;
-    top: 0;
-    z-index: 20;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    box-shadow: 0 2px 10px rgba(20, 20, 20, 0.04);
-  }
-  .topbar-inner {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 16px 24px;
-    display: flex;
-    align-items: center;
-    gap: 32px;
-    flex-wrap: wrap;
-  }
-  .topbar-brand {
-    font-weight: 700;
-    font-size: 15px;
-    letter-spacing: 0.01em;
-    color: var(--text);
-    white-space: nowrap;
-    margin-right: 4px;
-  }
+  .topbar { position: sticky; top: 0; z-index: 20; background: var(--surface); border-bottom: 1px solid var(--border); box-shadow: 0 2px 10px rgba(20, 20, 20, 0.04); }
+  .topbar-inner { max-width: 1120px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; gap: 24px 30px; flex-wrap: wrap; }
+  .topbar-brand { font-weight: 700; font-size: 15px; letter-spacing: 0.01em; color: var(--text); white-space: nowrap; margin-right: 2px; }
   .topbar-metric { display: flex; flex-direction: column; gap: 3px; }
-  .topbar-metric .label {
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--text-faint);
-  }
-  .topbar-metric .value { font-size: 19px; font-weight: 600; letter-spacing: -0.01em; }
-  .topbar-date { margin-left: auto; font-size: 12.5px; color: var(--text-faint); white-space: nowrap; }
+  .topbar-metric .label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-faint); white-space: nowrap; }
+  .topbar-metric .value { font-size: 17px; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; }
+  .topbar-metric .value.small { font-size: 14px; }
+  .topbar-date { margin-left: auto; font-size: 12px; color: var(--text-faint); white-space: nowrap; }
 
   .good { color: var(--good); }
   .bad { color: var(--bad); }
   .neutral { color: var(--text-dim); }
 
   /* ---------- Tabs ---------- */
-  .tabs {
-    max-width: 1080px;
-    margin: 0 auto;
-    display: flex;
-    gap: 4px;
-    padding: 12px 24px 10px;
-  }
+  .tabs { max-width: 1120px; margin: 0 auto; display: flex; gap: 4px; padding: 12px 24px 10px; }
   .tab-btn {
-    background: transparent;
-    border: none;
-    color: var(--text-dim);
-    font-size: 14px;
-    font-weight: 600;
-    padding: 9px 16px;
-    cursor: pointer;
-    border-radius: var(--radius-sm);
-    transition: background 0.15s ease, color 0.15s ease;
+    background: transparent; border: none; color: var(--text-dim); font-size: 14px; font-weight: 600;
+    padding: 9px 16px; cursor: pointer; border-radius: var(--radius-sm); transition: background 0.15s ease, color 0.15s ease;
   }
   .tab-btn:hover { background: var(--surface-2); color: var(--text); }
   .tab-btn.active { color: var(--accent); background: var(--accent-soft); }
 
-  main { max-width: 1080px; margin: 0 auto; padding: 24px; }
+  main { max-width: 1120px; margin: 0 auto; padding: 24px; }
   .tab-panel { display: none; }
   .tab-panel.active { display: block; }
 
-  .section-title {
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--text-faint);
-    margin: 30px 0 14px;
-  }
+  .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-faint); margin: 30px 0 14px; }
   .section-title:first-child { margin-top: 0; }
 
   /* ---------- Cards ---------- */
-  .card {
-    background: var(--surface);
-    border: none;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-  }
-  .grid-4 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 14px;
-  }
+  .card { background: var(--surface); border: none; border-radius: var(--radius); box-shadow: var(--shadow); }
+  .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
   .stat-card { padding: 18px; display: flex; flex-direction: column; gap: 6px; }
   .stat-card .label { font-size: 12px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.05em; }
   .stat-card .big { font-size: 22px; font-weight: 700; }
   .stat-card .sub { font-size: 13px; color: var(--text-dim); }
 
-  .empty-state {
-    padding: 32px 20px;
-    text-align: center;
-    color: var(--text-faint);
-    font-size: 14px;
-    border: 1px dashed var(--border);
-    border-radius: var(--radius);
-  }
+  .empty-state { padding: 32px 20px; text-align: center; color: var(--text-faint); font-size: 14px; border: 1px dashed var(--border); border-radius: var(--radius); }
+
+  /* ---------- Equity curve ---------- */
+  .chart-card { padding: 18px; }
+  .chart-card .chart-legend { display: flex; gap: 18px; font-size: 12.5px; color: var(--text-dim); margin-bottom: 10px; flex-wrap: wrap; }
+  .chart-legend .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+  .chart-card svg { width: 100%; height: auto; display: block; }
+  .chart-card .chart-caption { font-size: 11.5px; color: var(--text-faint); margin-top: 8px; }
+
+  /* ---------- Theme exposure ---------- */
+  .theme-row { display: flex; align-items: center; gap: 12px; padding: 9px 0; }
+  .theme-row .theme-name { width: 150px; flex: 0 0 150px; font-size: 13px; font-weight: 600; }
+  .theme-row .theme-bar-track { flex: 1; height: 10px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+  .theme-row .theme-bar-fill { height: 100%; background: var(--accent); border-radius: 999px; }
+  .theme-row.over-40 .theme-bar-fill { background: var(--bad); }
+  .theme-row .theme-pct { width: 56px; flex: 0 0 56px; text-align: right; font-size: 13px; font-weight: 600; }
+  .theme-row .theme-move { width: 64px; flex: 0 0 64px; text-align: right; font-size: 12px; }
+
+  /* ---------- Cash / totals strip ---------- */
+  .totals-strip { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 6px; }
+  .totals-strip .pill { background: var(--surface-2); border-radius: 999px; padding: 7px 14px; font-size: 12.5px; color: var(--text-dim); }
+  .totals-strip .pill b { color: var(--text); font-weight: 700; }
+
+  /* ---------- Closed positions ---------- */
+  .closed-card { padding: 14px 18px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+  .closed-card .t { font-weight: 700; }
+  .closed-card .meta { font-size: 12.5px; color: var(--text-faint); }
 
   /* ---------- Positions ---------- */
-  .positions-toolbar {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 16px;
-    flex-wrap: wrap;
-  }
+  .positions-toolbar { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
   .positions-toolbar .label { font-size: 12.5px; color: var(--text-faint); }
   .sort-btn {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    padding: 7px 14px;
-    font-size: 13px;
-    color: var(--text-dim);
-    cursor: pointer;
-    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 7px 14px;
+    font-size: 13px; color: var(--text-dim); cursor: pointer; transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
   }
   .sort-btn.active { color: var(--accent); border-color: var(--accent-soft); background: var(--accent-soft); font-weight: 600; }
 
   .position-list { display: flex; flex-direction: column; gap: 10px; }
   .position-card { padding: 0; overflow: hidden; }
   .position-head {
-    display: grid;
-    grid-template-columns: 84px 1fr 1fr auto auto auto;
-    align-items: center;
-    gap: 14px;
-    padding: 15px 18px;
-    cursor: pointer;
-    background: none;
-    border: none;
-    width: 100%;
-    text-align: left;
-    color: var(--text);
-    min-height: 44px;
+    display: grid; grid-template-columns: 84px 1fr 1fr 1fr auto auto auto; align-items: center; gap: 14px;
+    padding: 15px 18px; cursor: pointer; background: none; border: none; width: 100%; text-align: left; color: var(--text); min-height: 44px;
   }
   .position-head:hover { background: var(--surface-2); }
-  .pos-ticker { font-weight: 700; font-size: 15px; letter-spacing: 0.01em; }
+  .pos-ticker { font-weight: 700; font-size: 15px; letter-spacing: 0.01em; display: flex; flex-direction: column; gap: 2px; }
+  .pos-ticker .theme-tag { font-size: 10px; font-weight: 600; color: var(--text-faint); text-transform: none; }
   .pos-price-block { display: flex; flex-direction: column; gap: 2px; }
   .pos-price-block .cur { font-size: 14px; font-weight: 600; }
   .pos-price-block .cost { font-size: 12px; color: var(--text-faint); }
@@ -258,38 +171,22 @@
   .pos-mv-block { display: flex; flex-direction: column; gap: 2px; text-align: right; }
   .pos-mv-block .mv { font-size: 14px; font-weight: 600; }
   .pos-mv-block .shares { font-size: 12px; color: var(--text-faint); }
-  .pos-chip {
-    font-size: 13px;
-    font-weight: 700;
-    padding: 5px 10px;
-    border-radius: var(--radius-sm);
-    white-space: nowrap;
-    min-width: 66px;
-    text-align: center;
-  }
+  .pos-chip { font-size: 13px; font-weight: 700; padding: 5px 10px; border-radius: var(--radius-sm); white-space: nowrap; min-width: 66px; text-align: center; }
   .pos-chip.good { background: var(--good-soft); color: var(--good); }
   .pos-chip.bad { background: var(--bad-soft); color: var(--bad); }
   .chevron { color: var(--text-faint); transition: transform 0.15s ease; font-size: 12px; }
   .position-card.open .chevron { transform: rotate(90deg); }
 
-  .position-detail {
-    display: none;
-    padding: 4px 18px 18px;
-    border-top: 1px solid var(--border);
-  }
+  .position-detail { display: none; padding: 4px 18px 18px; border-top: 1px solid var(--border); }
   .position-card.open .position-detail { display: block; }
-  .detail-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 10px;
-    margin: 14px 0;
-  }
+  .detail-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin: 14px 0; }
   .detail-item { background: var(--surface-2); border-radius: var(--radius-sm); padding: 11px 13px; }
   .detail-item .lbl { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-faint); margin-bottom: 3px; }
   .detail-item .val { font-size: 14px; font-weight: 600; }
   .detail-item .val-sub { font-size: 11px; font-weight: 400; color: var(--text-faint); margin-top: 2px; }
   .detail-flag { display: inline-block; font-size: 11.5px; font-weight: 700; padding: 2px 8px; border-radius: 999px; margin-left: 6px; }
   .detail-flag.warn { background: var(--warn-soft); color: var(--warn); }
+  .detail-item.full { grid-column: 1 / -1; }
   .news-list { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-direction: column; gap: 7px; }
   .news-list li { font-size: 13px; color: var(--text-dim); padding-left: 14px; position: relative; line-height: 1.5; }
   .news-list li::before { content: "\25CF"; position: absolute; left: 0; top: 1px; font-size: 9px; color: var(--text-faint); }
@@ -304,24 +201,12 @@
   .no-news { font-size: 13px; color: var(--text-faint); font-style: italic; }
 
   /* ---------- Watchlist / news feed ---------- */
-  .feed-item {
-    display: flex;
-    gap: 16px;
-    padding: 16px 18px;
-    margin-bottom: 10px;
-  }
+  .feed-item { display: flex; gap: 16px; padding: 16px 18px; margin-bottom: 10px; }
   .feed-ticker-col { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 58px; }
   .feed-ticker-col .t { font-weight: 700; font-size: 14px; }
   .feed-body { flex: 1; min-width: 0; }
   .feed-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
-  .tag {
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    padding: 3px 9px;
-    border-radius: 999px;
-  }
+  .tag { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 9px; border-radius: 999px; }
   .tag.oversold { background: var(--good-soft); color: var(--good); }
   .tag.overbought { background: var(--bad-soft); color: var(--bad); }
   .tag.catalyst { background: var(--accent-soft); color: var(--accent); }
@@ -332,31 +217,17 @@
   .feed-meta { font-size: 11.5px; color: var(--text-faint); margin-top: 8px; }
 
   /* ---------- Recommendation / overview cards ---------- */
-  .rec-card {
-    padding: 16px 18px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-bottom: 10px;
-    border-left: 3px solid var(--warn);
-    border-radius: 4px var(--radius) var(--radius) 4px;
-  }
+  .rec-card { padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; border-left: 3px solid var(--warn); border-radius: 4px var(--radius) var(--radius) 4px; }
   .rec-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
   .rec-ticker-type { display: flex; align-items: center; gap: 8px; }
   .rec-ticker-type .t { font-weight: 700; font-size: 14.5px; }
+  .rec-sev { font-size: 10.5px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.05em; }
   .rec-rationale { font-size: 13.5px; color: var(--text-dim); line-height: 1.55; }
   .rec-foot { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
   .trigger-val { font-size: 12px; color: var(--text-faint); }
   .dismiss-btn {
-    background: var(--surface-2);
-    border: 1px solid var(--border);
-    color: var(--text-dim);
-    border-radius: var(--radius-sm);
-    padding: 7px 13px;
-    font-size: 12.5px;
-    cursor: pointer;
-    min-height: 32px;
-    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    background: var(--surface-2); border: 1px solid var(--border); color: var(--text-dim); border-radius: var(--radius-sm);
+    padding: 7px 13px; font-size: 12.5px; cursor: pointer; min-height: 32px; transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
   }
   .dismiss-btn:hover { background: var(--bad-soft); color: var(--bad); border-color: var(--bad-soft); }
 
@@ -365,536 +236,33 @@
   .overview-highlight .name { font-size: 17px; font-weight: 700; }
   .overview-highlight .detail { font-size: 13px; color: var(--text-dim); line-height: 1.5; }
 
-  footer.notes {
-    margin-top: 34px;
-    padding: 16px 18px;
-    border: 1px dashed var(--border);
-    border-radius: var(--radius);
-    font-size: 12.5px;
-    color: var(--text-faint);
-  }
+  footer.notes { margin-top: 34px; padding: 16px 18px; border: 1px dashed var(--border); border-radius: var(--radius); font-size: 12.5px; color: var(--text-faint); }
   footer.notes ul { margin: 8px 0 0; padding-left: 18px; }
   footer.notes li { margin-bottom: 5px; }
 
   @media (max-width: 620px) {
     main { padding: 16px; }
-    .topbar-inner { padding: 14px 16px; gap: 20px 28px; }
+    .topbar-inner { padding: 14px 16px; gap: 16px 22px; }
     .tabs { padding: 10px 16px 8px; }
     .position-head { grid-template-columns: 60px 1fr auto; padding: 14px 16px; gap: 10px; }
-    .pos-target-block { display: none; }
+    .pos-target-block, .pos-theme-block { display: none; }
     .pos-mv-block { grid-column: 3; }
     .sort-btn { padding: 8px 14px; }
     .dismiss-btn { padding: 8px 14px; min-height: 36px; }
     .feed-item { padding: 14px; gap: 12px; }
+    .theme-row .theme-name { width: 100px; flex-basis: 100px; }
   }
 </style>
 
-<script type="application/json" id="daily-data-json">{
-  "date": "2026-07-27",
-  "positions": [
-    {
-      "ticker": "PLTR",
-      "account": "individual",
-      "shares": 8.316008,
-      "cost_basis": 1000.0,
-      "avg_cost_per_share": 120.25,
-      "current_price": 131.545,
-      "today_pct": 7.017,
-      "today_dollars": 71.73,
-      "market_value": 1093.93,
-      "unrealized_pl": 93.93,
-      "unrealized_pl_pct": 9.39,
-      "portfolio_weight_pct": 12.31,
-      "analyst_target": 190.85,
-      "support": {
-        "s1": 130.01,
-        "s2": 125.58,
-        "s3": 122.48
-      },
-      "resistance": {
-        "r1": 137.54,
-        "r2": 140.64,
-        "r3": 145.07
-      },
-      "rsi": 42.02,
-      "next_earnings": "2026-08-03",
-      "news": [
-        "Oppenheimer reiterated Outperform with a $200 target on July 27, arguing Q2 revenue growth could exceed management's 79% guidance and that full-year guidance may get raised again; Citi's Tyler Radke also set a $200 target.",
-        "Stock is still down ~27% YTD with Michael Burry publicly short; earnings due August 3, with options markets pricing in a ~15% post-earnings move.",
-        "Street consensus for the print: $1.81B revenue (+115% YoY) and $0.28 EPS - Palantir has beaten EPS estimates for four straight quarters."
-      ]
-    },
-    {
-      "ticker": "SOFI",
-      "account": "individual",
-      "shares": 59.657355,
-      "cost_basis": 956.31,
-      "avg_cost_per_share": 16.03,
-      "current_price": 16.87,
-      "today_pct": 2.491,
-      "today_dollars": 24.46,
-      "market_value": 1006.42,
-      "unrealized_pl": 50.11,
-      "unrealized_pl_pct": 5.24,
-      "portfolio_weight_pct": 11.32,
-      "analyst_target": 22.56,
-      "support": {
-        "s1": 17.05,
-        "s2": 16.78,
-        "s3": 16.35
-      },
-      "resistance": {
-        "r1": 17.76,
-        "r2": 18.19,
-        "r3": 18.46
-      },
-      "rsi": 41.35,
-      "next_earnings": "2026-07-29",
-      "news": []
-    },
-    {
-      "ticker": "SRFM",
-      "account": "individual",
-      "shares": 909.090909,
-      "cost_basis": 1000.0,
-      "avg_cost_per_share": 1.1,
-      "current_price": 0.7893,
-      "today_pct": -0.228,
-      "today_dollars": -1.64,
-      "market_value": 717.55,
-      "unrealized_pl": -282.45,
-      "unrealized_pl_pct": -28.25,
-      "portfolio_weight_pct": 8.07,
-      "analyst_target": 3.08,
-      "support": {
-        "s1": 0.7106,
-        "s2": 0.6786,
-        "s3": 0.6172
-      },
-      "resistance": {
-        "r1": 0.804,
-        "r2": 0.8654,
-        "r3": 0.8974
-      },
-      "rsi": 38.81,
-      "next_earnings": "2026-08-11",
-      "news": []
-    },
-    {
-      "ticker": "APLD",
-      "account": "individual",
-      "shares": 43.188893,
-      "cost_basis": 1826.03,
-      "avg_cost_per_share": 42.28,
-      "current_price": 26.375,
-      "today_pct": -2.997,
-      "today_dollars": -35.2,
-      "market_value": 1139.11,
-      "unrealized_pl": -686.92,
-      "unrealized_pl_pct": -37.62,
-      "portfolio_weight_pct": 12.81,
-      "analyst_target": 70.56,
-      "support": {
-        "s1": 25.48,
-        "s2": 24.53,
-        "s3": 23.24
-      },
-      "resistance": {
-        "r1": 27.73,
-        "r2": 29.02,
-        "r3": 29.97
-      },
-      "rsi": 34.73,
-      "next_earnings": "2026-10-08",
-      "news": [
-        "FY2026 Q4 results reported today after the close, ahead of the 5pm ET earnings call: revenue +407% YoY to $258.7M, far above the ~$95M analyst estimate, though the company posted a $110.6M GAAP net loss.",
-        "Stock was already up roughly 5% in after-hours trading ahead of tonight's call, on top of today's regular-session move.",
-        "Elevated valuation and rising debt/financing risk remain the bear case even after the beat, per pre-earnings coverage; next earnings call not expected until ~2026-10-08 (tentative)."
-      ]
-    },
-    {
-      "ticker": "SERV",
-      "account": "individual",
-      "shares": 264.612953,
-      "cost_basis": 1929.03,
-      "avg_cost_per_share": 7.29,
-      "current_price": 4.7887,
-      "today_pct": -0.443,
-      "today_dollars": -5.64,
-      "market_value": 1267.15,
-      "unrealized_pl": -661.88,
-      "unrealized_pl_pct": -34.31,
-      "portfolio_weight_pct": 14.25,
-      "analyst_target": 18.45,
-      "support": {
-        "s1": 5.11,
-        "s2": 4.94,
-        "s3": 4.67
-      },
-      "resistance": {
-        "r1": 5.55,
-        "r2": 5.82,
-        "r3": 5.98
-      },
-      "rsi": 28.16,
-      "next_earnings": "2026-08-06",
-      "news": []
-    },
-    {
-      "ticker": "HIMS",
-      "account": "individual",
-      "shares": 16.057374,
-      "cost_basis": 253.22,
-      "avg_cost_per_share": 15.77,
-      "current_price": 30.24,
-      "today_pct": 7.654,
-      "today_dollars": 34.52,
-      "market_value": 485.57,
-      "unrealized_pl": 232.35,
-      "unrealized_pl_pct": 91.76,
-      "portfolio_weight_pct": 5.46,
-      "analyst_target": 30.14,
-      "support": {
-        "s1": 32.27,
-        "s2": 30.87,
-        "s3": 28.15
-      },
-      "resistance": {
-        "r1": 36.39,
-        "r2": 39.11,
-        "r3": 40.51
-      },
-      "rsi": 36.46,
-      "next_earnings": "2026-08-10",
-      "news": [
-        "Stock plunged 14% on Friday 7/24 (worst session in ~6 months) after an FDA advisory panel review of compounded GLP-1/peptide products; despite the selloff, the panel actually backed 6 of the 7 compounds reviewed.",
-        "Retail dip-buying drove today's rebound; shares remain down ~19% for July, the steepest monthly decline since February.",
-        "Q2 earnings due August 10; analysts model a steep YoY EPS decline (~-141%) as the compounding-pharmacy revenue mix shifts post-FDA review."
-      ]
-    },
-    {
-      "ticker": "NOW",
-      "account": "agentic",
-      "shares": 11.499983,
-      "cost_basis": 1108.6,
-      "avg_cost_per_share": 96.4,
-      "current_price": 105.56,
-      "today_pct": 6.864,
-      "today_dollars": 77.97,
-      "market_value": 1213.94,
-      "unrealized_pl": 105.34,
-      "unrealized_pl_pct": 9.5,
-      "portfolio_weight_pct": 13.65,
-      "analyst_target": 141.64,
-      "support": {
-        "s1": 100.26,
-        "s2": 96.51,
-        "s3": 93.71
-      },
-      "resistance": {
-        "r1": 106.81,
-        "r2": 109.61,
-        "r3": 113.36
-      },
-      "rsi": 46.13,
-      "next_earnings": "2026-10-28",
-      "news": [
-        "Q2 FY26 beat-and-rally on 7/22/23: adjusted EPS $0.90 vs. ~$0.76-0.86 estimates, revenue ~$3.99B, AI now over $1B in annual contract value, and RPO growing ~21%; unlike April's 'beat but crash,' margins held this time.",
-        "Stock has continued higher into today, extending the post-earnings re-rating; next earnings has rolled out to ~2026-10-28 (tentative)."
-      ]
-    },
-    {
-      "ticker": "MSFT",
-      "account": "agentic",
-      "shares": 1.849964,
-      "cost_basis": 685.0,
-      "avg_cost_per_share": 370.28,
-      "current_price": 389.13,
-      "today_pct": 1.947,
-      "today_dollars": 13.75,
-      "market_value": 719.88,
-      "unrealized_pl": 34.88,
-      "unrealized_pl_pct": 5.09,
-      "portfolio_weight_pct": 8.1,
-      "analyst_target": 558.77,
-      "support": {
-        "s1": 393.44,
-        "s2": 385.77,
-        "s3": 379.5
-      },
-      "resistance": {
-        "r1": 407.38,
-        "r2": 413.65,
-        "r3": 421.32
-      },
-      "rsi": 44.68,
-      "next_earnings": "2026-07-29",
-      "news": [
-        "Q4 FY26 earnings confirmed for July 29 (2 days away); consensus EPS estimate is $4.23 after four consecutive quarterly beats."
-      ]
-    },
-    {
-      "ticker": "ORCL",
-      "account": "agentic",
-      "shares": 7.673779,
-      "cost_basis": 1184.98,
-      "avg_cost_per_share": 154.42,
-      "current_price": 119.97,
-      "today_pct": 4.331,
-      "today_dollars": 38.22,
-      "market_value": 920.62,
-      "unrealized_pl": -264.36,
-      "unrealized_pl_pct": -22.31,
-      "portfolio_weight_pct": 10.36,
-      "analyst_target": 268.27,
-      "support": {
-        "s1": 121.32,
-        "s2": 118.43,
-        "s3": 113.2
-      },
-      "resistance": {
-        "r1": 129.44,
-        "r2": 134.67,
-        "r3": 137.56
-      },
-      "rsi": 26.86,
-      "next_earnings": "2026-09-08",
-      "news": []
-    },
-    {
-      "ticker": "Z",
-      "account": "agentic",
-      "shares": 10.188487,
-      "cost_basis": 300.05,
-      "avg_cost_per_share": 29.45,
-      "current_price": 31.99,
-      "today_pct": 3.999,
-      "today_dollars": 12.53,
-      "market_value": 325.93,
-      "unrealized_pl": 25.88,
-      "unrealized_pl_pct": 8.63,
-      "portfolio_weight_pct": 3.67,
-      "analyst_target": 58.33,
-      "support": {
-        "s1": 33.47,
-        "s2": 32.87,
-        "s3": 32.4
-      },
-      "resistance": {
-        "r1": 34.54,
-        "r2": 35.01,
-        "r3": 35.61
-      },
-      "rsi": 40.59,
-      "next_earnings": "2026-08-05",
-      "news": []
-    }
-  ],
-  "totals": {
-    "portfolio_value": 8890.1,
-    "today_pct": 2.664,
-    "today_dollars": 230.7,
-    "unrealized_pl": -1353.12,
-    "unrealized_pl_pct": -13.21,
-    "biggest_mover": {
-      "ticker": "HIMS",
-      "today_pct": 7.654
-    }
-  },
-  "recommendations": [
-    {
-      "ticker": "HIMS",
-      "rec_type": "trim",
-      "rationale": "Up 91.8% from cost basis (position size unchanged since the weekly snapshot, so this is a fresh, still-live trigger) after rebounding off Friday's FDA-panel-driven 14% plunge; worth considering partial profit-taking given the outsized gain and continued volatility heading into Aug 10 earnings.",
-      "trigger_value": 91.76
-    },
-    {
-      "ticker": "SERV",
-      "rec_type": "oversold",
-      "rationale": "RSI at 28.2 keeps SERV in oversold territory. It remains the largest single holding by dollar value, but its portfolio weight has fallen to 14.3% (from 15.1% previously) purely from other positions appreciating, not from a trim - concentration no longer independently crosses the trim threshold today.",
-      "trigger_value": 28.16
-    },
-    {
-      "ticker": "ORCL",
-      "rec_type": "oversold",
-      "rationale": "RSI remains deeply oversold at 26.9 despite today's 4.3% bounce, following the S&P downgrade to BBB- and ongoing AI-capex debt concerns. For a multi-year holder this continues to read as an add zone rather than a sell signal - Street average target $268 implies over 100% upside from here.",
-      "trigger_value": 26.86
-    },
-    {
-      "ticker": "APLD",
-      "rec_type": "risk-change",
-      "rationale": "FY26 Q4 results (reported today) showed revenue +407% YoY to $258.7M, crushing the ~$95M estimate, but also a $110.6M GAAP net loss and continued elevated debt/financing risk highlighted by pre-earnings coverage. Net risk profile looks modestly improved on the growth print, but financing overhang is unresolved - worth watching tonight's 5pm ET call for capex/funding commentary.",
-      "trigger_value": 407
-    },
-    {
-      "ticker": "SOFI",
-      "rec_type": "binary-catalyst",
-      "rationale": "Earnings due July 29, just 2 days out - a near-term binary catalyst for a position already up modestly from cost.",
-      "trigger_value": 2
-    },
-    {
-      "ticker": "MSFT",
-      "rec_type": "binary-catalyst",
-      "rationale": "Q4 FY26 earnings due July 29 (2 days out); consensus EPS $4.23 after four straight beats sets a high bar.",
-      "trigger_value": 2
-    },
-    {
-      "ticker": "PLTR",
-      "rec_type": "binary-catalyst",
-      "rationale": "Earnings August 3 (7 days out); options are pricing a ~15% post-earnings swing, and bullish analyst targets (~$200 from Oppenheimer and Citi) raise the stakes for a beat-and-raise given the stock is still down ~27% YTD.",
-      "trigger_value": 7
-    },
-    {
-      "ticker": "Z",
-      "rec_type": "binary-catalyst",
-      "rationale": "Earnings August 5 (9 days out) - a routine but real binary catalyst for this smaller (3.7% weight) position.",
-      "trigger_value": 9
-    },
-    {
-      "ticker": "SERV",
-      "rec_type": "binary-catalyst",
-      "rationale": "Earnings August 6 (10 days out) for the portfolio's largest position by weight (14.3%) - elevated stakes given the position size and ongoing cash-burn concerns.",
-      "trigger_value": 10
-    },
-    {
-      "ticker": "HIMS",
-      "rec_type": "binary-catalyst",
-      "rationale": "Q2 earnings due August 10 (14 days out); consensus models a steep YoY EPS decline (~-141%) as the compounding-pharmacy mix shifts post-FDA review - high event risk on top of the already-large unrealized gain.",
-      "trigger_value": 14
-    },
-    {
-      "ticker": "SRFM",
-      "rec_type": "binary-catalyst",
-      "rationale": "Earnings August 11 (15 days out); improving balance sheet (April debt refinancing, new Chairman) provides some cushion but this remains a small, deeply unprofitable position.",
-      "trigger_value": 15
-    }
-  ],
-  "notes": [
-    "Market was open for regular trading today (Monday, July 27, 2026); today_pct/today_dollars use the official regular-session close vs. Friday 7/24's close.",
-    "No positions changed share count since the weekly-cache snapshot (2026-07-20) - no trims occurred; all size/concentration and gain triggers were recomputed against current market values, not the stale snapshot.",
-    "RSI was refreshed live for all 10 positions via daily-bar technical indicators, but the most recently completed daily bar is Friday 2026-07-24's close - Monday's bar isn't finalized until after today's close, so RSI does not yet reflect today's rally.",
-    "Support/resistance and analyst targets are carried from the weekly-cache snapshot (refreshed 2026-07-20, 7 days old - within the 10-day freshness window) and were not recomputed live today.",
-    "APLD reported FY26 Q4 results after today's close, ahead of its 5pm ET earnings call; the stock was already up ~5% in after-hours trading on top of today's regular-session move, which is not reflected in today_pct/today_dollars.",
-    "NOW's next-earnings date rolled forward to ~2026-10-28 (tentative) after its Q2 beat on 7/22; today's continued rally reflects ongoing re-rating off that beat, not a new catalyst.",
-    "News search was run for today's biggest movers/catalysts (APLD, HIMS, PLTR, NOW); SOFI, SRFM, SERV, MSFT, ORCL, and Z were not searched today as unflagged/stable, per the selective-search rule."
-  ]
-}</script>
-<script type="application/json" id="weekly-cache-json">{
-  "refreshed_date": "2026-07-20",
-  "positions": {
-    "PLTR": {
-      "analyst_target": 190.85,
-      "analyst_target_source": "MarketBeat",
-      "analyst_count": 35,
-      "support": {"s1": 130.01, "s2": 125.58, "s3": 122.48},
-      "resistance": {"r1": 137.54, "r2": 140.64, "r3": 145.07},
-      "rsi": 53.03,
-      "next_earnings": "2026-08-03",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: No insider buying found in recent months; heavy insider selling continues, e.g. Director Alexander D. Moore sold ~16,000 shares on 7/15/2026 (220,000 shares sold over the past year, 0 purchases); overall pattern shows 0 buys vs 52 sells recently.",
-      "snapshot": {"shares": 8.316008, "market_value": 1088.14, "account": "individual"}
-    },
-    "SOFI": {
-      "analyst_target": 22.56,
-      "analyst_target_source": "MarketBeat",
-      "analyst_count": 21,
-      "support": {"s1": 17.05, "s2": 16.78, "s3": 16.35},
-      "resistance": {"r1": 17.76, "r2": 18.19, "r3": 18.46},
-      "rsi": 46.41,
-      "next_earnings": "2026-07-29",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: CEO Anthony Noto has been steadily buying SOFI shares in 2026 (5 purchases totaling ~130,211 shares, ~$2.2M, at prices $15.73-$18.06), while some other officers (Jeremy Rishel, Arun Pinto) had proposed sales; net insider activity over the trailing 90 days was buy-positive (~$749K net buy, all from executives).",
-      "snapshot": {"shares": 59.657355, "market_value": 1037.44, "account": "individual"}
-    },
-    "SRFM": {
-      "analyst_target": 3.08,
-      "analyst_target_source": "MarketBeat (note: wide dispersion across sources for this thinly-covered name — stockanalysis.com cited $5.31 avg/$3.88 median, WallStreetZen $3.63, others $4.52-$7.75)",
-      "analyst_count": 4,
-      "support": {"s1": 0.7106, "s2": 0.6786, "s3": 0.6172},
-      "resistance": {"r1": 0.8040, "r2": 0.8654, "r3": 0.8974},
-      "rsi": 32.59,
-      "next_earnings": "2026-08-11",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: In April 2026, SRFM co-founder, chairman, CEO, CFO and other directors bought ~$5.3M in common stock as part of a $30M capital raise (announced Apr 20, 2026); one notable recent sale was by insider Deanna White (13,860 shares, ~$1.31/share) on Apr 16, 2026 — net insider activity skews toward buying/confidence.",
-      "snapshot": {"shares": 909.090909, "market_value": 681.73, "account": "individual"}
-    },
-    "APLD": {
-      "analyst_target": 70.56,
-      "analyst_target_source": "MarketBeat",
-      "analyst_count": 16,
-      "support": {"s1": 25.48, "s2": 24.53, "s3": 23.24},
-      "resistance": {"r1": 27.73, "r2": 29.02, "r3": 29.97},
-      "rsi": 26.38,
-      "next_earnings": "2026-07-27",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: Insiders have been net sellers in 2026 (e.g., Director Richard Nottenburg sold 25,000 shares for ~$832K in April 2026), with ~$9.0M in insider selling over the trailing 3 months and no offsetting buys reported; most other April transactions were stock conversions/tax-related sales rather than open-market buys.",
-      "snapshot": {"shares": 43.188893, "market_value": 1143.36, "account": "individual"}
-    },
-    "SERV": {
-      "analyst_target": 18.45,
-      "analyst_target_source": "S&P Global",
-      "analyst_count": 8,
-      "support": {"s1": 5.11, "s2": 4.94, "s3": 4.67},
-      "resistance": {"r1": 5.55, "r2": 5.82, "r3": 5.98},
-      "rsi": 27.84,
-      "next_earnings": "2026-08-06",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: On June 11, 2026, CEO Ali Kashani, CFO Brian Read, and President/COO Touraj Parang all sold shares (Kashani's sale ~$115,007 being the largest); Read also sold shares earlier on May 4, 2026. No notable insider buying was found — recent activity is selling only.",
-      "snapshot": {"shares": 264.612953, "market_value": 1365.40, "account": "individual"}
-    },
-    "HIMS": {
-      "analyst_target": 30.14,
-      "analyst_target_source": "TipRanks",
-      "analyst_count": 13,
-      "support": {"s1": 32.27, "s2": 30.87, "s3": 28.15},
-      "resistance": {"r1": 36.39, "r2": 39.11, "r3": 40.51},
-      "rsi": 48.77,
-      "next_earnings": "2026-08-10",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: Mostly insider selling via 10b5-1 plans in 2026 (CFO Okupe ~18k shares @$34 in July, CMO Harrison 23,726 shares @$35 in June, CLO 9,463 shares @$30 in April); one notable buy — Director David Wells purchased 48,400 shares in May 2026.",
-      "snapshot": {"shares": 16.057374, "market_value": 533.10, "account": "individual"}
-    },
-    "NOW": {
-      "analyst_target": 141.64,
-      "analyst_target_source": "S&P Global consensus (via MarketBeat/stockanalysis.com)",
-      "analyst_count": 48,
-      "support": {"s1": 100.26, "s2": 96.51, "s3": 93.71},
-      "resistance": {"r1": 106.81, "r2": 109.61, "r3": 113.36},
-      "rsi": 48.49,
-      "next_earnings": "2026-07-22",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: 2026 insider activity heavily skewed toward selling (~24 sales totaling ~$21M vs. 1 buy of $3M by William R. McDermott on 2/27/2026); most recent transaction was a sale by Chief People & AI Enablement Officer Jacqueline Canney (~$800K) on 4/28/2026, with net insider selling of ~$2.46M over the trailing 90 days.",
-      "snapshot": {"shares": 11.499983, "market_value": 1171.27, "account": "Agentic"}
-    },
-    "MSFT": {
-      "analyst_target": 558.77,
-      "analyst_target_source": "S&P Global",
-      "analyst_count": 56,
-      "support": {"s1": 393.44, "s2": 385.77, "s3": 379.50},
-      "resistance": {"r1": 407.38, "r2": 413.65, "r3": 421.32},
-      "rsi": 51.83,
-      "next_earnings": "2026-07-29",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: Mostly selling recently — exec Judson Althoff sold 15,500 shares (~$7.1M) on June 1, 2026, and overall insiders were net sellers (~$9.5M, 7 transactions, no buys) over the trailing 90 days; one notable buy was director John W. Stanton acquiring 5,000 shares (~$1.99M) on Feb 18, 2026.",
-      "snapshot": {"shares": 1.849964, "market_value": 723.14, "account": "Agentic"}
-    },
-    "ORCL": {
-      "analyst_target": 268.27,
-      "analyst_target_source": "MarketBeat",
-      "analyst_count": 39,
-      "support": {"s1": 121.32, "s2": 118.43, "s3": 113.20},
-      "resistance": {"r1": 129.44, "r2": 134.67, "r3": 137.56},
-      "rsi": 29.21,
-      "next_earnings": "2026-09-08",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: Insider activity over the past 90 days has been all selling, no buying — over $137M in sales, including EVP/Chief Legal Officer Stuart Levey selling 15,000 shares on Apr 20, 2026 and Vice Chairman Jeffrey Henley selling ~$11.7M worth of shares on Jun 24, 2026.",
-      "snapshot": {"shares": 7.673779, "market_value": 967.13, "account": "Agentic"}
-    },
-    "Z": {
-      "analyst_target": 58.33,
-      "analyst_target_source": "S&P Global (via stockanalysis.com)",
-      "analyst_count": 7,
-      "support": {"s1": 33.47, "s2": 32.87, "s3": 32.40},
-      "resistance": {"r1": 34.54, "r2": 35.01, "r3": 35.61},
-      "rsi": 53.29,
-      "next_earnings": "2026-08-05",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: On May 14, 2026, four Zillow (Z) senior executives (CEO Jeremy Wacksman, CTO David Beitel, COO Jun Choo, CAO Jennifer Rock) sold a combined ~$361K in shares (~9,537 shares at ~$37.8-38/share); no notable insider buying was found.",
-      "snapshot": {"shares": 10.188487, "market_value": 347.43, "account": "Agentic"}
-    }
-  },
-  "errors": []
-}</script>
+<script type="application/json" id="daily-data-json">
+{}
+</script>
+<script type="application/json" id="weekly-cache-json">
+{}
+</script>
+<script type="application/json" id="history-json">
+{}
+</script>
 
 <div class="topbar">
   <div class="topbar-inner">
@@ -908,12 +276,28 @@
       <span class="value num" id="bar-today">—</span>
     </div>
     <div class="topbar-metric">
+      <span class="label">vs SPY today</span>
+      <span class="value num small" id="bar-vs-spy">—</span>
+    </div>
+    <div class="topbar-metric">
       <span class="label">Unrealized P/L</span>
-      <span class="value num" id="bar-pl">—</span>
+      <span class="value num small" id="bar-pl">—</span>
+    </div>
+    <div class="topbar-metric">
+      <span class="label">Realized P/L (tracking)</span>
+      <span class="value num small" id="bar-realized">—</span>
+    </div>
+    <div class="topbar-metric">
+      <span class="label">Total return</span>
+      <span class="value num small" id="bar-total-return">—</span>
+    </div>
+    <div class="topbar-metric">
+      <span class="label">Cash</span>
+      <span class="value num small" id="bar-cash">—</span>
     </div>
     <div class="topbar-metric">
       <span class="label">Biggest mover</span>
-      <span class="value num" id="bar-mover">—</span>
+      <span class="value num small" id="bar-mover">—</span>
     </div>
     <span class="topbar-date" id="bar-date">—</span>
   </div>
@@ -945,10 +329,18 @@
 
   var daily = parseJSONBlock("daily-data-json") || {};
   var weekly = parseJSONBlock("weekly-cache-json") || {};
+  var history = parseJSONBlock("history-json") || {};
   var positions = daily.positions || [];
   var totals = daily.totals || {};
-  var recommendations = daily.recommendations || [];
+  var cash = daily.cash || {};
+  var benchmark = daily.benchmark || {};
+  var themes = daily.themes || {};
+  var closedToday = daily.closed_today || [];
+  var recommendations = (daily.recommendations || []).slice().sort(function (a, b) {
+    return (a.severity == null ? 5 : a.severity) - (b.severity == null ? 5 : b.severity);
+  });
   var notes = daily.notes || [];
+  var historyRows = (history && history.rows) || [];
 
   var DISMISS_KEY = "portfolio_dismissals_v1";
   var DISMISS_WINDOW_DAYS = 14;
@@ -972,12 +364,14 @@
     if (recType === "trim") {
       return curTrigger - prevTrigger >= 2;
     }
+    if (recType === "risk-change") {
+      return curTrigger - prevTrigger >= 2;
+    }
     return Math.abs(curTrigger - prevTrigger) >= 2;
   }
 
   function shouldShowRec(rec) {
     var dismissals = loadDismissals();
-    var key = dismissKey(rec);
     var match = null;
     for (var i = 0; i < dismissals.length; i++) {
       if (dismissals[i].ticker === rec.ticker && dismissals[i].rec_type === rec.rec_type) { match = dismissals[i]; break; }
@@ -1008,10 +402,16 @@
     var s = abs.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     return (opts.noSign ? "" : sign) + "$" + s;
   }
-  function fmtPct(n) {
+  function fmtPct(n, opts) {
+    if (typeof n !== "number" || isNaN(n)) return "—";
+    opts = opts || {};
+    var sign = n > 0 ? "+" : n < 0 ? "−" : "";
+    return (opts.noSign ? "" : sign) + Math.abs(n).toFixed(2) + (opts.unit || "%");
+  }
+  function fmtPP(n) {
     if (typeof n !== "number" || isNaN(n)) return "—";
     var sign = n > 0 ? "+" : n < 0 ? "−" : "";
-    return sign + Math.abs(n).toFixed(2) + "%";
+    return sign + Math.abs(n).toFixed(2) + "pp";
   }
   function signClass(n) {
     if (typeof n !== "number" || isNaN(n)) return "neutral";
@@ -1047,17 +447,31 @@
   var todayEl = document.getElementById("bar-today");
   todayEl.textContent = fmtUSD(totals.today_dollars) + "  (" + fmtPct(totals.today_pct) + ")";
   todayEl.className = "value num " + signClass(totals.today_dollars);
+  var vsSpyEl = document.getElementById("bar-vs-spy");
+  if (typeof benchmark.vs_spy_today_pp === "number") {
+    vsSpyEl.textContent = fmtPP(benchmark.vs_spy_today_pp);
+    vsSpyEl.className = "value num small " + signClass(benchmark.vs_spy_today_pp);
+  } else {
+    vsSpyEl.textContent = "benchmark unavailable";
+  }
   var plEl = document.getElementById("bar-pl");
   plEl.textContent = fmtUSD(totals.unrealized_pl) + (typeof totals.unrealized_pl_pct === "number" ? "  (" + fmtPct(totals.unrealized_pl_pct) + ")" : "");
-  plEl.className = "value num " + signClass(totals.unrealized_pl);
+  plEl.className = "value num small " + signClass(totals.unrealized_pl);
+  var realizedEl = document.getElementById("bar-realized");
+  realizedEl.textContent = fmtUSD(totals.realized_pl_since_tracking);
+  realizedEl.className = "value num small " + signClass(totals.realized_pl_since_tracking);
+  var totalReturnEl = document.getElementById("bar-total-return");
+  totalReturnEl.textContent = fmtUSD(totals.total_return);
+  totalReturnEl.className = "value num small " + signClass(totals.total_return);
+  document.getElementById("bar-cash").textContent = fmtUSD(cash.total, { noSign: true });
   var moverEl = document.getElementById("bar-mover");
   if (totals.biggest_mover && totals.biggest_mover.ticker) {
     moverEl.textContent = totals.biggest_mover.ticker + "  " + fmtPct(totals.biggest_mover.today_pct);
-    moverEl.className = "value num " + signClass(totals.biggest_mover.today_pct);
+    moverEl.className = "value num small " + signClass(totals.biggest_mover.today_pct);
   } else {
     moverEl.textContent = "—";
   }
-  document.getElementById("bar-date").textContent = daily.date ? "As of " + daily.date : "";
+  document.getElementById("bar-date").textContent = daily.date ? "Data as of " + daily.date : "";
 
   // ---------- Tabs ----------
   var tabBtns = document.querySelectorAll(".tab-btn");
@@ -1081,21 +495,130 @@
     if (rec.rec_type === "trim") return "Position: " + rec.trigger_value.toFixed(1) + "% of portfolio";
     if (rec.rec_type === "oversold" || rec.rec_type === "overbought") return "RSI " + rec.trigger_value.toFixed(1);
     if (rec.rec_type === "binary-catalyst") return rec.trigger_value + " day(s) to catalyst";
+    if (rec.rec_type === "risk-change") return "Theme weight " + rec.trigger_value.toFixed(1) + "%";
+    if (rec.rec_type === "add-consideration") return rec.trigger_value.toFixed(1) + "% upside to target";
     return "Trigger: " + rec.trigger_value;
   }
   function renderRecCard(rec) {
     var div = document.createElement("div");
     div.className = "card rec-card";
+    var fundableNote = rec.rec_type === "add-consideration" && rec.fundable === false ? " (not fundable from current cash)" : "";
     div.innerHTML =
       '<div class="rec-top">' +
         '<div class="rec-ticker-type"><span class="t">' + esc(rec.ticker) + '</span>' +
         '<span class="tag ' + (rec.rec_type === "oversold" ? "oversold" : rec.rec_type === "overbought" ? "overbought" : rec.rec_type === "binary-catalyst" ? "catalyst" : "risk") + '">' + esc(REC_LABELS[rec.rec_type] || rec.rec_type) + "</span></div>" +
+        (typeof rec.severity === "number" ? '<span class="rec-sev">Severity ' + rec.severity + '</span>' : '') +
       "</div>" +
-      '<div class="rec-rationale">' + esc(rec.rationale) + "</div>" +
+      '<div class="rec-rationale">' + esc(rec.rationale) + esc(fundableNote) + "</div>" +
       '<div class="rec-foot"><span class="trigger-val num">' + esc(triggerLabel(rec)) + '</span>' +
       '<button class="dismiss-btn" type="button">Dismiss</button></div>';
     div.querySelector(".dismiss-btn").addEventListener("click", function () { dismissRec(rec, this); });
     return div;
+  }
+
+  // ---------- Equity curve (inline SVG, built from history.json) ----------
+  function buildEquityCurveSVG() {
+    var wrap = document.createElement("div");
+    wrap.className = "card chart-card";
+    var title = document.createElement("div");
+    title.className = "section-title";
+    title.style.margin = "0 0 12px";
+    title.textContent = "Equity curve vs SPY (since tracking began" + (history.tracking_start_date ? " " + history.tracking_start_date : "") + ")";
+    wrap.appendChild(title);
+
+    if (historyRows.length < 2) {
+      var empty = document.createElement("div");
+      empty.className = "empty-state";
+      empty.textContent = "Equity curve will appear once more daily history has been collected (currently " + historyRows.length + " day" + (historyRows.length === 1 ? "" : "s") + ").";
+      wrap.appendChild(empty);
+      return wrap;
+    }
+
+    var baseEquity = historyRows[0].equity_value;
+    var basePortfolioValue = historyRows[0].portfolio_value;
+    var portfolioSeries = [];
+    var spySeries = [];
+    var spyCum = 0;
+    historyRows.forEach(function (r, i) {
+      var portCum = baseEquity ? ((r.equity_value / baseEquity) - 1) * 100 : 0;
+      if (i === 0) spyCum = 0;
+      else if (typeof r.spy_today_pct === "number") spyCum = ((1 + spyCum / 100) * (1 + r.spy_today_pct / 100) - 1) * 100;
+      portfolioSeries.push(portCum);
+      spySeries.push(spyCum);
+    });
+
+    var W = 900, H = 260, padL = 46, padR = 16, padT = 16, padB = 28;
+    var allVals = portfolioSeries.concat(spySeries);
+    var minV = Math.min.apply(null, allVals.concat([0]));
+    var maxV = Math.max.apply(null, allVals.concat([0]));
+    if (minV === maxV) { minV -= 1; maxV += 1; }
+    var rangePad = (maxV - minV) * 0.08;
+    minV -= rangePad; maxV += rangePad;
+
+    function x(i) { return padL + (i / (historyRows.length - 1)) * (W - padL - padR); }
+    function y(v) { return H - padB - ((v - minV) / (maxV - minV)) * (H - padT - padB); }
+
+    function pathFor(series) {
+      return series.map(function (v, i) { return (i === 0 ? "M" : "L") + x(i).toFixed(1) + "," + y(v).toFixed(1); }).join(" ");
+    }
+
+    var zeroY = y(0).toFixed(1);
+    var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Equity curve vs SPY">' +
+      '<line x1="' + padL + '" y1="' + zeroY + '" x2="' + (W - padR) + '" y2="' + zeroY + '" stroke="currentColor" stroke-opacity="0.15" stroke-width="1" />' +
+      '<text x="6" y="' + (Number(zeroY) + 4) + '" font-size="10" fill="currentColor" fill-opacity="0.5">0%</text>' +
+      '<text x="6" y="' + (padT + 8) + '" font-size="10" fill="currentColor" fill-opacity="0.5">' + maxV.toFixed(1) + '%</text>' +
+      '<text x="6" y="' + (H - padB) + '" font-size="10" fill="currentColor" fill-opacity="0.5">' + minV.toFixed(1) + '%</text>' +
+      '<path d="' + pathFor(spySeries) + '" fill="none" stroke="var(--text-faint)" stroke-width="2" stroke-dasharray="4 3" />' +
+      '<path d="' + pathFor(portfolioSeries) + '" fill="none" stroke="var(--accent)" stroke-width="2.5" />' +
+      '<text x="' + (W - padR) + '" y="' + (H - 8) + '" font-size="10" fill="currentColor" fill-opacity="0.5" text-anchor="end">' + esc(historyRows[historyRows.length - 1].date || "") + '</text>' +
+      '<text x="' + padL + '" y="' + (H - 8) + '" font-size="10" fill="currentColor" fill-opacity="0.5">' + esc(historyRows[0].date || "") + '</text>' +
+      '</svg>';
+
+    var legend = document.createElement("div");
+    legend.className = "chart-legend";
+    var lastPort = portfolioSeries[portfolioSeries.length - 1];
+    var lastSpy = spySeries[spySeries.length - 1];
+    legend.innerHTML =
+      '<span><span class="swatch" style="background:var(--accent)"></span>Portfolio ' + fmtPct(lastPort) + '</span>' +
+      '<span><span class="swatch" style="background:var(--text-faint)"></span>SPY ' + fmtPct(lastSpy) + '</span>';
+    wrap.appendChild(legend);
+
+    var svgWrap = document.createElement("div");
+    svgWrap.innerHTML = svg;
+    wrap.appendChild(svgWrap);
+
+    var caption = document.createElement("div");
+    caption.className = "chart-caption";
+    caption.textContent = "Cumulative % return, rebased to 0% at tracking start. Not a benchmark for any period before tracking began.";
+    wrap.appendChild(caption);
+
+    return wrap;
+  }
+
+  // ---------- Theme exposure ----------
+  function buildThemeExposure() {
+    var wrap = document.createElement("div");
+    wrap.className = "card";
+    wrap.style.padding = "18px";
+    var keys = Object.keys(themes);
+    if (!keys.length) {
+      wrap.innerHTML = '<div class="empty-state">No theme data available.</div>';
+      return wrap;
+    }
+    keys.sort(function (a, b) { return (themes[b].weight_pct || 0) - (themes[a].weight_pct || 0); });
+    var maxPct = Math.max.apply(null, keys.map(function (k) { return themes[k].weight_pct || 0; }));
+    keys.forEach(function (k) {
+      var t = themes[k];
+      var row = document.createElement("div");
+      row.className = "theme-row" + ((t.weight_pct || 0) > 40 ? " over-40" : "");
+      row.innerHTML =
+        '<span class="theme-name">' + esc(k) + (( t.weight_pct || 0) > 40 ? ' <span class="detail-flag warn">&gt;40%</span>' : '') + '</span>' +
+        '<span class="theme-bar-track"><span class="theme-bar-fill" style="width:' + (maxPct ? (100 * (t.weight_pct || 0) / Math.max(maxPct, 40)) : 0) + '%"></span></span>' +
+        '<span class="theme-pct num">' + (typeof t.weight_pct === "number" ? t.weight_pct.toFixed(1) + "%" : "—") + '</span>' +
+        '<span class="theme-move num ' + signClass(t.today_pct) + '">' + fmtPct(t.today_pct) + '</span>';
+      wrap.appendChild(row);
+    });
+    return wrap;
   }
 
   // ---------- Overview tab ----------
@@ -1111,6 +634,15 @@
     t1.textContent = "Snapshot";
     frag.appendChild(t1);
 
+    var strip = document.createElement("div");
+    strip.className = "totals-strip";
+    strip.innerHTML =
+      '<span class="pill">Realized P/L today: <b class="' + signClass(totals.realized_pl_today) + '">' + fmtUSD(totals.realized_pl_today) + '</b></span>' +
+      '<span class="pill">Realized P/L YTD: <b class="' + signClass(totals.realized_pl_ytd) + '">' + fmtUSD(totals.realized_pl_ytd) + '</b></span>' +
+      '<span class="pill">Buying power: <b>' + fmtUSD(cash.buying_power_total, { noSign: true }) + '</b></span>' +
+      '<span class="pill">vs QQQ today: <b class="' + signClass(benchmark.vs_qqq_today_pp) + '">' + fmtPP(benchmark.vs_qqq_today_pp) + '</b></span>';
+    frag.appendChild(strip);
+
     var grid = document.createElement("div");
     grid.className = "grid-4";
     function hi(kicker, name, detail, cls) {
@@ -1125,6 +657,34 @@
     var riskChange = recommendations.filter(function (r) { return r.rec_type === "risk-change"; })[0];
     if (riskChange) grid.appendChild(hi("Risk-profile change", riskChange.ticker, riskChange.rationale, ""));
     frag.appendChild(grid);
+
+    if (closedToday.length) {
+      var tClosed = document.createElement("div");
+      tClosed.className = "section-title";
+      tClosed.textContent = "Closed today";
+      frag.appendChild(tClosed);
+      closedToday.forEach(function (c) {
+        var card = document.createElement("div");
+        card.className = "card closed-card";
+        card.innerHTML =
+          '<div><span class="t">' + esc(c.ticker) + '</span> <span class="meta">' + (typeof c.shares === "number" ? c.shares.toLocaleString("en-US", { maximumFractionDigits: 4 }) : "—") + ' sh @ ' + fmtUSD(c.avg_sale_price, { noSign: true }) + '</span></div>' +
+          '<div class="num ' + signClass(c.realized_pl) + '">' + fmtUSD(c.realized_pl) + (typeof c.realized_pl_pct === "number" ? " (" + fmtPct(c.realized_pl_pct) + ")" : "") + '</div>' +
+          '<div class="meta">Held ' + (c.holding_period_days != null ? c.holding_period_days + " days" : "—") + '</div>';
+        frag.appendChild(card);
+      });
+    }
+
+    var t3 = document.createElement("div");
+    t3.className = "section-title";
+    t3.textContent = "Theme exposure";
+    frag.appendChild(t3);
+    frag.appendChild(buildThemeExposure());
+
+    var t4 = document.createElement("div");
+    t4.className = "section-title";
+    t4.textContent = "Equity curve";
+    frag.appendChild(t4);
+    frag.appendChild(buildEquityCurveSVG());
 
     var t2 = document.createElement("div");
     t2.className = "section-title";
@@ -1202,9 +762,9 @@
     head.type = "button";
     head.className = "position-head";
     head.innerHTML =
-      '<span class="pos-ticker">' + esc(p.ticker) + '</span>' +
+      '<span class="pos-ticker">' + esc(p.ticker) + (p.theme ? '<span class="theme-tag">' + esc(p.theme) + '</span>' : '') + '</span>' +
       '<span class="pos-price-block"><span class="cur num">' + fmtUSD(p.current_price, { noSign: true }) + '</span><span class="cost num">cost ' + fmtUSD(p.avg_cost_per_share, { noSign: true }) + '</span></span>' +
-      '<span class="pos-target-block"><span class="lbl">12mo target</span><span class="val num">' + (typeof p.analyst_target === "number" ? fmtUSD(p.analyst_target, { noSign: true }) : esc(p.analyst_target || "no consensus available")) + '</span></span>' +
+      '<span class="pos-target-block pos-theme-block"><span class="lbl">12mo target</span><span class="val num">' + (typeof p.analyst_target === "number" ? fmtUSD(p.analyst_target, { noSign: true }) : esc(p.analyst_target || "no consensus available")) + '</span></span>' +
       '<span class="pos-mv-block"><span class="mv num">' + fmtUSD(p.market_value, { noSign: true }) + '</span><span class="shares num">' + (p.shares != null ? Number(p.shares).toLocaleString("en-US", { maximumFractionDigits: 2 }) : "—") + ' sh</span></span>' +
       '<span class="pos-chip ' + signClass(p.today_pct) + '">' + fmtPct(p.today_pct) + '</span>' +
       '<span class="chevron">▸</span>';
@@ -1215,17 +775,20 @@
     detail.className = "position-detail";
     var supportLv = fmtLevels(p.support, ["s1", "s2", "s3"]);
     var resistanceLv = fmtLevels(p.resistance, ["r1", "r2", "r3"]);
+    var staleFlag = p.levels_stale ? '<span class="detail-flag warn">Stale</span>' : "";
+    var earningsFlag = p.next_earnings ? (p.earnings_confirmed ? '' : '<span class="detail-flag warn">Estimated</span>') : "";
     var newsHtml = (p.news && p.news.length)
       ? '<ul class="news-list">' + p.news.map(renderNewsItem).join("") + "</ul>"
       : '<div class="no-news">No recent news captured for this position.</div>';
     detail.innerHTML =
       '<div class="detail-grid">' +
-        '<div class="detail-item"><div class="lbl">Support</div><div class="val num">' + supportLv.main + '</div>' + (supportLv.sub ? '<div class="val-sub num">' + supportLv.sub + '</div>' : '') + '</div>' +
-        '<div class="detail-item"><div class="lbl">Resistance</div><div class="val num">' + resistanceLv.main + '</div>' + (resistanceLv.sub ? '<div class="val-sub num">' + resistanceLv.sub + '</div>' : '') + '</div>' +
-        '<div class="detail-item"><div class="lbl">RSI</div><div class="val num">' + (typeof p.rsi === "number" ? p.rsi.toFixed(1) : "—") + rsiFlag + '</div></div>' +
-        '<div class="detail-item"><div class="lbl">Next earnings</div><div class="val">' + esc(p.next_earnings || "—") + '</div></div>' +
+        '<div class="detail-item"><div class="lbl">Support</div><div class="val num">' + supportLv.main + staleFlag + '</div>' + (supportLv.sub ? '<div class="val-sub num">' + supportLv.sub + '</div>' : '') + '</div>' +
+        '<div class="detail-item"><div class="lbl">Resistance</div><div class="val num">' + resistanceLv.main + staleFlag + '</div>' + (resistanceLv.sub ? '<div class="val-sub num">' + resistanceLv.sub + '</div>' : '') + '</div>' +
+        '<div class="detail-item"><div class="lbl">RSI</div><div class="val num">' + (typeof p.rsi === "number" ? p.rsi.toFixed(1) : "—") + rsiFlag + '</div><div class="val-sub">as of ' + esc(p.rsi_as_of || "—") + '</div></div>' +
+        '<div class="detail-item"><div class="lbl">Next earnings</div><div class="val">' + esc(p.next_earnings || "—") + earningsFlag + '</div></div>' +
         '<div class="detail-item"><div class="lbl">Unrealized P/L</div><div class="val num ' + signClass(p.unrealized_pl) + '">' + fmtUSD(p.unrealized_pl) + (typeof p.unrealized_pl_pct === "number" ? " (" + fmtPct(p.unrealized_pl_pct) + ")" : "") + '</div></div>' +
-        '<div class="detail-item"><div class="lbl">Portfolio weight</div><div class="val num">' + (typeof p.portfolio_weight_pct === "number" ? p.portfolio_weight_pct.toFixed(1) + "%" : "—") + '</div></div>' +
+        '<div class="detail-item"><div class="lbl">Portfolio weight</div><div class="val num">' + (typeof p.portfolio_weight_pct === "number" ? p.portfolio_weight_pct.toFixed(1) + "%" : "—") + '</div><div class="val-sub">' + (typeof p.weight_incl_cash_pct === "number" ? p.weight_incl_cash_pct.toFixed(1) + "% incl. cash" : "") + '</div></div>' +
+        '<div class="detail-item full"><div class="lbl">Insider notes</div><div class="val" style="font-weight:400;font-size:12.5px;color:var(--text-dim);">' + esc(p.insider_notes || "None found") + '</div></div>' +
       "</div>" + newsHtml;
     card.appendChild(detail);
     return card;
@@ -1244,7 +807,7 @@
     if (!withNews.length) {
       var empty = document.createElement("div");
       empty.className = "empty-state";
-      empty.textContent = "No positions triggered a news search today (nothing moved >3%, no near-term earnings, no active flags).";
+      empty.textContent = "No positions triggered a news search today.";
       el.appendChild(empty);
       return;
     }
@@ -1253,7 +816,11 @@
       var tags = [];
       if (typeof p.rsi === "number" && p.rsi < 30) tags.push('<span class="tag oversold">Oversold RSI ' + p.rsi.toFixed(1) + '</span>');
       if (typeof p.rsi === "number" && p.rsi > 70) tags.push('<span class="tag overbought">Overbought RSI ' + p.rsi.toFixed(1) + '</span>');
-      if (p.next_earnings) tags.push('<span class="tag catalyst">Earnings ' + esc(p.next_earnings) + '</span>');
+      if (p.next_earnings) {
+        var daysOut = Math.round((new Date(p.next_earnings) - new Date(daily.date)) / 86400000);
+        if (daysOut >= 0 && daysOut <= 30) tags.push('<span class="tag catalyst">Earnings ' + esc(p.next_earnings) + ' (' + daysOut + 'd)</span>');
+      }
+      if (p.insider_notes) tags.push('<span class="tag insider">Insider activity (best-effort search, not verified SEC filings)</span>');
       var rec = recommendations.filter(function (r) { return r.ticker === p.ticker; })[0];
       if (rec && rec.rec_type === "risk-change") tags.push('<span class="tag risk">Risk change</span>');
       if (rec && (rec.rec_type === "trim")) tags.push('<span class="tag risk">Trim flag</span>');
@@ -1266,7 +833,6 @@
         '<div class="feed-body">' +
           '<div class="feed-tags">' + tags.join("") + '</div>' +
           '<ul class="news-list">' + p.news.map(renderNewsItem).join("") + '</ul>' +
-          '<div class="feed-meta">Insider notes, where present, are best-effort search results, not verified SEC filings.</div>' +
         '</div>';
       el.appendChild(item);
     });
