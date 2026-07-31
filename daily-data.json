@@ -23,20 +23,20 @@
       "support": {"s1": 121.21, "s2": 119.41, "s3": 116.38},
       "resistance": {"r1": 126.04, "r2": 129.07, "r3": 130.87},
       "levels_stale": false,
-      "rsi": 43.29,
+      "rsi": 43.48,
       "rsi_as_of": "2026-07-30",
       "next_earnings": "2026-08-03",
       "earnings_confirmed": true,
       "news": [
         {
-          "headline": "Stock trading near $122, about 40% off highs amid a broader SaaS/AI sell-off heading into the Aug 3 print",
-          "why_it_matters": "With shares still near 130-150x trailing earnings, this pullback raises the stakes for next week's earnings — any guidance miss or beat now carries outsized weight for a multi-year holder.",
+          "headline": "Citi cut its PLTR price target to $200 from $225 on July 24, while Oppenheimer reiterated Outperform at $200; stock still down ~6% this week and caught in a broader AI/SaaS valuation repricing rather than any company-specific news.",
+          "why_it_matters": "Even after the trim, both targets imply 60%+ upside from ~$122, suggesting Wall Street still sees the selloff as valuation-driven rather than a deterioration in the business heading into Aug 3 earnings.",
           "sentiment": "neutral"
         },
         {
-          "headline": "Analyst consensus remains constructive: ~$200 median 12-month target (about 61% upside) across 35 analysts, following eight straight quarterly beats",
-          "why_it_matters": "Sustained sell-side confidence and a strong beat track record support staying the course into earnings despite the stretched valuation.",
-          "sentiment": "good"
+          "headline": "No fresh PLTR-specific catalyst emerged in the last 24-48 hours; the ongoing pullback is attributed to a sector-wide AI/software repricing (high trailing P/E near 144x, sub-1% FCF yield) ahead of the Aug 3 earnings report.",
+          "why_it_matters": "For a multi-month holder, this looks like macro/sector rotation risk rather than a fundamental red flag, keeping the earnings print as the key near-term event to watch.",
+          "sentiment": "neutral"
         }
       ]
     },
@@ -61,19 +61,19 @@
       "support": {"s1": 14.83, "s2": 14.41, "s3": 13.94},
       "resistance": {"r1": 15.72, "r2": 16.19, "r3": 16.61},
       "levels_stale": true,
-      "rsi": 34.57,
+      "rsi": 34.54,
       "rsi_as_of": "2026-07-30",
       "next_earnings": "2026-10-27",
       "earnings_confirmed": false,
       "news": [
         {
-          "headline": "Q2 beat on EPS ($0.12 vs $0.11) and revenue, with 35% member growth, but FY26 guidance was left roughly unchanged — shares fell ~9% intraday on the initial reaction",
-          "why_it_matters": "The 'sell-the-news' drop shows the market wants proof that fast member growth converts into durable earnings leverage, the key debate for a multi-year holder.",
-          "sentiment": "bad"
+          "headline": "Goldman Sachs raised its SOFI price target to $21 from $17 and Truist lifted its target to $18 from $17 (Hold) following the Q2 beat and 35% member growth.",
+          "why_it_matters": "Multiple sell-side upward revisions post-earnings reinforce that the growth story remains intact despite the initial post-earnings dip, supportive for a longer-term thesis.",
+          "sentiment": "good"
         },
         {
-          "headline": "Shares recovered most of the post-earnings drop, rebounding ~8% to close near $16.45",
-          "why_it_matters": "The quick bounce suggests the initial selloff was overdone and the underlying growth thesis (record originations, membership, raised outlook) is being reassessed more constructively.",
+          "headline": "Shares whipsawed post-earnings — fell as much as ~9% in the immediate reaction before rebounding roughly 7-8% on July 30 as the stock found support and fintech names broadly outperformed.",
+          "why_it_matters": "The sharp round-trip signals the initial post-earnings drop was largely sentiment/positioning-driven rather than a fundamental problem, consistent with an oversold bounce for patient holders.",
           "sentiment": "good"
         }
       ]
@@ -99,22 +99,11 @@
       "support": {"s1": 0.6761, "s2": 0.6495, "s3": 0.6091},
       "resistance": {"r1": 0.7431, "r2": 0.7835, "r3": 0.8101},
       "levels_stale": true,
-      "rsi": 32.87,
+      "rsi": 33.73,
       "rsi_as_of": "2026-07-30",
       "next_earnings": "2026-08-10",
       "earnings_confirmed": true,
-      "news": [
-        {
-          "headline": "No major new headline since the July 24 NYSE minimum-price non-compliance notice; company continues signing SurfOS software deals (e.g., Wheels Up as a BrokerOS launch customer) and cut convertible debt from ~$47M to ~$16.9M via refinancing",
-          "why_it_matters": "Incremental execution/balance-sheet progress is a positive for the survival thesis, but doesn't change the core near-term catalyst calendar — the reverse-split decision and the Aug 10 earnings print remain what a position trader should watch.",
-          "sentiment": "neutral"
-        },
-        {
-          "headline": "Existing analyst coverage still carries a Buy rating with a price target well above the sub-$1 share price",
-          "why_it_matters": "The large target-to-price gap underscores why the board approved a reverse split — a reminder of dilution/structural risk rather than a fresh catalyst.",
-          "sentiment": "neutral"
-        }
-      ]
+      "news": []
     },
     {
       "ticker": "APLD",
@@ -137,24 +126,19 @@
       "support": {"s1": 21.76, "s2": 20.31, "s3": 17.68},
       "resistance": {"r1": 25.84, "r2": 28.47, "r3": 29.92},
       "levels_stale": true,
-      "rsi": 42.64,
+      "rsi": 42.73,
       "rsi_as_of": "2026-07-30",
       "next_earnings": "2026-10-08",
       "earnings_confirmed": false,
       "news": [
         {
-          "headline": "Analysts flagged that total debt rose to ~$5B (from ~$2.7B last quarter, tied to $2.15B in Polaris Forge 2 notes) and that one-time tenant fit-out fees inflated the fiscal Q4 beat, driving a ~13% single-day drop on July 29 despite the headline beat",
-          "why_it_matters": "For a multi-year holder, debt-funded buildout speed — not the headline revenue beat — is the real risk to track; execution on lease ramp-up will determine whether the balance sheet stays sound.",
-          "sentiment": "bad"
+          "headline": "APLD shares extended their rebound Thursday, jumping as much as ~19% intraday and pushing further in after-hours trading, as Microsoft's strong cloud/capex report reinforced demand for third-party AI hosting capacity — erasing most of Tuesday's post-earnings 12.8% drop.",
+          "why_it_matters": "For a multi-year holder this signals the market is quickly refocusing on AI infrastructure demand tailwinds rather than the debt-load concerns that drove the initial selloff, though the swing shows the stock remains highly volatile around sector sentiment.",
+          "sentiment": "good"
         },
         {
-          "headline": "Over 80% of contracted capacity is leased to a single hyperscaler customer, per analyst commentary on the Q4 call",
-          "why_it_matters": "Customer concentration is a structural risk worth monitoring over the life of the position, even with a ~$36.2B contracted backlog underpinning the long-term bull case.",
-          "sentiment": "neutral"
-        },
-        {
-          "headline": "CEO Wes Cummins told analysts APLD expects to reach a $1B annualized net operating income run rate within roughly a year",
-          "why_it_matters": "A concrete, dated profitability milestone gives a long-term holder something specific to check progress against in coming quarters.",
+          "headline": "Alongside earnings, APLD disclosed a $20B order backlog and $36B in total contracted lease value (up 125% YoY), and said it is building five new multibillion-dollar AI Factory campuses for two hyperscalers plus CoreWeave — adding named customers beyond its dominant hyperscaler tenant.",
+          "why_it_matters": "Diversifying beyond the ~80%-concentrated single hyperscaler customer reduces long-term counterparty risk and supports the case for durable multi-year revenue growth even if leverage remains a near-term overhang.",
           "sentiment": "good"
         }
       ]
@@ -180,22 +164,11 @@
       "support": {"s1": 4.22, "s2": 4.08, "s3": 3.83},
       "resistance": {"r1": 4.61, "r2": 4.86, "r3": 5.0},
       "levels_stale": true,
-      "rsi": 23.82,
+      "rsi": 24.19,
       "rsi_as_of": "2026-07-30",
       "next_earnings": "2026-08-06",
       "earnings_confirmed": true,
-      "news": [
-        {
-          "headline": "No fresh company-specific catalyst beyond today's broad AI-infrastructure rally and the confirmed Aug 6 earnings date; the board added a new independent director (Andreas Lieber) in late June",
-          "why_it_matters": "Minor governance/product updates don't change the thesis — the Aug 6 print is the real near-term test for this deeply-discounted, cash-burning position.",
-          "sentiment": "neutral"
-        },
-        {
-          "headline": "Analyst consensus remains a Buy with an average 12-month target near $18.45 (range $7-$27)",
-          "why_it_matters": "The wide target dispersion reflects genuine uncertainty around the cash-burn/growth-stage story already known to the holder.",
-          "sentiment": "neutral"
-        }
-      ]
+      "news": []
     },
     {
       "ticker": "NOW",
@@ -218,19 +191,14 @@
       "support": {"s1": 110.72, "s2": 105.68, "s3": 101.86},
       "resistance": {"r1": 119.58, "r2": 123.4, "r3": 128.44},
       "levels_stale": true,
-      "rsi": 62.25,
+      "rsi": 62.09,
       "rsi_as_of": "2026-07-30",
       "next_earnings": "2026-10-28",
       "earnings_confirmed": false,
       "news": [
         {
-          "headline": "ServiceNow confirmed a global restructuring cutting a low-single-digit percentage of headcount in 2026, tied partly to AI-driven efficiency and recent acquisition integration",
-          "why_it_matters": "Layoffs alongside a strong Q2 beat suggest management is defending margins while investing in AI — a normal maturation step to watch rather than a standalone red flag.",
-          "sentiment": "bad"
-        },
-        {
-          "headline": "At least one sell-side analyst called this week's post-earnings pullback likely short-term/rotation-driven rather than a valuation reset; 28 of 31 analysts still rate the stock Buy/Strong Buy",
-          "why_it_matters": "Reinforces that today's -4.9% move looks like sector rotation noise rather than a change to the long-term AI-monetization thesis (RPO ~$29B, AI contract value over $1B).",
+          "headline": "NOW shares traded in a wide $108.75-$118.36 range on 7/30 on above-average volume (~40M vs ~30.5M avg); at least one analyst reiterated a bullish long-term call arguing the post-earnings/restructuring pullback is overdone given AI platform momentum.",
+          "why_it_matters": "The elevated volume and volatility suggest the market is still digesting the Q2 beat versus the restructuring news, but continued analyst conviction (28 of 31 Buy/Strong Buy) supports the long-term thesis for a position trader willing to look past near-term sector rotation.",
           "sentiment": "neutral"
         }
       ]
@@ -256,25 +224,20 @@
       "support": {"s1": 385.77, "s2": 381.0, "s3": 373.26},
       "resistance": {"r1": 398.28, "r2": 406.02, "r3": 410.79},
       "levels_stale": true,
-      "rsi": 49.99,
+      "rsi": 50.24,
       "rsi_as_of": "2026-07-30",
       "next_earnings": "2026-10-28",
       "earnings_confirmed": false,
       "news": [
         {
-          "headline": "FY26 Q4 results beat with $90.0B revenue (+18% YoY) and $4.74 EPS vs $4.24 est.; Azure crossed $75B in trailing-twelve-month revenue and accelerated to 43% growth",
-          "why_it_matters": "Confirms the AI/cloud capex bet is converting into real revenue growth — the core thesis for holding MSFT over a multi-year horizon.",
+          "headline": "Microsoft's stock jumped 15.6% on July 30 post-earnings, adding roughly $450B in market cap in a single session — the largest one-day market-value gain in stock market history.",
+          "why_it_matters": "Confirms strong multi-year conviction in the Azure/AI growth story is already being priced in aggressively, so a long-term holder should watch for post-rally volatility rather than treat the move as a new entry signal.",
           "sentiment": "good"
         },
         {
-          "headline": "Market cap briefly topped $4 trillion post-earnings before settling back; Wedbush raised its price target to $625 from $600",
-          "why_it_matters": "Continued institutional conviction in the AI monetization story, though the partial giveback shows the historic single-day move is still being tested for durability.",
-          "sentiment": "good"
-        },
-        {
-          "headline": "A securities class action was filed July 19, 2026 alleging misleading statements about Copilot performance and AI capex ahead of the stock's prior pullback",
-          "why_it_matters": "Litigation risk worth noting for a multi-year holder, though unlikely to be financially material at Microsoft's scale.",
-          "sentiment": "bad"
+          "headline": "The securities class action filed 2026-07-19 over Copilot/AI capex disclosures now has a lead-plaintiff deadline of August 11, 2026, with multiple law firms issuing investor-deadline reminders.",
+          "why_it_matters": "The litigation is proceeding on a normal procedural timeline (not escalating in severity) and is unlikely to materially affect fundamentals over a multi-year holding period, but it's worth monitoring past the August 11 lead-plaintiff milestone.",
+          "sentiment": "neutral"
         }
       ]
     },
@@ -299,22 +262,11 @@
       "support": {"s1": 115.32, "s2": 112.9, "s3": 109.6},
       "resistance": {"r1": 121.04, "r2": 124.34, "r3": 126.76},
       "levels_stale": true,
-      "rsi": 31.04,
+      "rsi": 31.83,
       "rsi_as_of": "2026-07-30",
       "next_earnings": "2026-09-08",
       "earnings_confirmed": false,
-      "news": [
-        {
-          "headline": "Data providers now disagree on Oracle's next earnings date — estimates range from Sept 8 to Sept 14, 2026 — and the date is now flagged unconfirmed, a change from the prior update; no official press release found",
-          "why_it_matters": "Treat early-to-mid September as the actionable planning window rather than a fixed date until Oracle formally announces; this is a downgrade in date certainty from the last update.",
-          "sentiment": "neutral"
-        },
-        {
-          "headline": "No material new negative catalysts found beyond the already-known Gemini/Fusion Apps partnership and the broader Microsoft-driven cloud/AI rally that drove Thursday's ~8% gain",
-          "why_it_matters": "The rally looks like a fundamentals-driven re-rating rather than a one-day spike, supportive of the long-horizon position.",
-          "sentiment": "good"
-        }
-      ]
+      "news": []
     },
     {
       "ticker": "Z",
@@ -337,25 +289,15 @@
       "support": {"s1": 32.4, "s2": 30.8, "s3": 29.6},
       "resistance": {"r1": 35.2, "r2": 36.4, "r3": 38.0},
       "levels_stale": false,
-      "rsi": 55.03,
+      "rsi": 55.55,
       "rsi_as_of": "2026-07-30",
       "next_earnings": "2026-08-05",
       "earnings_confirmed": true,
       "news": [
         {
-          "headline": "Jefferies cut its price target to $60 from $75 while maintaining a Buy rating",
-          "why_it_matters": "A reduced target from a bullish analyst suggests even supporters are tempering near-term growth/margin assumptions — worth weighing against the existing thesis.",
-          "sentiment": "bad"
-        },
-        {
-          "headline": "A federal judge denied the FTC's request to declare the Zillow-Redfin rental-listings deal 'presumptively unlawful' ahead of trial, sending the market-definition and legality questions to the Aug 24 trial",
-          "why_it_matters": "Removes a worst-case pre-trial loss but doesn't reduce the underlying antitrust risk — the trial itself is still on for Aug 24.",
-          "sentiment": "neutral"
-        },
-        {
-          "headline": "Zillow's own data reaffirmed the bifurcated housing market: starter-home inventory up ~4.5% YoY while starter-home sales fell 5.4% YoY, versus tight luxury supply",
-          "why_it_matters": "Reinforces the structural headwind in Zillow's core starter-home transaction volume, a multi-quarter demand risk rather than a one-day catalyst.",
-          "sentiment": "neutral"
+          "headline": "A federal judge dismissed the separate Taylor v. Zillow RESPA/RICO class action (over the Flex agent-referral program) on July 28, 2026, calling the claims 'implausible'; plaintiffs have until Aug 17 to amend.",
+          "why_it_matters": "Removes another legal overhang on Zillow's core Premier Agent/Flex revenue model just weeks ahead of the higher-stakes FTC-Redfin antitrust trial, modestly de-risking the legal picture for long-term holders.",
+          "sentiment": "good"
         }
       ]
     }
@@ -412,28 +354,28 @@
     {
       "ticker": "SRFM",
       "rec_type": "risk-change",
-      "rationale": "NYSE issued a non-compliance notice on July 24 for trading below the $1.00 minimum average closing price; a board-approved reverse-split backstop is in place with a 6-month cure window, heading into the Aug 10 earnings print.",
+      "rationale": "NYSE issued a non-compliance notice on July 24 for trading below the $1.00 minimum average closing price; a board-approved reverse-split backstop is in place with a 6-month cure window, heading into the Aug 10 earnings print. No update to the compliance situation in the last 24-48 hours.",
       "trigger_value": 0.755,
       "severity": 2
     },
     {
       "ticker": "SERV",
       "rec_type": "oversold",
-      "rationale": "RSI(14) is 23.82 on today's finalized bar (fresh, not stale) despite the +9.8% bounce — deeply oversold heading into the confirmed Aug 6 earnings print for this cash-burning, deeply-discounted position.",
-      "trigger_value": 23.82,
+      "rationale": "RSI(14) is 24.19 on today's finalized bar (fresh, not stale) despite the +9.8% bounce — deeply oversold heading into the confirmed Aug 6 earnings print for this cash-burning, deeply-discounted position.",
+      "trigger_value": 24.19,
       "severity": 3
     },
     {
       "ticker": "PLTR",
       "rec_type": "binary-catalyst",
-      "rationale": "Earnings Aug 3 (confirmed), 4 days out; stock trades near $122 against a stretched 130-150x trailing P/E, raising the stakes for any guidance miss.",
+      "rationale": "Earnings Aug 3 (confirmed), 4 days out; stock trades near $122 against a stretched ~144x trailing P/E, raising the stakes for any guidance miss. Citi trimmed its target to $200 (from $225) this week on valuation, though both remaining sell-side targets still imply well over 50% upside.",
       "trigger_value": 4,
       "severity": 3
     },
     {
       "ticker": "Z",
       "rec_type": "binary-catalyst",
-      "rationale": "Earnings Aug 5 (confirmed), 6 days out; a reduced Jefferies price target and the Chicago-MLS listings dispute add fresh headwinds on top of existing Redfin-related litigation ahead of the Aug 10 lead-plaintiff deadline and Aug 24 FTC trial.",
+      "rationale": "Earnings Aug 5 (confirmed), 6 days out; a reduced Jefferies price target and prior Chicago-MLS listings dispute remain headwinds, though a separate RESPA/RICO suit was just dismissed (July 28), modestly de-risking the legal picture ahead of the Aug 24 FTC-Redfin trial.",
       "trigger_value": 6,
       "severity": 4
     },
@@ -454,23 +396,21 @@
     {
       "ticker": "APLD",
       "rec_type": "add-consideration",
-      "rationale": "At $27.97, shares offer ~162% upside to the weekly-cache analyst target of $73.32 (equivalently, a ~62% discount to that target); this week's fiscal Q4 print beat badly on revenue but analysts flagged rising debt (~$5B) as the key risk to weigh. Support/resistance levels are flagged stale (price has broken through r1), so don't size any add off them. Not fundable from current cash — buying power is $0.05 despite $432.70 of nominal cash sitting in a margin account with no available margin.",
+      "rationale": "At $27.97, shares offer ~162% upside to the weekly-cache analyst target of $73.32 (equivalently, a ~62% discount to that target); this week's fiscal Q4 print beat badly on revenue and disclosed a $36B contracted lease value (+125% YoY) with new hyperscaler/CoreWeave capacity deals diversifying customer concentration, though rising debt (~$5B) remains the key risk. Support/resistance levels are flagged stale (price has broken through r1), so don't size any add off them. Not fundable from current cash — buying power is $0.05 despite $432.70 of nominal cash sitting in a margin account with no available margin.",
       "trigger_value": 162.1,
       "severity": 5,
       "fundable": false
     }
   ],
   "notes": [
-    "This scheduled run fired late Thursday evening (2026-07-31 UTC / 2026-07-30 8:45pm US/Eastern) — the US market was already closed for the day and Friday's session had not yet opened. All fetched quotes, positions, cash, and realized P/L exactly matched the already-recorded 2026-07-30 close, confirming no new trading day had occurred. This run is treated as a same-day re-run: the 2026-07-30 row is updated in place rather than creating a spurious 2026-07-31 row off stale July-30 closing prices.",
-    "RSI now reflects today's (2026-07-30) finalized daily bar for all nine positions — fresher than the earlier same-day run, which was computed before the close and still reflected 7/29's bar. No RSI suppression was needed this run.",
+    "This scheduled run fired late Thursday evening (2026-07-31 UTC / 2026-07-30 ~9:00pm US/Eastern) — the US market was already closed for the regular session and Friday's session had not yet opened. All fetched quotes, positions, cash, and realized P/L exactly matched the already-recorded 2026-07-30 close (verified by cross-checking get_portfolio equity value reconstructed from after-hours quotes against regular-session-close-derived totals, which tie out to the penny). This run is treated as a same-day re-run: the 2026-07-30 row is updated in place rather than creating a spurious 2026-07-31 row off stale pre-market data.",
+    "RSI reflects today's (2026-07-30) finalized daily bar for all nine positions, refreshed live this run (minor decimal drift vs. the earlier same-day run is expected/immaterial). No RSI suppression was needed — no bar staleness, and rsi_as_of matches the report date for every position.",
     "Support/resistance levels are flagged stale for SOFI, SRFM, APLD, SERV, NOW, MSFT, and ORCL — this week's sharp rallies (and NOW's pullback) pushed price through the r1/s1 levels computed from the pivot lookback window. Only PLTR and Z have levels that still bracket the current price; no recommendation was built on any stale level.",
-    "SERV's RSI (23.82) is fresh and confirmed oversold — unlike the earlier run today, this is not suppressed, since rsi_as_of now equals today's date.",
-    "Oracle's next-earnings confirmation flipped from confirmed to unconfirmed this run: get_earnings_results now returns verified=false for the Sept 8, 2026 estimate (previously verified=true), and outside web sources show disagreement between Sept 8 and Sept 14. Date itself (Sept 8) carried forward as the best estimate; treat as tentative.",
+    "One pending unfilled limit order exists on the individual account (BUY 17 APLD @ $25.45 GTC, placed 2026-07-30 19:46 ET, state 'confirmed') — not reflected in current shares/cost-basis since it has not filled.",
     "Weekly cache was refreshed 2026-07-30 (same day, 0 days stale); analyst targets, insider notes, and cache-sourced fields carry no staleness flag.",
-    "No share-count changes on any of the 9 positions since the prior update — no new trims, adds, or exits today.",
+    "No share-count changes on any of the 9 positions since the prior update — no new trims, adds, or exits today. No new closing trades occurred beyond the already-recorded HIMS sale.",
     "Cash ($432.70 total) is at/above the $100 display threshold this run and is shown; buying power remains $0.05 (margin account, no available margin), so the APLD add-consideration stays not fundable on that basis despite the nominal cash balance.",
-    "Realized P/L YTD (calendar 2026-01-01 through today) is -$3,832.43; realized P/L since tracking began (2026-07-30) is +$178.88, from today's only closing trade (HIMS, already recorded). No new closing trades occurred between this run and the prior same-day run.",
-    "shell.html was out of date (contained banned SPY/QQQ benchmark fields, 'Realized P/L YTD', and 'Buying power' chips) and has been rebuilt from spec this run per the template migration check; the benchmark object has been dropped from this file going forward per the no-benchmark policy.",
-    "Extraordinary week for AI-infrastructure names: Microsoft's FY26 Q4 beat (Azure accelerating to 43%, crossing $100B TTM revenue territory, FY27 capex guidance raised to $255-260B) drove one of the largest-ever single-day market-cap gains and a broad AI-infrastructure/cloud rally lifting MSFT, APLD, and ORCL (aided by a separate Google Gemini partnership), while application-layer SaaS names including NOW sold off on sector rotation despite NOW's own strong beat."
+    "Realized P/L YTD (calendar 2026-01-01 through today, combined both accounts) is -$3,832.43; realized P/L since tracking began (2026-07-30) is +$178.88, from today's only closing trade (HIMS). Reconfirmed live via get_realized_pnl this run.",
+    "Fresh news sweep run for all 9 positions this cycle. Notable items: Citi trimmed PLTR's target to $200 (still well above spot); SOFI got two sell-side target hikes (Goldman to $21, Truist to $18) post-earnings; APLD disclosed a $20B order backlog / $36B contracted lease value and new hyperscaler+CoreWeave capacity deals; MSFT's post-earnings rally was the largest single-day market-cap gain in history, and its securities class action now has an Aug 11 lead-plaintiff deadline; a separate Zillow RESPA/RICO suit (Taylor v. Zillow) was dismissed July 28. No meaningful new news found for SRFM, SERV, or ORCL beyond already-known items."
   ]
 }
