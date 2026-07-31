@@ -1,9 +1,11 @@
 {
   "date": "2026-07-30",
+  "tracking_start_date": "2026-07-30",
   "positions": [
     {
       "ticker": "PLTR",
       "account": "individual",
+      "theme": "AI infrastructure",
       "shares": 8.316008,
       "cost_basis": 1000.0,
       "avg_cost_per_share": 120.25,
@@ -14,6 +16,7 @@
       "unrealized_pl": 16.34,
       "unrealized_pl_pct": 1.634,
       "portfolio_weight_pct": 10.5,
+      "weight_incl_cash_pct": 10.05,
       "analyst_target": 182.2,
       "analyst_target_source": "stockanalysis.com (S&P Global data); dispersion noted — TipRanks cites 25 analysts median $200 (range $151-$230)",
       "analyst_count": 32,
@@ -41,6 +44,7 @@
     {
       "ticker": "SOFI",
       "account": "individual",
+      "theme": "Fintech",
       "shares": 59.657355,
       "cost_basis": 956.31,
       "avg_cost_per_share": 16.03,
@@ -51,6 +55,7 @@
       "unrealized_pl": 24.76,
       "unrealized_pl_pct": 2.589,
       "portfolio_weight_pct": 10.14,
+      "weight_incl_cash_pct": 9.7,
       "analyst_target": 20.58,
       "analyst_target_source": "stockanalysis.com (via S&P Global data); dispersion noted — ChartMill ~$21.41 avg, Tickernerd $26 median (31 analysts, range $12-$38)",
       "analyst_count": 23,
@@ -78,6 +83,7 @@
     {
       "ticker": "SRFM",
       "account": "individual",
+      "theme": "Industrials & transport",
       "shares": 909.090909,
       "cost_basis": 1000.0,
       "avg_cost_per_share": 1.1,
@@ -88,6 +94,7 @@
       "unrealized_pl": -313.64,
       "unrealized_pl_pct": -31.364,
       "portfolio_weight_pct": 7.09,
+      "weight_incl_cash_pct": 6.79,
       "analyst_target": 6.58,
       "analyst_target_source": "TipRanks (avg of 3 analysts, last 3mo); wide dispersion for this thinly-covered name — stockanalysis.com $3.69 avg (4 analysts), TickerNerd $7.75 median (5 analysts), range $3.50-$12.00",
       "analyst_count": 3,
@@ -110,6 +117,7 @@
     {
       "ticker": "APLD",
       "account": "individual",
+      "theme": "AI infrastructure",
       "shares": 43.188893,
       "cost_basis": 1826.03,
       "avg_cost_per_share": 42.28,
@@ -120,6 +128,7 @@
       "unrealized_pl": -618.04,
       "unrealized_pl_pct": -33.842,
       "portfolio_weight_pct": 12.48,
+      "weight_incl_cash_pct": 11.94,
       "analyst_target": 73.32,
       "analyst_target_source": "stockanalysis.com; dispersion noted — S&P Global/TipRanks $76.70 (10 analysts, range $48-$106), another 12-analyst poll median $59 (range $13-$90), 8-analyst 3-month average $71.50",
       "analyst_count": 11,
@@ -147,6 +156,7 @@
     {
       "ticker": "SERV",
       "account": "individual",
+      "theme": "Industrials & transport",
       "shares": 264.612953,
       "cost_basis": 1929.03,
       "avg_cost_per_share": 7.29,
@@ -157,6 +167,7 @@
       "unrealized_pl": -658.89,
       "unrealized_pl_pct": -34.157,
       "portfolio_weight_pct": 13.12,
+      "weight_incl_cash_pct": 12.56,
       "analyst_target": 18.45,
       "analyst_target_source": "S&P Global (via multiple aggregators incl. stockanalysis.com); range $7.15-$27.53 across sources",
       "analyst_count": 8,
@@ -179,6 +190,7 @@
     {
       "ticker": "NOW",
       "account": "agentic",
+      "theme": "Enterprise software",
       "shares": 13.354745,
       "cost_basis": 1310.63,
       "avg_cost_per_share": 98.14,
@@ -189,6 +201,7 @@
       "unrealized_pl": 159.26,
       "unrealized_pl_pct": 12.152,
       "portfolio_weight_pct": 15.19,
+      "weight_incl_cash_pct": 14.54,
       "analyst_target": 140.25,
       "analyst_target_source": "S&P Global (via stockanalysis.com/Investing.com); range $138-$148 across TipRanks/WallStreetZen/stockanalysis.com",
       "analyst_count": 49,
@@ -216,6 +229,7 @@
     {
       "ticker": "MSFT",
       "account": "agentic",
+      "theme": "AI infrastructure",
       "shares": 2.60314,
       "cost_basis": 985.0,
       "avg_cost_per_share": 378.39,
@@ -226,6 +240,7 @@
       "unrealized_pl": 190.29,
       "unrealized_pl_pct": 19.319,
       "portfolio_weight_pct": 12.14,
+      "weight_incl_cash_pct": 11.62,
       "analyst_target": 561.58,
       "analyst_target_source": "stockanalysis.com; dispersion noted — S&P Global $555.77 (54-56 analysts), one Yahoo Finance summary ~$589-592 (~97 analysts)",
       "analyst_count": 56,
@@ -253,6 +268,7 @@
     {
       "ticker": "ORCL",
       "account": "agentic",
+      "theme": "AI infrastructure",
       "shares": 11.983009,
       "cost_basis": 1685.05,
       "avg_cost_per_share": 140.62,
@@ -263,6 +279,7 @@
       "unrealized_pl": -156.32,
       "unrealized_pl_pct": -9.276,
       "portfolio_weight_pct": 15.79,
+      "weight_incl_cash_pct": 15.12,
       "analyst_target": 248.15,
       "analyst_target_source": "stockanalysis.com (close to S&P Global's 43-analyst $251.85 figure); a third source citing $346.63/35 analysts looked like a stale outlier and was disregarded",
       "analyst_count": 44,
@@ -290,6 +307,7 @@
     {
       "ticker": "Z",
       "account": "agentic",
+      "theme": "Consumer internet",
       "shares": 10.188487,
       "cost_basis": 300.05,
       "avg_cost_per_share": 29.45,
@@ -300,6 +318,7 @@
       "unrealized_pl": 43.81,
       "unrealized_pl_pct": 14.599,
       "portfolio_weight_pct": 3.55,
+      "weight_incl_cash_pct": 3.4,
       "analyst_target": 55.83,
       "analyst_target_source": "stockanalysis.com (S&P Global data, 7 analysts); wide consensus range $37-$76, rating \"Hold\"",
       "analyst_count": 7,
@@ -325,67 +344,119 @@
       ]
     }
   ],
+  "cash": {
+    "individual": 432.70,
+    "agentic": 0.0,
+    "total": 432.70,
+    "buying_power_total": 0.05
+  },
   "totals": {
-    "portfolio_value": 9679.67,
+    "portfolio_value": 10112.37,
+    "equity_value": 9679.67,
     "today_pct": 6.953,
     "today_dollars": 629.24,
     "unrealized_pl": -1312.43,
     "unrealized_pl_pct": -11.94,
+    "realized_pl_today": 178.88,
+    "realized_pl_ytd": -3832.43,
+    "realized_pl_since_tracking": 178.88,
+    "total_return": -1133.55,
     "biggest_mover": {
       "ticker": "APLD",
       "today_pct": 20.457
     }
   },
+  "benchmark": {
+    "spy_today_pct": 1.682,
+    "qqq_today_pct": 3.310,
+    "vs_spy_today_pp": 5.271,
+    "vs_qqq_today_pp": 3.643,
+    "portfolio_since_tracking_pct": null,
+    "spy_since_tracking_pct": null,
+    "qqq_since_tracking_pct": null,
+    "vs_spy_since_tracking_pp": null,
+    "insufficient_history": true
+  },
+  "themes": {
+    "AI infrastructure": { "value": 4928.35, "weight_pct": 50.91, "today_pct": 11.2 },
+    "Enterprise software": { "value": 1469.89, "weight_pct": 15.19, "today_pct": -4.921 },
+    "Fintech": { "value": 981.07, "weight_pct": 10.14, "today_pct": 7.836 },
+    "Industrials & transport": { "value": 1956.50, "weight_pct": 20.21, "today_pct": 9.01 },
+    "Consumer internet": { "value": 343.86, "weight_pct": 3.55, "today_pct": -0.735 }
+  },
+  "closed_today": [
+    {
+      "ticker": "HIMS",
+      "shares": 16.057374,
+      "avg_sale_price": 26.91,
+      "realized_pl": 178.88,
+      "realized_pl_pct": 70.64,
+      "holding_period_days": 146
+    }
+  ],
   "recommendations": [
+    {
+      "ticker": "AI infrastructure",
+      "rec_type": "risk-change",
+      "rationale": "PLTR + APLD + MSFT + ORCL together make up ~50.9% of the equity portfolio after today's AI-infrastructure rally (Microsoft's blowout Azure print, an Oracle-Gemini partnership, and a sector-wide bounce in APLD) — over the 40% concentration threshold. This is a byproduct of today's price moves, not a new purchase; still worth being deliberate about adding further to any of these four names.",
+      "trigger_value": 50.91,
+      "severity": 1
+    },
     {
       "ticker": "SRFM",
       "rec_type": "risk-change",
       "rationale": "NYSE issued a non-compliance notice on July 24 for trading below the $1.00 minimum average closing price; a board-approved reverse-split backstop is in place with a 6-month cure window, heading into the Aug 10 earnings print.",
-      "trigger_value": 0.755
-    },
-    {
-      "ticker": "ORCL",
-      "rec_type": "risk-change",
-      "rationale": "The Agentic account's enterprise-software/AI-infra cluster (ORCL+NOW+MSFT) is ~43.1% of the whole portfolio after today's AI-rally-driven gains in MSFT and ORCL — an elevated concentration worth monitoring rather than adding to further.",
-      "trigger_value": 43.12
-    },
-    {
-      "ticker": "APLD",
-      "rec_type": "add-consideration",
-      "rationale": "Even after today's +20.5% rally to $27.97, shares offer ~162% upside to the weekly-cache analyst target of $73.32 (equivalently, trade at a ~62% discount to that target); this week's fiscal Q4 print beat badly (EPS $0.04 vs -$0.22 est), but ~$5B in debt is the key risk to weigh. Resistance levels are flagged stale (price has broken through r1), so don't size any add off them.",
-      "trigger_value": 162.1
+      "trigger_value": 0.755,
+      "severity": 2
     },
     {
       "ticker": "PLTR",
       "rec_type": "binary-catalyst",
       "rationale": "Earnings Aug 3 (confirmed), 4 days out; stock trades near $122 against a stretched 130-150x trailing P/E, raising the stakes for any guidance miss.",
-      "trigger_value": 4
+      "trigger_value": 4,
+      "severity": 3
     },
     {
       "ticker": "Z",
       "rec_type": "binary-catalyst",
       "rationale": "Earnings Aug 5 (confirmed), 6 days out; today's Chicago-MLS listings dispute adds a fresh operational headwind on top of the existing Redfin-related litigation ahead of the Aug 10 lead-plaintiff deadline.",
-      "trigger_value": 6
+      "trigger_value": 6,
+      "severity": 4
     },
     {
       "ticker": "SERV",
       "rec_type": "binary-catalyst",
       "rationale": "Earnings Aug 6 (confirmed), 7 days out, for a deeply-discounted, cash-burning position; today's RSI reading is stale and suppressed given the +9.8% bounce, so the print is the clearest near-term catalyst to watch.",
-      "trigger_value": 7
+      "trigger_value": 7,
+      "severity": 4
     },
     {
       "ticker": "SRFM",
       "rec_type": "binary-catalyst",
       "rationale": "Earnings Aug 10 (confirmed), 11 days out, landing inside the NYSE minimum-price cure window — a print that could move sentiment on the delisting/reverse-split question either way.",
-      "trigger_value": 11
+      "trigger_value": 11,
+      "severity": 5
+    },
+    {
+      "ticker": "APLD",
+      "rec_type": "add-consideration",
+      "rationale": "Even after today's +20.5% rally to $27.97, shares offer ~162% upside to the weekly-cache analyst target of $73.32 (equivalently, a ~62% discount to that target); this week's fiscal Q4 print beat badly (EPS $0.04 vs -$0.22 est), but ~$5B in debt is the key risk to weigh. Resistance levels are flagged stale (price has broken through r1), so don't size any add off them. Not fundable from current cash — buying power is $0.05 despite $432.70 of nominal cash sitting in a margin account with no available margin.",
+      "trigger_value": 162.1,
+      "severity": 5,
+      "fundable": false
     }
   ],
   "notes": [
-    "Market was open for full regular trading today (Thursday, July 30, 2026); quotes reflect the ~4pm ET official close. This run executed in the early evening, about an hour after an earlier same-day update, so prices and share counts are unchanged from that update — no trims, adds, or exits detected.",
+    "Market was open for full regular trading today (Thursday, July 30, 2026); quotes reflect the ~4pm ET official close.",
+    "This run is a same-day re-run (the third update today); prices, share counts, technicals, analyst targets, insider notes, and news were carried forward unchanged from this same day's earlier update since the underlying finalized daily bar, weekly cache, and news landscape had not changed in the intervening hour(s). Cash, benchmark comparisons, realized P/L, and the full recommendations/theme rebuild were freshly recomputed for this run.",
+    "This is the first run under the expanded tracking schema: history.json and themes.json did not previously exist and were initialized today (tracking_start_date 2026-07-30). Since-tracking-start benchmark comparison is marked insufficient_history and omitted from the push notification until more daily rows accumulate.",
+    "HIMS was fully exited today (16.057374 sh sold at $26.91, realized gain $178.88, ~146-day holding period) via a trade placed directly in the Robinhood app (not by this agent). HIMS was already absent from the position list carried into this run, so this is recorded here from the realized-P/L and order-history endpoints rather than from a same-day share-count diff.",
     "Weekly cache was refreshed today (2026-07-30) and is current; analyst targets, insider notes, and cache-sourced fields carry no staleness flag.",
-    "RSI for SERV (24.19) and APLD (28.60) still reflects Wednesday 7/29's finalized daily bar — today's (Thursday) bar had not finalized as of this run. Both positions moved more than 5% today (SERV +9.8%, APLD +20.5%), so per data-quality policy no oversold recommendation was generated for either; this note stands in its place.",
+    "RSI for SOFI, SRFM, APLD, SERV, MSFT, and ORCL still reflects Wednesday 7/29's finalized daily bar — today's (Thursday) bar had not finalized as of this run. APLD (+20.5%) and SERV (+9.8%) both moved more than 5% today with RSI readings in oversold territory (28.6 and 24.2 respectively); per data-quality policy, no oversold recommendation was generated for either.",
     "Support/resistance levels for APLD, MSFT, and ORCL are flagged stale (today's rally pushed price through r1) and were not used as the basis for any recommendation.",
-    "News search was run for all 9 current positions per the every-position, every-day rule.",
+    "Theme exposure is a first-time assignment (themes.json initialized today) and will be reused on all future runs per the assign-once rule.",
+    "Individual account shows $432.70 in cash but only $0.05 in buying power (margin account, no available margin) — the add-consideration on APLD is marked not fundable on that basis.",
+    "Realized P/L YTD (calendar 2026-01-01 through today) is -$3,832.43, dominated by a -$3,752.59 realized loss in late June; today's only closing trade (HIMS) was a $178.88 gain.",
     "Extraordinary day for AI-infrastructure names: Microsoft's FY26 Q4 beat (Azure accelerating to 43%, crossing $100B in revenue, FY27 capex guidance raised to $255-260B) drove a reported largest-ever single-day market-cap gain for any stock and a broad AI-infrastructure/cloud rally that lifted MSFT (+15.6%), APLD (+20.5%), and ORCL (+8.4%, aided by a separate Google Gemini partnership announcement), while application-layer SaaS names including NOW (-4.9%) sold off on sector rotation. SOFI (+7.8%) and SERV (+9.8%) continued recovering; Z was roughly flat (-0.7%)."
   ]
 }

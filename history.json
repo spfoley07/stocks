@@ -1,0 +1,20 @@
+{
+  "tracking_start_date": "2026-07-30",
+  "rows": [
+    {
+      "date": "2026-07-30",
+      "portfolio_value": 10112.37,
+      "equity_value": 9679.67,
+      "cash": 432.70,
+      "today_pct": 6.953,
+      "today_dollars": 629.24,
+      "unrealized_pl": -1312.43,
+      "realized_pl_cumulative": 178.88,
+      "total_return": -1133.55,
+      "spy_today_pct": 1.682,
+      "qqq_today_pct": 3.310,
+      "largest_theme": "AI infrastructure",
+      "largest_theme_pct": 50.91
+    }
+  ]
+}
