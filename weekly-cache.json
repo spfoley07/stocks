@@ -1,104 +1,59 @@
 {
-  "refreshed_date": "2026-07-30",
+  "refreshed_date": "2026-08-03",
   "positions": {
     "PLTR": {
       "analyst_target": 182.20,
       "analyst_target_source": "stockanalysis.com (S&P Global data); dispersion noted — TipRanks cites 25 analysts median $200 (range $151-$230)",
       "analyst_count": 32,
-      "support": {"s1": 124.39, "s2": 116.39, "s3": 110.15},
-      "resistance": {"r1": 138.63, "r2": 144.87, "r3": 152.87},
-      "rsi": 44.19,
-      "next_earnings": "2026-08-03",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: Selling-dominated — director Alexander Moore sold 16,000 shares (Jun/Jul, ~$130-136), officer Ryan Taylor sold 19,662 shares (May, tax withholding), and a Peter Thiel-linked entity sold 2,000,000 shares (Mar 2, 10b5-1 plan). No notable insider buying found.",
-      "snapshot": {"shares": 8.316008, "market_value": 1016.34, "account": "individual"}
+      "insider_notes": "best-effort search — not verified SEC Form 4 data: Selling-dominated — reported 0 buys vs ~55 sells recently; most recent, director Alexander Moore sold 16,000 shares (6/15/26) under a Rule 10b5-1 plan (scheduled, not discretionary). No open-market buying found."
     },
     "SOFI": {
       "analyst_target": 20.58,
       "analyst_target_source": "stockanalysis.com (via S&P Global data); dispersion noted — ChartMill ~$21.41 avg, Tickernerd $26 median (31 analysts, range $12-$38)",
       "analyst_count": 23,
-      "support": {"s1": 16.09, "s2": 14.89, "s3": 13.32},
-      "resistance": {"r1": 18.86, "r2": 20.43, "r3": 21.63},
-      "rsi": 34.54,
-      "next_earnings": null,
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: Net insider buying — CEO Anthony Noto made multiple open-market purchases in May-June 2026 (~15,545 sh @ $16.00 on 5/11; ~15,878 sh @ $15.73 on 5/8; ~13,888 sh @ $18.06 on 6/16). EVP Kelli Keough sold 10,954 shares (~$17.35) under a 10b5-1 plan; other activity was RSU/DSU grants to directors.",
-      "snapshot": {"shares": 59.657355, "market_value": 981.07, "account": "individual"}
+      "insider_notes": "best-effort search — not verified SEC Form 4 data: Net insider buying — CEO Anthony Noto made repeated open-market discretionary purchases in 2026 (~$251K most recent, plus $498.5K in May and $1M in March; now holds ~11.96M shares directly), a genuine bullish signal. Some officer sales proposed (Rishel, Pinto); category unclear. Net 90-day insider activity: +$749K (net buying)."
     },
     "SRFM": {
-      "analyst_target": 6.58,
-      "analyst_target_source": "TipRanks (avg of 3 analysts, last 3mo); wide dispersion for this thinly-covered name — stockanalysis.com $3.69 avg (4 analysts), TickerNerd $7.75 median (5 analysts), range $3.50-$12.00",
-      "analyst_count": 3,
-      "support": {"s1": 0.6225, "s2": 0.5174, "s3": 0.3699},
-      "resistance": {"r1": 0.8751, "r2": 1.0226, "r3": 1.1277},
-      "rsi": 33.73,
-      "next_earnings": "2026-08-10",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: Buying-dominated this quarter — in April 2026 the co-founder/chairman, CEO, CFO, and other directors bought ~$5.3M of common stock as part of a $30M capital raise. In June 2026 director Sudhin Shahani gifted 408,163 shares to a trust (not an open-market sale).",
-      "snapshot": {"shares": 909.090909, "market_value": 686.36, "account": "individual"}
+      "analyst_target": 3.69,
+      "analyst_target_source": "wallstreetzen (4 analysts, avg $3.69, rated 'Buy'); dispersion noted — another 4-analyst source cites $4.91 avg, a 3-analyst source cites $5.67 avg with a $12 high (HC Wainwright) disregarded as a stale/aggressive outlier vs current low-single-digit trading range; low end $3.50 (Canaccord). True consensus likely $3.50-$5 for this thinly-covered name. Materially down from last week's $6.58/3-analyst figure.",
+      "analyst_count": 4,
+      "insider_notes": "best-effort search — not verified SEC Form 4 data: Buying-dominated — co-founder/chairman, CEO, CFO and other directors bought ~$5.3M of common stock via an April 2026 $30M capital raise (discretionary open-market purchase, bullish signal). Offsetting: a director sold 13,860 shares (4/16/26), size/category unclear. Net 2-year insider activity positive (+$6.2M, buy-skewed)."
     },
     "APLD": {
-      "analyst_target": 73.32,
-      "analyst_target_source": "stockanalysis.com; dispersion noted — S&P Global/TipRanks $76.70 (10 analysts, range $48-$106), another 12-analyst poll median $59 (range $13-$90), 8-analyst 3-month average $71.50",
-      "analyst_count": 11,
-      "support": {"s1": 22.85, "s2": 19.90, "s3": 15.78},
-      "resistance": {"r1": 29.92, "r2": 34.04, "r3": 36.99},
-      "rsi": 28.60,
-      "next_earnings": null,
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: Director Richard Nottenburg sold 25,000 shares (~$832K) on 4/30/26 at $32.00-$34.59. CEO Wes Cummins had a large PSU vesting (800,000 shares, 314,800 withheld for taxes) and filed an amended ownership report showing ~22M shares (7.6%) as of 7/7/26. No open-market buying found.",
-      "snapshot": {"shares": 43.188893, "market_value": 1207.99, "account": "individual"}
+      "analyst_target": 76.70,
+      "analyst_target_source": "S&P Global-sourced consensus via stockanalysis.com (10 analysts, avg $76.70, rated 'Strong Buy'); dispersion noted — a competing 12-analyst figure of $56.00 looks inconsistent with other data points (3-month avg $71.50, another source $70.56) and was disregarded as a likely stale/mismatched figure.",
+      "analyst_count": 10,
+      "insider_notes": "best-effort search — not verified SEC Form 4 data: Net selling — April 2026 filings mostly stock conversions/tax-related sales (non-discretionary) plus Director Nottenburg's 25,000-share sale (~$832K); notably, insider Charles Hastings sold ~100,000 shares (~17% of his direct holding) around 8/4/26, reading as a larger discretionary open-market sale. Net insiders sold ~$9M over 3 months, ~$2.9M net sellers over 12 months. No open-market buying found."
     },
     "SERV": {
-      "analyst_target": 18.45,
-      "analyst_target_source": "S&P Global (via multiple aggregators incl. stockanalysis.com); range $7.15-$27.53 across sources",
-      "analyst_count": 8,
-      "support": {"s1": 4.72, "s2": 4.36, "s3": 3.69},
-      "resistance": {"r1": 5.75, "r2": 6.42, "r3": 6.78},
-      "rsi": 24.19,
-      "next_earnings": "2026-08-06",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: All 2026 activity is routine RSU-vesting tax-withholding sales (CEO Kashani ~15,885 sh, COO Parang ~4,219+3,558 sh, CFO Read ~1,496+2,991 sh, at $7-10/sh, Feb-June 2026); no open-market discretionary buying found. Insiders net sold ~$8.0M over trailing 12 months.",
-      "snapshot": {"shares": 264.612953, "market_value": 1270.14, "account": "individual"}
+      "analyst_target": 17.30,
+      "analyst_target_source": "14-analyst consensus via tickernerd, median $17.30 (range $13-$26), 'Buy'-leaning (7 buy/1 hold/0 sell); a second source cites an unweighted avg ~$18 with a similar $15-26 range — broadly consistent. Analyst coverage has widened from 8 to 14 analysts since last week.",
+      "analyst_count": 14,
+      "insider_notes": "best-effort search — not verified SEC Form 4 data: Selling by multiple execs on 6/11/26 — CEO Kashani (15,885 sh, ~$115K), COO Parang (4,219 sh, ~$30.5K), CFO Read (1,496 sh, ~$10.8K); Director Goldberg sold 10,600 sh (6/16/26, ~$76K). Category (10b5-1 vs discretionary) unconfirmed by search — treat as unconfirmed. Net 12-month insider activity: -$7.3M (net selling)."
     },
     "NOW": {
       "analyst_target": 140.25,
       "analyst_target_source": "S&P Global (via stockanalysis.com/Investing.com); range $138-$148 across TipRanks/WallStreetZen/stockanalysis.com",
       "analyst_count": 49,
-      "support": {"s1": 97.36, "s2": 91.47, "s3": 83.64},
-      "resistance": {"r1": 111.08, "r2": 118.91, "r3": 124.80},
-      "rsi": 62.09,
-      "next_earnings": null,
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: Director Teresa Briggs sold 1,595 shares at $108.70 on 5/28/26; over the trailing 90 days insiders net-sold ~$2.46M across 13 sale transactions, no open-market buys found.",
-      "snapshot": {"shares": 13.354745, "market_value": 1469.89, "account": "agentic"}
+      "insider_notes": "best-effort search — not verified SEC Form 4 data: Discretionary open-market buy — CEO William McDermott purchased ~$3.0M of stock on 2/27/2026 (bullish signal). Routine: 8 director RSU stock awards plus 1 small director sale (~$173K), May-Jun 2026; separately ~13 sale transactions totaling ~$2.46M net selling over trailing 90 days by executives, consistent with routine/scheduled disposition."
     },
     "MSFT": {
       "analyst_target": 561.58,
       "analyst_target_source": "stockanalysis.com; dispersion noted — S&P Global $555.77 (54-56 analysts), one Yahoo Finance summary ~$589-592 (~97 analysts)",
       "analyst_count": 56,
-      "support": {"s1": 379.65, "s2": 365.48, "s3": 352.31},
-      "resistance": {"r1": 406.99, "r2": 420.16, "r3": 434.33},
-      "rsi": 50.24,
-      "next_earnings": null,
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: Selling dominates — EVP Judson Althoff sold 15,500 shares (~$7.1M) on 6/1/26 at $460.99; CEO Satya Nadella has been the largest recent seller; CHRO Amy Coleman had a small tax-withholding disposition on 7/15/26. No notable open-market buying found (~$1.99M buys vs ~$145.95M sells recently).",
-      "snapshot": {"shares": 2.603140, "market_value": 1175.29, "account": "agentic"}
+      "insider_notes": "best-effort search — not verified SEC Form 4 data: Discretionary open-market buy — Director John W. Stanton bought 5,000 shares (~$1.99M) on 2/18/2026. Selling — EVP Judson Althoff sold 15,500 shares (~$7.1M) on 6/1/2026, likely under a 10b5-1 plan (scheduled, not discretionary). Overall: more selling than buying over the past year, mostly routine (awards/tax payments)."
     },
     "ORCL": {
       "analyst_target": 248.15,
       "analyst_target_source": "stockanalysis.com (close to S&P Global's 43-analyst $251.85 figure); a third source citing $346.63/35 analysts looked like a stale outlier and was disregarded",
       "analyst_count": 44,
-      "support": {"s1": 118.72, "s2": 111.04, "s3": 100.57},
-      "resistance": {"r1": 136.87, "r2": 147.34, "r3": 155.02},
-      "rsi": 31.83,
-      "next_earnings": "2026-09-08",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: All recent Form 4 activity is selling — over the trailing 90 days Oracle insiders made 0 buys and ~11-13 sells totaling ~$132.3M; Vice Chairman Jeffrey Henley exercised options and sold 400,000 shares on 6/24/26 at ~$155.50-$165.57/share under a 10b5-1 plan. No insider buying found.",
-      "snapshot": {"shares": 11.983009, "market_value": 1528.73, "account": "agentic"}
+      "insider_notes": "best-effort search — not verified SEC Form 4 data: No discretionary buys in past 90 days. Selling-heavy — 13 sale transactions (~$132.3M) in past 90 days, largely Vice Chairman Jeffrey Henley (most recent 78,559 shares at $157.02 on 6/24/26), described as planned/proposed sales consistent with routine or 10b5-1 disposition. Trailing 12mo: 1 buy (~$112K) vs 7 insiders selling ~$545M."
     },
     "Z": {
       "analyst_target": 55.83,
       "analyst_target_source": "stockanalysis.com (S&P Global data, 7 analysts); wide consensus range $37-$76, rating \"Hold\"",
       "analyst_count": 7,
-      "support": {"s1": 32.11, "s2": 30.32, "s3": 29.17},
-      "resistance": {"r1": 35.05, "r2": 36.20, "r3": 37.99},
-      "rsi": 55.55,
-      "next_earnings": "2026-08-05",
-      "insider_notes": "best-effort search — not verified SEC Form 4 data: Mid-May 2026 Form 4s show routine RSU-tax-withholding sales by execs (CEO Wacksman 6,051 sh, CPO Spaulding 5,134 sh, CTO Beitel 1,879 sh) and director Erik Blachford sold 791 sh @$34.80 under a 10b5-1 plan; no notable insider buying found.",
-      "snapshot": {"shares": 10.188487, "market_value": 343.86, "account": "agentic"}
+      "insider_notes": "best-effort search — not verified SEC Form 4 data: Routine sales — coordinated exec dispositions on 5/14-5/15/26 (CEO Wacksman, CTO Beitel, COO Choo, CAO Rock; combined ~$361K/9,537 sh), timing suggests scheduled/vesting-related rather than a fresh bearish signal though not explicitly confirmed as 10b5-1. Separate unconfirmed Form 144 filing by Bradley Owens for 8,800 sh (~$384K) on 3/24/26. No discretionary buys found."
     }
   },
   "errors": []
