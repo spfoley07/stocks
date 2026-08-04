@@ -1,54 +1,49 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "tracking_start_date": "2026-07-30",
   "positions": [
     {
       "ticker": "PLTR",
       "account": "individual",
       "theme": "AI infrastructure",
-      "shares": 8.316008,
-      "cost_basis": 1000.0,
-      "avg_cost_per_share": 120.25,
-      "current_price": 144.56,
-      "today_pct": 17.471,
-      "today_dollars": 178.79,
-      "market_value": 1202.16,
-      "unrealized_pl": 202.16,
-      "unrealized_pl_pct": 20.216,
-      "portfolio_weight_pct": 10.83,
+      "shares": 11.21782,
+      "cost_basis": 1459.56,
+      "avg_cost_per_share": 130.1108,
+      "current_price": 161.0,
+      "today_pct": 28.134,
+      "today_dollars": 396.55,
+      "market_value": 1806.07,
+      "unrealized_pl": 346.51,
+      "unrealized_pl_pct": 23.741,
+      "portfolio_weight_pct": 15.78,
       "analyst_target": 182.2,
       "analyst_target_source": "stockanalysis.com (S&P Global data); dispersion noted \u2014 TipRanks cites 25 analysts median $200 (range $151-$230)",
       "analyst_count": 32,
       "insider_notes": "best-effort search \u2014 not verified SEC Form 4 data: Routine-only week \u2014 CTO Shyam Sankar sold 185,000 shares (~$24M, 7/2/26) and director Alexander Moore sold 16,000 shares (7/15/26), both explicitly under pre-existing Rule 10b5-1 plans (scheduled, not discretionary). Earlier May 2026 sales by CEO Karp and co-founder Cohen were also scheduled. No open-market discretionary insider buying or selling found.",
       "support": {
-        "s1": 120.4634,
-        "s2": 118.6667,
-        "s3": 117.0635
+        "s1": 120.6567,
+        "s2": 118.2533,
+        "s3": 116.8867
       },
       "resistance": {
-        "r1": 123.8633,
-        "r2": 125.4665,
-        "r3": 127.2632
+        "r1": 124.4267,
+        "r2": 125.7933,
+        "r3": 128.1967
       },
       "levels_stale": true,
-      "rsi": 44.33,
-      "rsi_as_of": "2026-07-31",
+      "rsi": 47.7,
+      "rsi_as_of": "2026-08-03",
       "next_earnings": "2026-11-02",
       "earnings_confirmed": false,
       "news": [
         {
-          "headline": "Q2 2026 revenue hit $1.94B (+93% YoY), beating the ~$1.81B consensus, with EPS of $0.41 vs. $0.33 expected; shares surged toward $140+ after hours.",
-          "why_it_matters": "A broad beat plus accelerating growth reinforces the long-term AI/data-platform thesis heading into the print's aftermath.",
+          "headline": "Q2 2026 revenue up 93% YoY to $1.94B, beating estimates; stock jumped ~26-28% today as US commercial revenue grew 149% YoY.",
+          "why_it_matters": "Confirms accelerating commercial AI demand and a raised FY2026 revenue guidance range ($8.15B-$8.16B, up from $7.65B-$7.66B), supporting the long-term growth thesis even though today's price pop itself is noise for a multi-year holder.",
           "sentiment": "good"
         },
         {
-          "headline": "U.S. commercial revenue grew 149% YoY and the company's Rule of 40 score climbed to 155%.",
-          "why_it_matters": "Signals Palantir's enterprise AI push (Foundry/AIP) is scaling well beyond its government-contractor roots, a key diversification argument for a multi-year holder.",
-          "sentiment": "good"
-        },
-        {
-          "headline": "Management raised FY2026 U.S. commercial revenue guidance to over $3.42B, up from $3.22B prior.",
-          "why_it_matters": "A raised forward guide, not just a beat, supports growth durability, though valuation near highs remains a risk to watch.",
+          "headline": "Wave of analyst price-target hikes following earnings (Citi to $245, UBS to $220, Mizuho to $215, Goldman Sachs to $204, DA Davidson and Northland to $200).",
+          "why_it_matters": "Broad sell-side upgrades citing record bookings and expanding profitability suggest the beat is viewed as structural rather than one-off, which matters for conviction on a multi-year hold.",
           "sentiment": "good"
         }
       ]
@@ -60,47 +55,42 @@
       "shares": 59.657355,
       "cost_basis": 956.31,
       "avg_cost_per_share": 16.03,
-      "current_price": 18.0315,
-      "today_pct": 10.555,
-      "today_dollars": 102.7,
-      "market_value": 1075.71,
-      "unrealized_pl": 119.4,
-      "unrealized_pl_pct": 12.486,
-      "portfolio_weight_pct": 9.69,
+      "current_price": 18.39,
+      "today_pct": 1.997,
+      "today_dollars": 21.48,
+      "market_value": 1097.1,
+      "unrealized_pl": 140.79,
+      "unrealized_pl_pct": 14.722,
+      "portfolio_weight_pct": 9.58,
       "analyst_target": 20.58,
       "analyst_target_source": "stockanalysis.com (via S&P Global data); dispersion noted \u2014 ChartMill ~$21.41 avg, Tickernerd $26 median (31 analysts, range $12-$38)",
       "analyst_count": 23,
       "insider_notes": "best-effort search \u2014 not verified SEC Form 4 data: Discretionary open-market buying continues \u2014 CEO Anthony Noto has purchased ~130,211 shares in 2026 (~$2.25M, blended avg $17.29), most recently 13,888 shares on 6/16/26 at $18.06 \u2014 a genuine bullish signal. Routine: CTO Jeremy Rishel's 6/17/26 sale of 102,123 shares was a scheduled Rule 10b5-1 sale, plus 155,605 shares disposed for RSU tax withholding; officer Arun Pinto filed a Rule 144 notice to sell 71,500 RSU-derived shares.",
       "support": {
-        "s1": 15.66,
-        "s2": 14.85,
-        "s3": 14.44
+        "s1": 15.9276,
+        "s2": 15.5452,
+        "s3": 15.259
       },
       "resistance": {
-        "r1": 16.88,
-        "r2": 17.29,
-        "r3": 18.1
+        "r1": 16.5962,
+        "r2": 16.8824,
+        "r3": 17.2648
       },
       "levels_stale": true,
-      "rsi": 44.22,
-      "rsi_as_of": "2026-07-31",
+      "rsi": 55.75,
+      "rsi_as_of": "2026-08-03",
       "next_earnings": "2026-10-27",
       "earnings_confirmed": false,
       "news": [
         {
-          "headline": "Q2 revenue hit a record $1.21B (+43% YoY); stock rebounded ~8% Monday after an initial post-earnings selloff.",
-          "why_it_matters": "Confirms the growth story is intact even though the market's first reaction was negative.",
+          "headline": "Stock still digesting the July 29 Q2 2026 print (record revenue $1.21B, +43% YoY; record loan originations of $14.8B; 15.8M members) \u2014 shares extended gains Monday on continued reaction.",
+          "why_it_matters": "Confirms the fintech's lending and member-growth engine is still expanding at a healthy clip, the core long-term driver for holding SOFI.",
           "sentiment": "good"
         },
         {
-          "headline": "Mizuho, Goldman Sachs, Wells Fargo, and Needham all trimmed price targets on EBITDA-growth and credit-risk concerns despite the beat.",
-          "why_it_matters": "Wall Street is flagging profitability-quality questions that a long-term holder should track into future quarters.",
-          "sentiment": "bad"
-        },
-        {
-          "headline": "CEO Noto called Q2 a 'defining' inflection point, citing a 42% surge in total products to 24.4M.",
-          "why_it_matters": "Member and product growth at this pace is the core bull case for SoFi's multi-year platform expansion.",
-          "sentiment": "good"
+          "headline": "Mizuho cut its SOFI price target to $22 from $29 (kept an Outperform rating) despite the beat.",
+          "why_it_matters": "A trimmed target from a bullish-rated analyst is a mild check on how much of the good news is already priced in, without changing the underlying growth story.",
+          "sentiment": "neutral"
         }
       ]
     },
@@ -111,47 +101,42 @@
       "shares": 909.090909,
       "cost_basis": 1000.0,
       "avg_cost_per_share": 1.1,
-      "current_price": 0.7987,
-      "today_pct": 4.474,
-      "today_dollars": 31.09,
-      "market_value": 726.09,
-      "unrealized_pl": -273.91,
-      "unrealized_pl_pct": -27.391,
-      "portfolio_weight_pct": 6.54,
+      "current_price": 0.834,
+      "today_pct": 6.229,
+      "today_dollars": 44.45,
+      "market_value": 758.18,
+      "unrealized_pl": -241.82,
+      "unrealized_pl_pct": -24.182,
+      "portfolio_weight_pct": 6.62,
       "analyst_target": 3.69,
       "analyst_target_source": "wallstreetzen (4 analysts, avg $3.69, rated 'Buy'); dispersion noted \u2014 another 4-analyst source cites $4.91 avg, a 3-analyst source cites $5.67 avg with a $12 high (HC Wainwright) disregarded as a stale/aggressive outlier vs current low-single-digit trading range; low end $3.50 (Canaccord). True consensus likely $3.50-$5 for this thinly-covered name.",
       "analyst_count": 4,
       "insider_notes": "best-effort search \u2014 not verified SEC Form 4 data: Buying-dominated \u2014 on 4/20-4/21/26 co-founders, officers and directors purchased $5.3M of common stock at $1.36/share as part of a registered direct offering (discretionary purchase, bullish signal). Routine: CEO White's 5/8/26 sale of 56,884 shares and other director stock grants are routine tax-withholding/compensation dispositions, not a signal.",
       "support": {
-        "s1": 0.7209,
-        "s2": 0.6882,
-        "s3": 0.6647
+        "s1": 0.7381,
+        "s2": 0.7116,
+        "s3": 0.6857
       },
       "resistance": {
-        "r1": 0.7771,
-        "r2": 0.8006,
-        "r3": 0.8333
+        "r1": 0.7905,
+        "r2": 0.8164,
+        "r3": 0.8429
       },
       "levels_stale": true,
-      "rsi": 40.14,
-      "rsi_as_of": "2026-07-31",
+      "rsi": 42.51,
+      "rsi_as_of": "2026-08-03",
       "next_earnings": "2026-08-10",
       "earnings_confirmed": true,
       "news": [
         {
-          "headline": "NYSE notified SRFM on 7/24 that its 30-day average closing price is below the $1.00 listing-compliance threshold.",
-          "why_it_matters": "A listing-compliance deficiency is a structural overhang that can force a reverse split or delisting risk if uncured.",
+          "headline": "NYSE non-compliance (30-day average closing price below $1.00) confirmed as of July 24; shareholders authorized the board to pursue options including a reverse split to regain compliance.",
+          "why_it_matters": "A real delisting-risk overhang a long-term holder needs to track; a reverse split, if executed, would be a structural change to share count/price, not a fundamental one.",
           "sentiment": "bad"
         },
         {
-          "headline": "Q2 2026 results due after close Monday, Aug 10; Q1 EPS of -$0.26 beat the -$0.36 estimate.",
-          "why_it_matters": "A second straight narrower-than-expected loss would support the turnaround thesis ahead of the print.",
+          "headline": "Q2 2026 earnings confirmed for after-market close Aug 10, 2026, webcast at 5:00pm ET.",
+          "why_it_matters": "The next real catalyst for the turnaround thesis; no new information in the last 1-3 days beyond the confirmed date.",
           "sentiment": "neutral"
-        },
-        {
-          "headline": "At least one analyst trimmed its price target to $1.50 even as a separate fair-value model sits near $5.31.",
-          "why_it_matters": "Wide analyst dispersion reflects genuine uncertainty about this thinly-covered, sub-$1 name.",
-          "sentiment": "bad"
         }
       ]
     },
@@ -162,47 +147,42 @@
       "shares": 43.188893,
       "cost_basis": 1826.03,
       "avg_cost_per_share": 42.28,
-      "current_price": 29.88,
-      "today_pct": 9.091,
-      "today_dollars": 107.54,
-      "market_value": 1290.48,
-      "unrealized_pl": -535.54,
-      "unrealized_pl_pct": -29.328,
-      "portfolio_weight_pct": 11.63,
+      "current_price": 30.79,
+      "today_pct": 4.408,
+      "today_dollars": 56.15,
+      "market_value": 1329.79,
+      "unrealized_pl": -496.24,
+      "unrealized_pl_pct": -27.176,
+      "portfolio_weight_pct": 11.62,
       "analyst_target": 68.05,
       "analyst_target_source": "MarketBeat (17 analysts, consensus $68.05, range $36.50-$90, current price ~$29.49); dispersion noted \u2014 TipRanks/stockanalysis.com (11 analysts) show avg $74.14, median $79, range $36.50-$109; disregarded a 12-analyst figure (~$59 median, $13 low) as a stale outlier inconsistent with all other sources. Materially down from last week's $76.70/10-analyst figure \u2014 a different aggregator ranked first in search this week.",
       "analyst_count": 17,
       "insider_notes": "best-effort search \u2014 not verified SEC Form 4 data: Sales only, no buys found. Jan-Apr 2026: CEO Wes Cummins (165,000 sh, ~$6.0M) and directors Nottenburg, Miller, and Hastings all sold via open-market transactions (~$0.4M-$1.8M each). Labeled as open-market sales, not RSU/tax-withholding, but no filing confirms a 10b5-1 plan \u2014 category unconfirmed, treat as a mild bearish signal pending confirmation.",
       "support": {
-        "s1": 26.02,
-        "s2": 24.07,
-        "s3": 22.8
+        "s1": 26.14,
+        "s2": 24.89,
+        "s3": 22.84
       },
       "resistance": {
-        "r1": 29.24,
-        "r2": 30.51,
-        "r3": 32.46
+        "r1": 29.44,
+        "r2": 31.49,
+        "r3": 32.74
       },
       "levels_stale": true,
-      "rsi": 41.57,
-      "rsi_as_of": "2026-07-31",
+      "rsi": 46.79,
+      "rsi_as_of": "2026-08-03",
       "next_earnings": "2026-10-08",
       "earnings_confirmed": false,
       "news": [
         {
-          "headline": "Fiscal Q4 revenue of $258.7M crushed the ~$95-104M Street estimate; posted a surprise $0.04 adjusted EPS profit.",
-          "why_it_matters": "A large beat with a swing to profitability is a meaningful inflection for a data-center buildout story.",
+          "headline": "B. Riley raised its price target on Applied Digital to $75 from $66 (Buy maintained) on Aug 3.",
+          "why_it_matters": "A sell-side target hike following the fiscal Q4 beat reinforces analyst confidence in APLD's AI/HPC data-center pivot.",
           "sentiment": "good"
         },
         {
-          "headline": "B. Riley raised its price target to $75 from $66 on Aug 1.",
-          "why_it_matters": "Sell-side conviction is building around the post-earnings setup.",
-          "sentiment": "good"
-        },
-        {
-          "headline": "New agreement with Montana-Dakota Utilities to power the 430MW Polaris Forge 3 AI data center, targeted online August 2027.",
-          "why_it_matters": "Secures power capacity for future growth, a key bottleneck for AI-infrastructure buildouts.",
-          "sentiment": "good"
+          "headline": "Shares continued higher Aug 3-4 on broad AI-infrastructure sector momentum; insider Charles Hastings sold ~100,000 shares around $13.33 on Aug 4, the largest insider sale in three months.",
+          "why_it_matters": "The rally reflects sector-wide tailwinds rather than new company-specific news, and the insider sale is worth tracking though not necessarily alarming for the long-horizon data-center buildout thesis.",
+          "sentiment": "neutral"
         }
       ]
     },
@@ -213,97 +193,41 @@
       "shares": 264.612953,
       "cost_basis": 1929.03,
       "avg_cost_per_share": 7.29,
-      "current_price": 5.64,
-      "today_pct": 17.992,
-      "today_dollars": 227.57,
-      "market_value": 1492.42,
-      "unrealized_pl": -436.61,
-      "unrealized_pl_pct": -22.634,
-      "portfolio_weight_pct": 13.45,
+      "current_price": 5.7031,
+      "today_pct": 0.94,
+      "today_dollars": 14.05,
+      "market_value": 1509.11,
+      "unrealized_pl": -419.92,
+      "unrealized_pl_pct": -21.768,
+      "portfolio_weight_pct": 13.18,
       "analyst_target": 18.45,
       "analyst_target_source": "stockanalysis.com / S&P Global consensus (8 analysts, 'Strong Buy', range $13-$26); WallStreetZen shows a somewhat higher $19.50 1-year target from a smaller/differently-sourced panel \u2014 minor dispersion, no outlier disregarded. Down from last week's 14-analyst count \u2014 a different aggregator ranked first in search this week.",
       "analyst_count": 8,
       "insider_notes": "best-effort search \u2014 not verified SEC Form 4 data: Selling only, no buying, past several months. Mostly routine: COO Parang's June 2026 sale was RSU tax-withholding; CEO Kashani's ongoing selling occurs under a pre-set Rule 10b5-1 plan (adopted Aug 2024). CFO Read's Aug 2025 sale was flagged as an open-market sale (small, $10K-$75K range), category leaning routine but not fully confirmed. Net ~$8M more sold than bought trailing 12 months, mostly scheduled \u2014 not a strong bearish signal.",
       "support": {
-        "s1": 4.572,
-        "s2": 4.334,
-        "s3": 4.205
+        "s1": 4.63,
+        "s2": 4.48,
+        "s3": 4.3
       },
       "resistance": {
-        "r1": 4.939,
-        "r2": 5.068,
-        "r3": 5.306
+        "r1": 4.96,
+        "r2": 5.14,
+        "r3": 5.29
       },
       "levels_stale": true,
-      "rsi": 34.5,
-      "rsi_as_of": "2026-07-31",
+      "rsi": 50.72,
+      "rsi_as_of": "2026-08-03",
       "next_earnings": "2026-08-06",
       "earnings_confirmed": true,
       "news": [
         {
-          "headline": "Stock jumped ~18% in a broad robotics-sector rally (Ouster +6%, Symbotic +4%) ahead of Thursday's earnings.",
-          "why_it_matters": "A sector-wide move rather than SERV-specific news means today's pop could partly reverse post-earnings.",
+          "headline": "No material company-specific news in the last 1-3 days; shares continue rising into Thursday's Q2 print amid a sector-wide robotics rally.",
+          "why_it_matters": "The pre-earnings move is sentiment/momentum-driven \u2014 the real test of the thesis is Thursday's report, not this week's run-up.",
           "sentiment": "neutral"
         },
         {
-          "headline": "Q2 2026 results due after close Thursday, Aug 6; full-year revenue guidance of ~$26M was reaffirmed as of Q1.",
-          "why_it_matters": "Investors are watching for reaffirmation of the guide and an update on the ~2,000-robot fleet across 44 cities.",
-          "sentiment": "neutral"
-        },
-        {
-          "headline": "Board added Andreas Lieber, replacing Uber's Sarfraz Maredia after three years of service.",
-          "why_it_matters": "A board refresh coinciding with the Diligent Robotics integration into hospital service robots broadens the long-term thesis.",
-          "sentiment": "neutral"
-        }
-      ]
-    },
-    {
-      "ticker": "BABA",
-      "account": "individual",
-      "theme": "Consumer internet",
-      "shares": 3.555397,
-      "cost_basis": 457.44,
-      "avg_cost_per_share": 128.66,
-      "current_price": 127.96,
-      "today_pct": 4.671,
-      "today_dollars": 20.3,
-      "market_value": 454.95,
-      "unrealized_pl": -2.49,
-      "unrealized_pl_pct": -0.544,
-      "portfolio_weight_pct": 4.1,
-      "analyst_target": 189.72,
-      "analyst_target_source": "stockanalysis.com, citing S&P Global poll of 40 analysts ('Strong Buy', range $92.27-$242.16) \u2014 largest analyst count found; dispersion noted \u2014 WallStreetZen ~$192.29, and a 21-analyst poll at $198.21, broadly consistent with the primary figure.",
-      "analyst_count": 40,
-      "insider_notes": "best-effort search \u2014 not verified SEC Form 4 data: Recent activity is entirely sales, no discretionary open-market buys found. Routine: President J. Michael Evans sold 720,000 shares (~$68.4M, 6/29/26) via Rule 144 shortly after 748,000 shares vested from RSUs in April 2026 \u2014 a vest-and-monetize sale, not a fresh conviction trade. General Counsel Siying Yu sold 21,472 shares in March 2026 explicitly to cover RSU tax withholding. Note: BABA is a foreign private issuer (Chinese ADR), so US-style Form 4 insider data may be limited.",
-      "support": {
-        "s1": 114.0633,
-        "s2": 111.8067,
-        "s3": 110.6733
-      },
-      "resistance": {
-        "r1": 117.4533,
-        "r2": 118.5867,
-        "r3": 120.8433
-      },
-      "levels_stale": true,
-      "rsi": 63.64,
-      "rsi_as_of": "2026-07-31",
-      "next_earnings": "2026-08-28",
-      "earnings_confirmed": false,
-      "news": [
-        {
-          "headline": "Released Qwen3.8, a 2.4-trillion-parameter open-weight AI model with a tiered subscription model; shares popped on the news.",
-          "why_it_matters": "Reinforces Alibaba's AI-model competitiveness, a key pillar of the long-term cloud/AI re-rating thesis.",
-          "sentiment": "good"
-        },
-        {
-          "headline": "EU regulators fined AliExpress EUR550M under the Digital Services Act over illegal/counterfeit-goods controls.",
-          "why_it_matters": "A meaningful regulatory cost and a reminder of ongoing EU scrutiny of Alibaba's cross-border e-commerce arm.",
-          "sentiment": "bad"
-        },
-        {
-          "headline": "Next earnings (fiscal Q2 2026) is estimated for late August; cloud AI-related revenue is now ~30% of external cloud sales.",
-          "why_it_matters": "AI monetization within cloud is becoming a larger, trackable share of the business.",
+          "headline": "Analyst consensus remains bullish \u2014 7 of 8 covering analysts rate SERV a Buy, median price target near $17.",
+          "why_it_matters": "Confirms Street conviction in the long-term growth story heading into earnings.",
           "sentiment": "neutral"
         }
       ]
@@ -315,46 +239,41 @@
       "shares": 13.354745,
       "cost_basis": 1310.63,
       "avg_cost_per_share": 98.14,
-      "current_price": 114.96,
-      "today_pct": 3.353,
-      "today_dollars": 49.81,
-      "market_value": 1535.26,
-      "unrealized_pl": 224.63,
-      "unrealized_pl_pct": 17.139,
-      "portfolio_weight_pct": 13.83,
+      "current_price": 117.15,
+      "today_pct": 2.592,
+      "today_dollars": 39.53,
+      "market_value": 1564.51,
+      "unrealized_pl": 253.88,
+      "unrealized_pl_pct": 19.371,
+      "portfolio_weight_pct": 13.67,
       "analyst_target": 140.25,
       "analyst_target_source": "S&P Global (via stockanalysis.com/Investing.com); range $138-$148 across TipRanks/WallStreetZen/stockanalysis.com",
       "analyst_count": 49,
       "insider_notes": "best-effort search \u2014 not verified SEC Form 4 data: Discretionary/bullish \u2014 CEO McDermott terminated his Rule 10b5-1 selling plan and executed an open-market purchase of $3M in NOW shares (Feb 2026), a genuine bullish signal. Routine: ~24 sales totaling ~$21M over the trailing 12 months plus May-Jun 2026 stock-award/RSU-related dispositions appear to be routine vesting/tax-withholding or resumed scheduled sales, not discretionary bearish bets.",
       "support": {
-        "s1": 106.595,
-        "s2": 103.12,
-        "s3": 99.86
+        "s1": 107.39,
+        "s2": 103.55,
+        "s3": 101.05
       },
       "resistance": {
-        "r1": 113.33,
-        "r2": 116.59,
-        "r3": 120.065
+        "r1": 113.73,
+        "r2": 116.23,
+        "r3": 120.07
       },
       "levels_stale": true,
-      "rsi": 56.73,
-      "rsi_as_of": "2026-07-31",
+      "rsi": 59.24,
+      "rsi_as_of": "2026-08-03",
       "next_earnings": "2026-10-28",
       "earnings_confirmed": false,
       "news": [
         {
-          "headline": "Q2 2026 beat the high end of guidance on every headline metric; FY2026 subscription revenue guidance raised to $15.755-15.770B (~21% cc growth).",
-          "why_it_matters": "A raise across the board reinforces durable enterprise demand for the platform.",
-          "sentiment": "good"
-        },
-        {
-          "headline": "Cutting roughly 300 roles as part of an AI-driven reallocation, even as total headcount keeps rising (29K to ~30K).",
-          "why_it_matters": "Reads as efficiency-focused restructuring rather than a demand-weakness signal, but worth monitoring.",
+          "headline": "ServiceNow filed WARN notices for ~300 layoffs across Santa Clara HQ and San Diego offices, effective Sept 28, as part of an AI-driven workforce realignment; CEO signaled more cuts with headcount flat for the year.",
+          "why_it_matters": "A long-term holder should view this as margin/efficiency-positive (funding AI reinvestment), but it also signals internal restructuring friction worth monitoring.",
           "sentiment": "neutral"
         },
         {
-          "headline": "New AI-security integrations announced with BitRaser and Exclusive Networks.",
-          "why_it_matters": "Extends the platform's addressable footprint in AI-powered cybersecurity.",
+          "headline": "Launched an expanded 'Autonomous Workforce' AI agent suite; AI annual contract value surpassed $1 billion.",
+          "why_it_matters": "Concrete evidence the AI product strategy is converting into monetizable ACV growth, a core pillar of the long-term bull case following the Q2 beat-and-raise.",
           "sentiment": "good"
         }
       ]
@@ -366,47 +285,47 @@
       "shares": 2.60314,
       "cost_basis": 985.0,
       "avg_cost_per_share": 378.39,
-      "current_price": 484.35,
-      "today_pct": 4.224,
-      "today_dollars": 51.1,
-      "market_value": 1260.83,
-      "unrealized_pl": 275.83,
-      "unrealized_pl_pct": 28.003,
-      "portfolio_weight_pct": 11.36,
+      "current_price": 494.5,
+      "today_pct": 1.405,
+      "today_dollars": 17.83,
+      "market_value": 1287.25,
+      "unrealized_pl": 302.25,
+      "unrealized_pl_pct": 30.685,
+      "portfolio_weight_pct": 11.24,
       "analyst_target": 561.58,
       "analyst_target_source": "stockanalysis.com; dispersion noted \u2014 S&P Global $555.77 (54-56 analysts), one Yahoo Finance summary ~$589-592 (~97 analysts)",
       "analyst_count": 56,
       "insider_notes": "best-effort search \u2014 not verified SEC Form 4 data: EVP Judson Althoff sold 15,500 shares (~$7.1M) on 6/1/26 at ~$461/share \u2014 flagged this week as an open-market discretionary sale (a prior search suggested a 10b5-1 plan; category unconfirmed). Routine: numerous small dispositions (e.g., Amy Coleman, 31 shares) tied to RSU vesting/tax withholding and pre-arranged 10b5-1 plans. No open-market insider purchases reported in the last 90 days \u2014 activity is overwhelmingly routine/scheduled selling.",
       "support": {
-        "s1": 436.13,
-        "s2": 421.16,
-        "s3": 409.88
+        "s1": 453.7533,
+        "s2": 442.7867,
+        "s3": 436.2433
       },
       "resistance": {
-        "r1": 462.38,
-        "r2": 473.66,
-        "r3": 488.63
+        "r1": 471.2633,
+        "r2": 477.8067,
+        "r3": 488.7733
       },
       "levels_stale": true,
-      "rsi": 74.55,
-      "rsi_as_of": "2026-07-31",
+      "rsi": 78.31,
+      "rsi_as_of": "2026-08-03",
       "next_earnings": "2026-10-28",
       "earnings_confirmed": false,
       "news": [
         {
-          "headline": "Fiscal Q4 revenue jumped 18% YoY to $90B; Azure grew 43% and topped $100B annualized, Copilot passed 30M paid seats.",
-          "why_it_matters": "Broad-based cloud and AI-product strength is the core long-term thesis playing out in the numbers.",
+          "headline": "Stock at records but RSI hit deeply overbought territory after a ~22-27% rally since the July 29 earnings beat.",
+          "why_it_matters": "A near-term technical caution flag (mean-reversion risk), not a fundamental one \u2014 the underlying growth story (Azure +43%, ~$678B RPO) remains intact.",
+          "sentiment": "neutral"
+        },
+        {
+          "headline": "Analysts raised price targets post-earnings; consensus now roughly $563 (Strong Buy) vs. the current ~$490-495 price.",
+          "why_it_matters": "Sell-side reaffirming Strong Buy with meaningful upside room supports the long-term thesis even after the sharp rally.",
           "sentiment": "good"
         },
         {
-          "headline": "Stock up roughly 25% over three trading days, adding about $450B in market value \u2014 among the largest single-day gains on record.",
-          "why_it_matters": "An extraordinary short-term move; durable for a long-term holder if growth persists, but raises near-term entry-price risk.",
+          "headline": "Declared a $0.91/share quarterly dividend, ex-date Aug 20, 2026.",
+          "why_it_matters": "Routine but confirms continued capital-return discipline alongside heavy AI capex.",
           "sentiment": "good"
-        },
-        {
-          "headline": "Securities class actions allege Microsoft misled investors about Copilot's performance/commercialization and the AI-capex-vs-Azure-capacity tradeoff.",
-          "why_it_matters": "A legal overhang worth tracking, though not yet financially material.",
-          "sentiment": "bad"
         }
       ]
     },
@@ -417,47 +336,47 @@
       "shares": 11.983009,
       "cost_basis": 1685.05,
       "avg_cost_per_share": 140.62,
-      "current_price": 142.16,
-      "today_pct": 9.463,
-      "today_dollars": 147.27,
-      "market_value": 1703.5,
-      "unrealized_pl": 18.45,
-      "unrealized_pl_pct": 1.095,
-      "portfolio_weight_pct": 15.35,
+      "current_price": 144.1235,
+      "today_pct": 1.603,
+      "today_dollars": 27.24,
+      "market_value": 1727.03,
+      "unrealized_pl": 41.98,
+      "unrealized_pl_pct": 2.491,
+      "portfolio_weight_pct": 15.09,
       "analyst_target": 261.61,
       "analyst_target_source": "ChartMill.com (49 analysts, largest count found), avg $261.61; corroborated by stockanalysis.com/S&P Global data (43 analysts, $251.85) and stockanalysis.com aggregate (41 analysts, $248.15). MarketBeat (33 analysts, $211.37) runs lower. Disregarded TipRanks (35-36 analysts, $346.63-$354.13, high $415) as a stale outlier \u2014 nearly 3x current price ($132.53), inconsistent with ORCL's 2026 selloff (-28% YTD).",
       "analyst_count": 49,
       "insider_notes": "best-effort search \u2014 not verified SEC Form 4 data: All recent activity (past 90 days, ~$132M+) was insider selling, zero buys \u2014 all identified as routine/scheduled: Vice Chairman Jeffrey Henley sold 400,000 shares (~$63.7M, 6/24/26) via a Rule 10b5-1 plan adopted Jan 2026; CEO Safra Catz's large 2025-2026 sales also run under a pre-set Rule 10b5-1 plan (adopted Sept 2024). No discretionary open-market buying or selling found.",
       "support": {
-        "s1": 123.3133,
-        "s2": 119.0667,
-        "s3": 116.5533
+        "s1": 126.2467,
+        "s2": 122.6233,
+        "s3": 119.5467
       },
       "resistance": {
-        "r1": 130.0733,
-        "r2": 132.5867,
-        "r3": 136.8333
+        "r1": 132.9467,
+        "r2": 136.0233,
+        "r3": 139.6467
       },
       "levels_stale": true,
-      "rsi": 43.41,
-      "rsi_as_of": "2026-07-31",
+      "rsi": 52.93,
+      "rsi_as_of": "2026-08-03",
       "next_earnings": "2026-09-08",
       "earnings_confirmed": false,
       "news": [
         {
-          "headline": "Expanded Google Cloud partnership embeds Gemini AI into Oracle Fusion Applications and NetSuite; stock had jumped 7% on the news.",
-          "why_it_matters": "Diversifies Oracle's AI story beyond its own infrastructure buildout.",
+          "headline": "Shares up ~9% Aug 3 (third straight up day) on an expanded Google Cloud partnership and strong AI-infrastructure demand.",
+          "why_it_matters": "A multi-quarter positive catalyst diversifying Oracle's cloud/AI partnerships ahead of the Sept 8 print.",
           "sentiment": "good"
         },
         {
-          "headline": "Won a Pentagon defense contract worth up to $7B over up to 10 years.",
-          "why_it_matters": "A large, multi-year government contract adds revenue visibility.",
+          "headline": "Signed a 10-year, up to ~$7B Pentagon/DoD software consolidation contract.",
+          "why_it_matters": "Adds a large, multi-year, non-cyclical government revenue stream that diversifies away from pure AI-capex-dependent cloud growth.",
           "sentiment": "good"
         },
         {
-          "headline": "FY2026 capex of $55.7B drove negative free cash flow of -$23.7B, raising credit-risk concerns against a $638B backlog.",
-          "why_it_matters": "The AI buildout's cash burn is the central risk a multi-year holder needs to watch alongside the backlog conversion.",
-          "sentiment": "bad"
+          "headline": "Record $638B RPO backlog and 93% Cloud Infrastructure growth reported, but the stock remains down ~28% YTD on capex/negative free-cash-flow concerns.",
+          "why_it_matters": "Backlog growth is a strong demand signal, but persistent negative free cash flow from AI data-center spend remains the key risk to watch into Sept 8 earnings.",
+          "sentiment": "neutral"
         }
       ]
     },
@@ -468,47 +387,47 @@
       "shares": 10.188487,
       "cost_basis": 300.05,
       "avg_cost_per_share": 29.45,
-      "current_price": 35.12,
-      "today_pct": 3.112,
-      "today_dollars": 10.8,
-      "market_value": 357.82,
-      "unrealized_pl": 57.77,
-      "unrealized_pl_pct": 19.253,
+      "current_price": 36.15,
+      "today_pct": 2.933,
+      "today_dollars": 10.49,
+      "market_value": 368.31,
+      "unrealized_pl": 68.26,
+      "unrealized_pl_pct": 22.75,
       "portfolio_weight_pct": 3.22,
       "analyst_target": 72.38,
       "analyst_target_source": "MarketBeat (16 analysts, range $37-$105) \u2014 largest clearly-sourced analyst count found; dispersion noted \u2014 stockanalysis.com/S&P Global shows only 7 analysts at $55.83 ('Hold', range $37-$76, last week's figure), and TipRanks-derived figures cite ~18 analysts around $60-$81. Disregarded StockScan's $122.26 figure as a stale/algorithmic outlier \u2014 its tight $113-$130 range is inconsistent with Z's current ~$34 price and every other source.",
       "analyst_count": 16,
       "insider_notes": "best-effort search \u2014 not verified SEC Form 4 data: Multiple Zillow execs (CEO Wacksman, CTO Beitel, COO Choo, GC Owens, CIDO Samuelson, CFO Hofmann, Chief People Officer Spaulding) sold shares in Feb/May 2026 \u2014 all explicitly tied to RSU-vesting tax-withholding obligations and/or pre-arranged Rule 10b5-1 plans (routine, not a signal). No discretionary open-market insider buying or selling found.",
       "support": {
-        "s1": 32.62,
-        "s2": 31.53,
-        "s3": 30.95
+        "s1": 33.4333,
+        "s2": 32.8067,
+        "s3": 32.4133
       },
       "resistance": {
-        "r1": 34.29,
-        "r2": 34.87,
-        "r3": 35.96
+        "r1": 34.4533,
+        "r2": 34.8467,
+        "r3": 35.4733
       },
       "levels_stale": true,
-      "rsi": 55.11,
-      "rsi_as_of": "2026-07-31",
+      "rsi": 59.3,
+      "rsi_as_of": "2026-08-03",
       "next_earnings": "2026-08-05",
       "earnings_confirmed": true,
       "news": [
         {
-          "headline": "Q2 2026 earnings due after close Wednesday, Aug 5.",
-          "why_it_matters": "Near-term binary catalyst for a name already up sharply off its 2026 lows.",
+          "headline": "Reports Q2 2026 earnings after close tomorrow, Aug 5; consensus is $0.44 EPS on $757.76M revenue (+15.7% YoY).",
+          "why_it_matters": "The binary near-term catalyst for the position \u2014 forward guidance will matter more than the print itself for the multi-year thesis.",
           "sentiment": "neutral"
         },
         {
-          "headline": "Board authorized an additional $1.25B share buyback.",
-          "why_it_matters": "Signals management confidence and provides a valuation backstop.",
-          "sentiment": "good"
+          "headline": "Shares fell ~9.2% over the past week heading into earnings; consensus price target was cut from ~$72.91 to ~$64.78.",
+          "why_it_matters": "A pre-earnings target cut alongside share weakness signals the sell-side trimming near-term expectations, worth watching for confirmation or reversal in tomorrow's guidance.",
+          "sentiment": "bad"
         },
         {
-          "headline": "Ongoing securities class action over alleged anticompetitive conduct; investor opt-in deadline is Aug 10.",
-          "why_it_matters": "A legal overhang independent of the fundamental growth story.",
-          "sentiment": "bad"
+          "headline": "Needham reiterated a Buy rating on Zillow ahead of the print.",
+          "why_it_matters": "Some analysts remain constructive into the report, a counterpoint to the target cuts.",
+          "sentiment": "good"
         }
       ]
     }
@@ -521,100 +440,102 @@
     "display": false
   },
   "totals": {
-    "portfolio_value": 11099.23,
-    "equity_value": 11099.23,
-    "today_pct": 9.113,
-    "today_dollars": 926.98,
-    "total_return": -171.43,
-    "total_return_pct": -1.497,
-    "unrealized_pl": -350.31,
-    "unrealized_pl_pct": -3.06,
-    "realized_pl_today": 0.0,
-    "realized_pl_ytd": -3832.43,
-    "realized_pl_since_tracking": 178.88,
+    "portfolio_value": 11447.36,
+    "equity_value": 11447.36,
+    "today_pct": 5.802,
+    "today_dollars": 627.77,
+    "total_return": 176.7,
+    "total_return_pct": 1.543,
+    "unrealized_pl": -4.31,
+    "unrealized_pl_pct": -0.038,
+    "realized_pl_today": -1.42,
+    "realized_pl_ytd": -3830.3,
+    "realized_pl_since_tracking": 181.01,
     "biggest_mover": {
-      "ticker": "SERV",
-      "today_pct": 17.992
+      "ticker": "PLTR",
+      "today_pct": 28.134
     }
   },
   "themes": {
     "AI infrastructure": {
-      "value": 5456.98,
-      "weight_pct": 49.17,
-      "today_pct": 9.748
+      "value": 6150.14,
+      "weight_pct": 53.73,
+      "today_pct": 8.806
     },
     "Fintech": {
-      "value": 1075.71,
-      "weight_pct": 9.69,
-      "today_pct": 10.555
+      "value": 1097.1,
+      "weight_pct": 9.58,
+      "today_pct": 1.997
     },
     "Industrials & transport": {
-      "value": 2218.51,
-      "weight_pct": 19.99,
-      "today_pct": 13.198
-    },
-    "Consumer internet": {
-      "value": 812.77,
-      "weight_pct": 7.32,
-      "today_pct": 3.979
+      "value": 2267.29,
+      "weight_pct": 19.81,
+      "today_pct": 2.649
     },
     "Enterprise software": {
-      "value": 1535.26,
-      "weight_pct": 13.83,
-      "today_pct": 3.353
+      "value": 1564.51,
+      "weight_pct": 13.67,
+      "today_pct": 2.592
+    },
+    "Consumer internet": {
+      "value": 368.31,
+      "weight_pct": 3.22,
+      "today_pct": 2.932
     }
   },
-  "closed_today": [],
+  "closed_today": [
+    {
+      "ticker": "BABA",
+      "shares": 3.555397,
+      "avg_sale_price": 129.257,
+      "realized_pl": 2.13,
+      "realized_pl_pct": 0.466,
+      "holding_period_days": 1
+    }
+  ],
   "recommendations": [
     {
       "ticker": "PORTFOLIO",
       "rec_type": "risk-change",
-      "rationale": "AI infrastructure theme (PLTR/APLD/MSFT/ORCL) is 49.2% of the equity portfolio, above the 40% concentration threshold; all four names rallied together today, illustrating correlated risk.",
-      "trigger_value": 49.17,
+      "rationale": "AI infrastructure theme (PLTR/APLD/MSFT/ORCL) is 53.73% of the equity portfolio, above the 40% concentration threshold. The jump from 49.2% yesterday reflects both PLTR's ~28% earnings-reaction rally today and a deliberate $459.56 add to PLTR this morning (not a fresh unintended drift).",
+      "trigger_value": 53.73,
       "severity": 1
     },
     {
       "ticker": "Z",
       "rec_type": "binary-catalyst",
-      "rationale": "Z reports Q2 2026 after close Wed Aug 5 (2 days out); position size is unchanged heading into the print.",
-      "trigger_value": 2,
+      "rationale": "Z reports Q2 2026 after close tomorrow, Aug 5 (1 day out); shares have slipped ~9% over the past week into the print and the analyst consensus target was recently cut, an unsettled setup ahead of results.",
+      "trigger_value": 1,
       "severity": 2
     },
     {
       "ticker": "SERV",
       "rec_type": "binary-catalyst",
-      "rationale": "SERV reports Q2 2026 after close Thu Aug 6 (3 days out), following an ~18% pre-earnings sector-rally pop -- a volatile setup into the print.",
-      "trigger_value": 3,
+      "rationale": "SERV reports Q2 2026 after close Thu Aug 6 (2 days out), following a further pop today in an ongoing sector-wide robotics rally -- a volatile setup into the print.",
+      "trigger_value": 2,
       "severity": 3
     },
     {
       "ticker": "MSFT",
       "rec_type": "overbought",
-      "rationale": "MSFT RSI(14) is 74.5 (as of 7/31 close) after an ~25% three-day surge on blowout Azure/Copilot results -- stretched for a position-trade entry, though the underlying momentum is fundamentally driven.",
-      "trigger_value": 74.55,
+      "rationale": "MSFT RSI(14) is 78.3 (as of 8/3 close) after a ~22-27% multi-day surge on blowout Azure/Copilot results -- stretched for a position-trade entry, though today's move was modest (+1.4%) so the reading is not stale.",
+      "trigger_value": 78.31,
       "severity": 4
     },
     {
       "ticker": "SRFM",
       "rec_type": "binary-catalyst",
-      "rationale": "SRFM reports Q2 2026 after close Aug 10 (7 days out); separately, NYSE flagged non-compliance for an average closing price under $1.00 over 30 sessions.",
-      "trigger_value": 7,
-      "severity": 5
-    },
-    {
-      "ticker": "BABA",
-      "rec_type": "binary-catalyst",
-      "rationale": "BABA's next earnings is an unconfirmed cadence estimate of 2026-08-28 (25 days out; some outlets cite Aug 17) -- within the 30-day window.",
-      "trigger_value": 25,
+      "rationale": "SRFM reports Q2 2026 after close Aug 10 (6 days out); the NYSE sub-$1.00 listing-compliance deficiency remains unresolved, with a possible reverse split under board authorization.",
+      "trigger_value": 6,
       "severity": 5
     }
   ],
   "notes": [
-    "RSI figures reflect the last finalized daily bar (2026-07-31, Friday's close) since today's bar had not yet finalized at run time; PLTR, SOFI, APLD, SERV, and ORCL moved >5% today so their overbought/oversold reads are suppressed as stale.",
-    "Support/resistance levels for all 10 positions were computed off the 2026-07-31 bar and are now stale (price has moved through resistance on every name amid today's broad rally) -- levels_stale=true across the board, no recommendations built on them.",
-    "No share-count changes vs. yesterday's run for any position; no adds or trims to report.",
-    "No positions closed today.",
+    "PLTR was ADDED to today: a $459.56 market buy (2.901812 sh @ $158.37) executed this morning, bringing the position from 8.316008 to 11.217820 shares (avg cost now $130.11). get_equity_positions returned a stale/inconsistent share count (8.027820) for PLTR that contradicts both the order history and open tax lots (which sum to 11.217820, matching cost basis); the tax-lot total was used as authoritative for all PLTR figures today.",
+    "BABA was fully exited today: the entire 3.555397-share position (opened just yesterday, 8/3, at avg cost $128.66) was sold across two fills -- 3 sh @ $129.84 in Tuesday evening extended hours (8/3) and the remaining 0.555397 sh @ $126.10 this morning (8/4) -- for a combined realized gain of $2.13 (+0.47%) after a 1-day hold. BABA is dropped from positions, totals, and recommendations.",
+    "RSI figures reflect the last finalized daily bar (2026-08-03 close) since today's bar had not yet finalized at run time. PLTR (+28.1%) and SRFM (+6.2%) each moved more than 5% today, so their overbought/oversold reads are suppressed as stale; the other 7 positions moved less than 5% today so their RSI reads (as of 8/3) were retained, including MSFT's overbought 78.3 reading.",
+    "Support/resistance levels for all 9 positions were computed off the 2026-08-03 bar and are now stale -- price has moved through resistance on every name amid today's broad rally -- levels_stale=true across the board, no recommendations built on them.",
     "Cash and buying power are $0 across both accounts (below the $100 display threshold) -- omitted from the dashboard and notification.",
-    "This is a same-day re-run; today's row in history.json and today's entry in daily-data.json replace the earlier run's data with fresh intraday prices (PLTR now reflects its after-hours earnings pop)."
+    "Realized P/L YTD calculated on a calendar-year (2026-01-01 to today) basis across both accounts; today's bucket boundary follows the tool's UTC-day definition."
   ]
 }

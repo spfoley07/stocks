@@ -39,6 +39,19 @@
       "realized_pl_cumulative": 178.88,
       "largest_theme": "AI infrastructure",
       "largest_theme_pct": 49.17
+    },
+    {
+      "date": "2026-08-04",
+      "portfolio_value": 11447.36,
+      "equity_value": 11447.36,
+      "cash": 0.0,
+      "today_pct": 5.802,
+      "today_dollars": 627.77,
+      "total_return": 176.7,
+      "unrealized_pl": -4.31,
+      "realized_pl_cumulative": 181.01,
+      "largest_theme": "AI infrastructure",
+      "largest_theme_pct": 53.73
     }
   ]
 }
